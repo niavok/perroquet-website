@@ -1,0 +1,154 @@
+body {
+    font-size : 1.0em;
+    background-color : rgb(0,0,0);
+    padding : 1%;
+    padding-top : 10px;
+
+}
+
+#content{
+    border : 1px solid rgb(118,170,36);
+    background-color : rgb(227,255,159);
+    background-position:10px 0px;
+    background-image : url(ressources/logo.png);
+    background-repeat : no-repeat;
+}
+
+#lang_menu {
+    float : right;
+    border : 1px solid rgb(108,160,26);
+    background-color : rgb(218,255,109);
+    padding : 10px;
+    margin : 10px;
+}
+
+#lang_menu ul{
+
+    list-style-image: url("ressources/favicon.png");
+    font-size : 0.8em;
+    margin : 0px;
+}
+
+#menu {
+    float : left;
+    border : 1px solid rgb(108,160,26);
+    background-color : rgb(218,255,109);
+    padding : 10px;
+    margin : 15px;
+
+}
+
+#menu ul{
+
+    list-style-image: url("ressources/favicon.png");
+    font-size : 1.0em;
+
+}
+
+a{
+    color : rgb(0,30,0);
+    font-family:  verdena, serif;
+}
+
+a:visited{
+    color : rgb(68,120,40);
+    font-family:  verdena, serif;
+}
+
+
+
+.active {
+
+font-weight : bold;
+font-style: italic;
+
+}
+
+
+#head {
+margin : 80px;
+font-style: italic;
+margin-left  : 300px;
+
+}
+
+
+
+#head h1 {
+
+margin-left  : 100px;
+margin-right : 100px;
+text-align : left;
+font-size : 1.5em;
+font-family: verdena, serif;
+
+}
+
+#corps {
+    margin : 5%;
+    text-align : justify;
+    overflow : hidden;
+}
+
+#corps h1 {
+    margin : 30px;
+/*  margin-bottom : 200px*/
+    text-align : left;
+    font-size : 1.3em;
+    font-family:  verdena, serif;
+}
+
+#corps h2 {
+    margin : 10px;
+/*  margin-bottom : 200px*/
+    text-align : left;
+    font-size : 1.1em;
+    font-family:  verdena, serif;
+}
+
+#corps h3 {
+    margin : 0px;
+/*  margin-bottom : 200px*/
+    text-align : left;
+    font-size : 1.0em;
+    font-family:  verdena, serif;
+}
+
+.img_left {
+    float: right;
+    margin-left : 15px;
+}
+
+
+#bottom {
+    font-size : 0.7em;
+    font-style: italic;
+    text-align : center;
+    font-family: "Lucinda Callygraphy", verdena, serif;
+
+    border : 1px solid rgb(108,160,26);
+    background-color : rgb(218,255,109);
+    padding : 10px;
+    margin : 15px;
+
+
+}
+
+
+.bold {
+    font-weight : bold;
+}
+
+
+
+.important {
+
+    border : 1px solid rgb(160,108,26);
+    background-color : rgb(255,218,109);
+    padding : 10px;
+    margin : 15px;
+
+
+}
+
+

@@ -15,8 +15,6 @@ class HtmlPage {
 
     public function display() {
 
-        LanguageManager::loadLocales();
-
         $this->content = '';
 
         $this->generateHeader();

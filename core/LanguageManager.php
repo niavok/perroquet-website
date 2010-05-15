@@ -5,13 +5,14 @@
  * @author fred
  */
 class LanguageManager {
-    
+   
     static function loadLocales($lang) {
-        setlocale( LC_ALL, 'fr_FR.utf8');
-        bindtextdomain("perroquet-website", dirname(__FILE__).'/po');
+        bindtextdomain("perroquet-website", dirname($_SERVER['SCRIPT_FILENAME']).'/locales');
         bind_textdomain_codeset("perroquet-website", 'UTF-8');
         textdomain("perroquet-website");
-        echo dirname(__FILE__).'/po';
+
+        $languageList = Config::getLanguageList();
+        setlocale( LC_ALL, $languageList[$lang]['key']);
     }
 }
 ?>
