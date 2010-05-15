@@ -15,6 +15,11 @@ class Config {
     static $languageList = array(
         'en' => array('key' => 'en_US.utf8'),
         'fr' => array('key' => 'fr_FR.utf8'),
+        'fr-fr' => array('key' => 'fr_FR.utf8'),
+        'fr-be' => array('key' => 'fr_FR.utf8'),
+        'fr-ca' => array('key' => 'fr_FR.utf8'),
+        'fr-lu' => array('key' => 'fr_FR.utf8'),
+        'fr-ch' => array('key' => 'fr_FR.utf8'),
         );
 
     public function getPageList() {

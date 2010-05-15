@@ -44,7 +44,7 @@ class CurrentPage extends HtmlPage{
                 <h2>Licence</h2>
                     <p>Perroquet  is a free software distributed under the GNU Public License version 3 or higher. The source code of this software is available here: <a href="https://launchpad.net/perroquet/+download" >Download page at launchpad</a></p>
 
-                    <p>The full text of the license is available here <a href="http://www.gnu.org/licenses/gpl.html" >GPL</a>.</p>
+                    <p>The full text of the license is available here '.RessourceManager::getExternLink('http://www.gnu.org/licenses/gpl.html', 'GPL', 'en').'.</p>
         ';
         return $content;
     }

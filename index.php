@@ -1,6 +1,7 @@
 <?php
 
 require_once $_SERVER["DOCUMENT_ROOT"].'/config/config.php';
+require_once $_SERVER["DOCUMENT_ROOT"].'/core/RessourceManager.php';
 require_once $_SERVER["DOCUMENT_ROOT"].'/core/HtmlPage.php';
 require_once $_SERVER["DOCUMENT_ROOT"].'/core/HtmlPageLoader.php';
 

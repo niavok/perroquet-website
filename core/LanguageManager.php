@@ -6,6 +6,8 @@
  */
 class LanguageManager {
    
+    static $lang;
+
     static function loadLocales($lang) {
         bindtextdomain("perroquet-website", dirname($_SERVER['SCRIPT_FILENAME']).'/locales');
         bind_textdomain_codeset("perroquet-website", 'UTF-8');
@@ -13,6 +15,12 @@ class LanguageManager {
 
         $languageList = Config::getLanguageList();
         setlocale( LC_ALL, $languageList[$lang]['key']);
+
+        LanguageManager::$lang = $lang;
+    }
+
+    static function getLanguage() {
+        return LanguageManager::$lang;
     }
 }
 ?>

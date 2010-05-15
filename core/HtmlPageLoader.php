@@ -26,6 +26,18 @@ class HtmlPageLoader {
                 $this->language = $_GET['lang'];
             }
         }
+        else {
+            $langs = explode(',',$_SERVER['HTTP_ACCEPT_LANGUAGE']);
+            $nblang = count($langs);
+
+            for ($i=0; $i<$nblang; $i++)
+            {
+                if(array_key_exists($langs[$i], Config::getLanguageList())){
+                    $this->language = $langs[$i];
+                    break;
+                }
+            }
+        }
 
         LanguageManager::loadLocales($this->language);
 
