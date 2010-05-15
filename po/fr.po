@@ -1,0 +1,25 @@
+# French translations for PACKAGE package.
+# Copyright (C) 2010 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Fred <fred.bertolus@gmail.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: perroquet\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-05-03 23:03+0200\n"
+"PO-Revision-Date: 2010-05-03 23:18+0100\n"
+"Last-Translator: Frédéric Bertolus <fred.bertolus@gmail.com>\n"
+"Language-Team: French\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../index.php:4
+msgid "Perroquet — Listening comprehension tutor"
+msgstr "Perroquet — Un assistant à la compréhension orale"
+
