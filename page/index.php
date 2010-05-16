@@ -14,7 +14,7 @@ class CurrentPage extends HtmlPage{
     function generateContent() {
         $content = '
         <h1>'._('Presentation').'</h1>
-                    <img class="img_left" src="/ressources/perroquet_screenshot1_400.png" alt="Perroquet en cours d\'utilisation" />
+                    '.RessourceManager::getImage('perroquet_screenshot1_400.png',_('Perroquet in use')).'
                     <p>Perroquet is a educational program to improve playfully your listening in a foreign language</p>
                 <h2>'._('How it works').'</h2>
                     <p>The principe of Perroquet is to use a video or audio file and the associated subtitles to make you listen and understand the dialogue or lyrics. After having idendified the files to use, Perroquet will read a piece of video then pause. It will show you the number of words to find and you will have to type them to continue. You can listen a sequence as many times as necessary. If you do not understand, Perroquet offers several means to help you.</p>
@@ -24,7 +24,7 @@ class CurrentPage extends HtmlPage{
                     <p>For now, this demo only allows you to practice understanding English.</p>
 
 
-                    <p>You must then <a href="/en/download.html" >download and install</a> Perroquet, run it, create a new exercise and put the video file in the first field, the file of English subtitles in the second file and the subtitle in the French final. To learn to use all the features of parrot, see the <a href="/en/documentation.html" >documentation</a>.</p>
+                    <p>You must then <a href="'.RessourceManager::getInnerUrl('download').'" >download and install</a> Perroquet, run it, create a new exercise and put the video file in the first field, the file of English subtitles in the second file and the subtitle in the French final. To learn to use all the features of parrot, see the <a href="/en/documentation.html" >documentation</a>.</p>
 
                 <h2>'._('News').'</h2>
 
@@ -44,7 +44,7 @@ class CurrentPage extends HtmlPage{
                 <h2>Licence</h2>
                     <p>Perroquet  is a free software distributed under the GNU Public License version 3 or higher. The source code of this software is available here: <a href="https://launchpad.net/perroquet/+download" >Download page at launchpad</a></p>
 
-                    <p>The full text of the license is available here '.RessourceManager::getExternLink('http://www.gnu.org/licenses/gpl.html', 'GPL', 'en').'.</p>
+                    <p>The full text of the license is available here <a href="http://www.gnu.org/licenses/gpl.html">GPL</a>.</p>
         ';
         return $content;
     }

@@ -12,9 +12,11 @@ class HtmlPageLoader {
     var $language = 'en';
 
     public function load() {
-        if(isset($_GET['page'])){
-            if(array_key_exists($_GET['page'], Config::getPageList())){
-                $this->pageId = $_GET['page'];
+        
+        if(isset($_GET['path'])){
+            print $_GET['path'];
+            if(array_key_exists($_GET['path'], Config::getPageList())){
+                $this->pageId = $_GET['path'];
             }
             else {
                 $this->pageId = 'not_found';

@@ -8,15 +8,11 @@
 class RessourceManager {
 
     static function getImage($key, $alt) {
-        
+        return '<img class="img_left" src="/ressources/common/'.$key.'" alt="'.$alt.'" />';
     }
 
-    static function getInnerLink($key, $alt) {
-
-    }
-
-    static function getExternLink($url, $title, $lang) {
-        return "<a href=\"$url\" hreflang=\"$lang\">$title</a>";
+    static function getInnerUrl($key) {
+        return '/'.LanguageManager::getLanguage().'/'.$key;
     }
 
 }

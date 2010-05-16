@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteRule ^([a-z]{1,3})/(.*)$ index.php?lang=$1&path=$2
+RewriteRule ^([a-z]{1,3})/?$ index.php?lang=$1
+

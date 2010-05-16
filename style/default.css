@@ -7,14 +7,24 @@ body {
 }
 
 #content{
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-box-shadow:0 0 15px #aaa;
+    -webkit-box-shadow:0 0 15px #aaa;
+
     border : 1px solid rgb(118,170,36);
     background-color : rgb(227,255,159);
     background-position:10px 0px;
-    background-image : url(ressources/logo.png);
+    background-image : url(/ressources/style/logo.png);
     background-repeat : no-repeat;
 }
 
 #lang_menu {
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-box-shadow:0 0 15px #aaa;
+    -webkit-box-shadow:0 0 15px #aaa;
+
     float : right;
     border : 1px solid rgb(108,160,26);
     background-color : rgb(218,255,109);
@@ -24,7 +34,7 @@ body {
 
 #lang_menu ul{
 
-    list-style-image: url("ressources/favicon.png");
+    list-style-image: url("/ressources/style/favicon.png");
     font-size : 0.8em;
     margin : 0px;
 }
@@ -40,7 +50,7 @@ body {
 
 #menu ul{
 
-    list-style-image: url("ressources/favicon.png");
+    list-style-image: url("/ressources/style/favicon.png");
     font-size : 1.0em;
 
 }
@@ -125,6 +135,11 @@ font-family: verdena, serif;
     font-style: italic;
     text-align : center;
     font-family: "Lucinda Callygraphy", verdena, serif;
+
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-box-shadow:0 0 15px #aaa;
+    -webkit-box-shadow:0 0 15px #aaa;
 
     border : 1px solid rgb(108,160,26);
     background-color : rgb(218,255,109);
