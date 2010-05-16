@@ -31,7 +31,7 @@ class HtmlPage {
                <title>'._("Perroquet — Listening comprehension tutor — ").$this->title.'</title>
                <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
             <link rel="stylesheet" media="screen" type="text/css" title="Design" href="/style/default.css" />
-            <link rel="icon" type="image/png" href="/ressources/favicon.png" />
+            <link rel="icon" type="image/png" href="/ressources/style/favicon.png" />
            </head>
            <body>';
     }
