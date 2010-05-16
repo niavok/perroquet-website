@@ -56,9 +56,7 @@ class HtmlPage {
 
         <div id="lang_menu">
             <ul>
-                <li class= "active"><a href="/index.html">English</a></li>
-                <li ><a href="/fr/index.html">Français</a></li>
-
+                <li><a href="'.RessourceManager::getInnerUrl('special/language/choose').'">'._('Change language').'</a></li>
             </ul>
         </div>
 
@@ -66,6 +64,11 @@ class HtmlPage {
             <h1>Perroquet</h1>
             Listening comprehension tutor
         </div>
+        ';
+        
+        $this->content.= $this->generateMenu();
+
+        $this->content.='
         <div id="corps">
         ';
 
@@ -76,6 +79,27 @@ class HtmlPage {
             Perroquet web site — Copyright ® Perroquet Team — <a href="mailto:perroquet-team@lists.launchpad.net" >perroquet-team@lists.launchpad.net</a>  — Licence : AGPL v3 or highter
         </div>
         </div>';
+    }
+
+    function generateMenu() {
+        $menu='
+        <div id="menu">
+            <ul>
+                <li '.($this->id=='index'?'class= "active"':'').'><a href="'.RessourceManager::getInnerUrl('index').'/">'._('Presentation').'</a></li>
+                <li '.($this->id=='download'?'class= "active"':'').'><a href="'.RessourceManager::getInnerUrl('download').'/">'._('Download').'</a></li>
+                <li '.($this->id=='screenshots'?'class= "active"':'').'><a href="'.RessourceManager::getInnerUrl('screenshots').'/">'._('Screenshots').'</a></li>
+                <li '.($this->startswith($this->id,'documentation')?'class= "active"':'').'><a href="'.RessourceManager::getInnerUrl('documentation/index').'/">'._('Documentation').'</a></li>
+                <li '.($this->startswith($this->id,'exercises')?'class= "active"':'').'><a href="'.RessourceManager::getInnerUrl('exercises/index').'/">'._('Exercises').'</a></li>
+                <li '.($this->id=='contribute'?'class= "active"':'').'><a href="'.RessourceManager::getInnerUrl('contribute').'/">'._('Contribute').'</a></li>
+                <li '.($this->id=='contacts'?'class= "active"':'').'><a href="'.RessourceManager::getInnerUrl('contacts').'/">'._('Contacts').'</a></li>
+            </ul>
+
+        </div>';
+        return $menu;
+    }
+
+    function startswith($hay, $needle) {
+      return substr($hay, 0, strlen($needle)) === $needle;
     }
 
 

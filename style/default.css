@@ -3,7 +3,6 @@ body {
     background-color : rgb(0,0,0);
     padding : 1%;
     padding-top : 10px;
-
 }
 
 #content{
@@ -14,9 +13,10 @@ body {
 
     border : 1px solid rgb(118,170,36);
     background-color : rgb(227,255,159);
-    background-position:10px 0px;
-    background-image : url(/ressources/style/logo.png);
+    background-position:30px 30px;
+    background-image : url(/ressources/style/logo_150.png);
     background-repeat : no-repeat;
+    
 }
 
 #lang_menu {
@@ -40,11 +40,16 @@ body {
 }
 
 #menu {
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-box-shadow:0 0 15px #aaa;
+    -webkit-box-shadow:0 0 15px #aaa;
     float : left;
     border : 1px solid rgb(108,160,26);
     background-color : rgb(218,255,109);
     padding : 10px;
     margin : 15px;
+    margin-top : 100px;
 
 }
 
@@ -76,9 +81,9 @@ font-style: italic;
 
 
 #head {
-margin : 80px;
+margin : 40px;
 font-style: italic;
-margin-left  : 300px;
+margin-left  : 250px;
 
 }
 
@@ -131,6 +136,7 @@ font-family: verdena, serif;
 
 
 #bottom {
+    clear : both;
     font-size : 0.7em;
     font-style: italic;
     text-align : center;

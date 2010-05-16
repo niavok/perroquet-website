@@ -9,17 +9,18 @@ class Config {
 
     static $pageList = array(
         'not_found' => array('path' => 'special/not_found'),
+        'special/language/choose' => array('path' => 'special/language/choose'),
         'index' => array('path' => 'index'),
         );
 
     static $languageList = array(
-        'en' => array('key' => 'en_US.utf8'),
-        'fr' => array('key' => 'fr_FR.utf8'),
-        'fr-fr' => array('key' => 'fr_FR.utf8'),
-        'fr-be' => array('key' => 'fr_FR.utf8'),
-        'fr-ca' => array('key' => 'fr_FR.utf8'),
-        'fr-lu' => array('key' => 'fr_FR.utf8'),
-        'fr-ch' => array('key' => 'fr_FR.utf8'),
+        'en' => array('key' => 'en_US.utf8', 'choosable' => True, 'label' => 'English', 'code' => 'en'),
+        'fr' => array('key' => 'fr_FR.utf8', 'choosable' => True, 'label' => 'Français', 'code' => 'fr'),
+        'fr-fr' => array('key' => 'fr_FR.utf8', 'choosable' => False),
+        'fr-be' => array('key' => 'fr_FR.utf8', 'choosable' => False),
+        'fr-ca' => array('key' => 'fr_FR.utf8', 'choosable' => False),
+        'fr-lu' => array('key' => 'fr_FR.utf8', 'choosable' => False),
+        'fr-ch' => array('key' => 'fr_FR.utf8', 'choosable' => False),
         );
 
     public function getPageList() {

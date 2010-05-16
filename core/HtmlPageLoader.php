@@ -14,7 +14,8 @@ class HtmlPageLoader {
     public function load() {
         
         if(isset($_GET['path'])){
-            print $_GET['path'];
+            //echo $_GET['path'];
+            //print $_GET['path'];
             if(array_key_exists($_GET['path'], Config::getPageList())){
                 $this->pageId = $_GET['path'];
             }
