@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-15 17:25+0200\n"
+"POT-Creation-Date: 2010-05-18 00:42+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,12 +16,44 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../core/HtmlPage.php:31
+#: ../core/HtmlPage.php:35
 msgid "Perroquet — Listening comprehension tutor — "
 msgstr ""
 
-#: ../page/index.php:11 ../page/index.php:16
+#: ../core/HtmlPage.php:63
+msgid "Change language"
+msgstr ""
+
+#: ../core/HtmlPage.php:92 ../page/index.php:11 ../page/index.php:16
 msgid "Presentation"
+msgstr ""
+
+#: ../core/HtmlPage.php:93
+msgid "Download"
+msgstr ""
+
+#: ../core/HtmlPage.php:94
+msgid "Screenshots"
+msgstr ""
+
+#: ../core/HtmlPage.php:95
+msgid "Documentation"
+msgstr ""
+
+#: ../core/HtmlPage.php:96
+msgid "Exercises"
+msgstr ""
+
+#: ../core/HtmlPage.php:97
+msgid "Contribute"
+msgstr ""
+
+#: ../core/HtmlPage.php:98
+msgid "Contacts"
+msgstr ""
+
+#: ../page/index.php:17
+msgid "Perroquet in use"
 msgstr ""
 
 #: ../page/index.php:19
@@ -34,4 +66,36 @@ msgstr ""
 
 #: ../page/index.php:29
 msgid "News"
+msgstr ""
+
+#: ../page/special/language/choose.php:11
+#: ../page/special/language/choose.php:16
+#: ../page/special/language/select.php:14
+#: ../page/special/language/select.php:33
+#: ../page/special/language/select.php:41
+msgid "Select language"
+msgstr ""
+
+#: ../page/special/language/choose.php:23
+msgid "Choose the new language : "
+msgstr ""
+
+#: ../page/special/language/choose.php:34
+msgid "Select"
+msgstr ""
+
+#: ../page/special/language/select.php:45
+msgid "No language selected."
+msgstr ""
+
+#: ../page/special/language/select.php:48
+msgid "Invalid language selected."
+msgstr ""
+
+#: ../page/special/language/select.php:57
+msgid "Return to index"
+msgstr ""
+
+#: ../page/special/not_found.php:11 ../page/special/not_found.php:16
+msgid "Page not found"
 msgstr ""

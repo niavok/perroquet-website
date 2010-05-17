@@ -2,3 +2,6 @@
 index.php
 core/HtmlPage.php
 page/index.php
+page/special/language/choose.php
+page/special/language/select.php
+page/special/not_found.php

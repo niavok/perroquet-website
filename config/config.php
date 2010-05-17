@@ -10,6 +10,7 @@ class Config {
     static $pageList = array(
         'not_found' => array('path' => 'special/not_found'),
         'special/language/choose' => array('path' => 'special/language/choose'),
+        'special/language/select' => array('path' => 'special/language/select'),
         'index' => array('path' => 'index'),
         );
 

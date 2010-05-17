@@ -10,6 +10,7 @@ $loader = new HtmlPageLoader();
 
 $loader->load();
 $page = $loader->getPage();
+$page->execute();
 $page->display();
 
 

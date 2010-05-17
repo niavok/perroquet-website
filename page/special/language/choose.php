@@ -7,8 +7,8 @@
  */
 class CurrentPage extends HtmlPage{
         function __construct() {
-        $this->id = 'not_found';
-        $this->title = _('Page not found');
+        $this->id = 'language/choose';
+        $this->title = _('Select language');
     }
 
     function generateContent() {
