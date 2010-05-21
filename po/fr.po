@@ -7,55 +7,119 @@ msgid ""
 msgstr ""
 "Project-Id-Version: perroquet\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-15 17:25+0200\n"
-"PO-Revision-Date: 2010-05-15 17:25+0100\n"
-"Last-Translator: Frédéric Bertolus <fred.bertolus@gmail.com>\n"
+"POT-Creation-Date: 2010-05-18 00:42+0200\n"
+"PO-Revision-Date: 2010-05-18 06:20+0000\n"
+"Last-Translator: Fred Bertolus <fred.bertolus@gmail.com>\n"
 "Language-Team: French\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Poedit-Language: French\n"
+"X-Launchpad-Export-Date: 2010-05-21 03:53+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
 "X-Poedit-Country: FRANCE\n"
+"X-Poedit-Language: French\n"
 "X-Poedit-SourceCharset: utf-8\n"
+
+#: ../core/HtmlPage.php:35
+msgid "Perroquet — Listening comprehension tutor — "
+msgstr "Perroquet — Un assistant à la compréhension orale — "
+
+#: ../core/HtmlPage.php:63
+msgid "Change language"
+msgstr "Changer la langue"
+
+#: ../core/HtmlPage.php:92 ../page/index.php:11 ../page/index.php:16
+msgid "Presentation"
+msgstr "Présentation"
+
+#: ../core/HtmlPage.php:93
+msgid "Download"
+msgstr "Télécharger"
+
+#: ../core/HtmlPage.php:94
+msgid "Screenshots"
+msgstr "Captures d'écran"
+
+#: ../core/HtmlPage.php:95
+msgid "Documentation"
+msgstr "Documentation"
+
+#: ../core/HtmlPage.php:96
+msgid "Exercises"
+msgstr "Exercices"
+
+#: ../core/HtmlPage.php:97
+msgid "Contribute"
+msgstr "Contribuer"
+
+#: ../core/HtmlPage.php:98
+msgid "Contacts"
+msgstr "Contacts"
+
+#: ../page/index.php:17
+msgid "Perroquet in use"
+msgstr "Perroquet en cours d'utilisation"
 
 #: ../page/index.php:19
 msgid "How it works"
 msgstr "Fonctionnement"
 
-#: ../page/index.php:29
-msgid "News"
-msgstr "Nouveautés"
-
-#: ../core/HtmlPage.php:31
-msgid "Perroquet — Listening comprehension tutor — "
-msgstr "Perroquet — Un assistant à la compréhension orale — "
-
-#: ../page/index.php:11
-#: ../page/index.php:16
-msgid "Presentation"
-msgstr "Présentation"
-
 #: ../page/index.php:22
 msgid "Try now"
 msgstr "Tester maintenant"
 
+#: ../page/index.php:29
+msgid "News"
+msgstr "Nouveautés"
+
+#: ../page/special/language/choose.php:11
+#: ../page/special/language/choose.php:16
+#: ../page/special/language/select.php:14
+#: ../page/special/language/select.php:33
+#: ../page/special/language/select.php:41
+msgid "Select language"
+msgstr "Sélectionner langue"
+
+#: ../page/special/language/choose.php:23
+msgid "Choose the new language : "
+msgstr "Choisissez la nouvelle langue : "
+
+#: ../page/special/language/choose.php:34
+msgid "Select"
+msgstr "Sélectionner"
+
+#: ../page/special/language/select.php:45
+msgid "No language selected."
+msgstr "Aucune langue sélectionnée."
+
+#: ../page/special/language/select.php:48
+msgid "Invalid language selected."
+msgstr "La langue selectionnée n'est pas valide."
+
+#: ../page/special/language/select.php:57
+msgid "Return to index"
+msgstr "Retour à l'accueil"
+
+#: ../page/special/not_found.php:11 ../page/special/not_found.php:16
+msgid "Page not found"
+msgstr "Page introuvable"
+
 #~ msgid ""
 #~ "\n"
 #~ "        <h1>Presentation</h1>\n"
-#~ "                    <img class=\"img_left\" src=\"/ressources/"
-#~ "perroquet_screenshot1_400.png\" alt=\"Perroquet en cours d'utilisation\" /"
-#~ ">\n"
+#~ "                    <img class=\"img_left\" "
+#~ "src=\"/ressources/perroquet_screenshot1_400.png\" alt=\"Perroquet en cours "
+#~ "d'utilisation\" />\n"
 #~ "                    <p>Perroquet is a educational program to improve "
 #~ "playfully your listening in a foreign language</p>\n"
 #~ "                <h2>How it works</h2>\n"
-#~ "                    <p>The principe of Perroquet is to use a video or "
-#~ "audio file and the associated subtitles to make you listen and understand "
-#~ "the dialogue or lyrics. After having idendified the files to use, "
-#~ "Perroquet will read a piece of video then pause. It will show you the "
-#~ "number of words to find and you will have to type them to continue. You "
-#~ "can listen a sequence as many times as necessary. If you do not "
-#~ "understand, Perroquet offers several means to help you.</p>\n"
+#~ "                    <p>The principe of Perroquet is to use a video or audio "
+#~ "file and the associated subtitles to make you listen and understand the "
+#~ "dialogue or lyrics. After having idendified the files to use, Perroquet will "
+#~ "read a piece of video then pause. It will show you the number of words to "
+#~ "find and you will have to type them to continue. You can listen a sequence "
+#~ "as many times as necessary. If you do not understand, Perroquet offers "
+#~ "several means to help you.</p>\n"
 #~ "\n"
 #~ "                <h2>Try now</h2>\n"
 #~ "                    <p>If you want to test parrot but you have no video "
@@ -66,12 +130,11 @@ msgstr "Tester maintenant"
 #~ "understanding English.</p>\n"
 #~ "\n"
 #~ "\n"
-#~ "                    <p>You must then <a href=\"/en/download.html\" "
-#~ ">download and install</a> Perroquet, run it, create a new exercise and "
-#~ "put the video file in the first field, the file of English subtitles in "
-#~ "the second file and the subtitle in the French final. To learn to use all "
-#~ "the features of parrot, see the <a href=\"/en/documentation.html\" "
-#~ ">documentation</a>.</p>\n"
+#~ "                    <p>You must then <a href=\"/en/download.html\" >download "
+#~ "and install</a> Perroquet, run it, create a new exercise and put the video "
+#~ "file in the first field, the file of English subtitles in the second file "
+#~ "and the subtitle in the French final. To learn to use all the features of "
+#~ "parrot, see the <a href=\"/en/documentation.html\" >documentation</a>.</p>\n"
 #~ "\n"
 #~ "                <h2>News</h2>\n"
 #~ "\n"
@@ -81,8 +144,8 @@ msgstr "Tester maintenant"
 #~ "                        <li>Add new shortcuts</li>\n"
 #~ "                        <li>Remove html tags in srt files</li>\n"
 #~ "                        <li>Replace | by new line in srt</li>\n"
-#~ "                        <li>Handle perroquet file, add mime type and "
-#~ "icons on perroquet exercise</li>\n"
+#~ "                        <li>Handle perroquet file, add mime type and icons "
+#~ "on perroquet exercise</li>\n"
 #~ "                        <li>Improve exercice creation dialog</li>\n"
 #~ "                        <li>Add tooltips</li>\n"
 #~ "                        <li>Reimplement input system to support specials "
@@ -91,18 +154,20 @@ msgstr "Tester maintenant"
 #~ "                        <li>Translation updates</li>\n"
 #~ "                    </ul>\n"
 #~ "                <h2>Licence</h2>\n"
-#~ "                    <p>Perroquet  is a free software distributed under "
-#~ "the GNU Public License version 3 or higher. The source code of this "
-#~ "software is available here: <a href=\"https://launchpad.net/perroquet/"
-#~ "+download\" >Download page at launchpad</a></p>\n"
+#~ "                    <p>Perroquet  is a free software distributed under the "
+#~ "GNU Public License version 3 or higher. The source code of this software is "
+#~ "available here: <a href=\"https://launchpad.net/perroquet/+download\" "
+#~ ">Download page at launchpad</a></p>\n"
 #~ "\n"
 #~ "                    <p>The full text of the license is available here <a "
 #~ "href=\"http://www.gnu.org/licenses/gpl.html\" >GPL</a>.</p>\n"
 #~ "        "
 #~ msgstr ""
-#~ "<h1>Présentation</h1><img class=\"img_left\" src=\"/ressources/"
-#~ "perroquet_screenshot1_400.png\" alt=\"Perroquet en cours d'utilisation\" /"
-#~ ">"
+#~ "\n"
+#~ "        <h1>Présentation</h1><img class=\"img_left\" "
+#~ "src=\"/ressources/perroquet_screenshot1_400.png\" alt=\"Perroquet en cours "
+#~ "d'utilisation\" />\n"
+#~ "        "
+
 #~ msgid "Perroquet — Listening comprehension tutor"
 #~ msgstr "Perroquet — Un assistant à la compréhension orale"
-
