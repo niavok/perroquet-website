@@ -65,8 +65,8 @@ class HtmlPage {
         </div>
 
         <div id="head">
-            <h1>Perroquet</h1>
-            Listening comprehension tutor
+            <h1>'._('Perroquet').'</h1>
+            '._('Listening comprehension tutor').'
         </div>
         ';
         
