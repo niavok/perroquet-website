@@ -15,6 +15,16 @@ class RessourceManager {
         return '/'.LanguageManager::getLanguage().'/'.$key;
     }
 
+    static function getExternUrl($key) {
+        return 'http://'.$_SERVER["SERVER_NAME"].'/'.LanguageManager::getLanguage().'/'.$key;
+    }
+
+    static function getServerName() {
+        return 'http://'.$_SERVER["SERVER_NAME"];
+    }
+
+    
+
 }
 ?>
 
