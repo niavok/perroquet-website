@@ -23,7 +23,7 @@ class RessourceManager {
         return 'http://'.$_SERVER["SERVER_NAME"];
     }
 
-    
+
 
 }
 ?>

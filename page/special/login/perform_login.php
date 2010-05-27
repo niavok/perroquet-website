@@ -21,13 +21,29 @@ class CurrentPage extends HtmlPage{
                if (trim($_GET['openid'] == '')) {
                 $this->error = _("Provide a valid OpenID.");
             }
+            require_once 'openid.php';
 
+            $openid = new SimpleOpenID;
+            $openid->SetIdentity($_GET['openid']);
+            $openid->SetTrustRoot(RessourceManager::getServerName());
+            $openid->SetRequiredFields(array('email','fullname'));
+            $openid->SetOptionalFields(array('dob','gender','postcode','country','language','timezone'));
+            if ($openid->GetOpenIDServer()){
+                $openid->SetApprovedURL(RessourceManager::getExternUrl('special/login/openid_return'));      // Send Response from OpenID server to this script
+                $openid->Redirect();     // This will redirect user to OpenID Server
+            }else{
+                $error = $openid->GetError();
+                $this->error = '';
+
+                $this->error .= "ERROR CODE: " . $error['code'] . "<br>";
+                $this->error .= "ERROR DESCRIPTION: " . $error['description'] . "<br>";
+            }
+/*
              // fichiers inclus
             require_once 'Auth/OpenID/Consumer.php';
             require_once 'Auth/OpenID/FileStore.php';
             // démarrage de la session (requis pour YADIS)
-            session_start();
-
+      
             // crée une zone de stockage pour les données OpenID
             $store = new Auth_OpenID_FileStore($_SERVER["DOCUMENT_ROOT"].'/openid_store');
 
@@ -45,8 +61,7 @@ class CurrentPage extends HtmlPage{
             // redirige vers le fournisseur OpenID pour l'authentification
 
             $url = $auth->redirectURL(RessourceManager::getServerName(), RessourceManager::getExternUrl('special/login/openid_return'));
-            
-            header('Location: ' . $url);
+            header('Location: ' . $url);*/
 
         }
         else

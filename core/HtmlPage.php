@@ -57,10 +57,26 @@ class HtmlPage {
     function generateBody() {
 
         $this->content.='<div id="content">
+        ';
+        if(LoginManager::isLogged()) {
+            $this->content.='
+            <div id="login_panel">
+            '.sprintf(_('Logged as %s'),LoginManager::getLogin()).'
+            </div>
+        ';
 
-        <div id="lang_menu">
+        }
+        
+        $this->content.='<div id="lang_menu">
             <ul>
                 <li><a href="'.RessourceManager::getInnerUrl('special/language/choose').'">'._('Change language').'</a></li>
+                    ';
+        if(LoginManager::isLogged()) {
+        $this->content.='    <li><a href="'.RessourceManager::getInnerUrl('special/login/logout').'">'._('Logout').'</a></li>';
+        } else {
+        $this->content.='    <li><a href="'.RessourceManager::getInnerUrl('special/login/login_form').'">'._('Login').'</a></li>';
+        }
+        $this->content.='
             </ul>
         </div>
 

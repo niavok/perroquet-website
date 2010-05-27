@@ -3,6 +3,7 @@ body {
     background-color : rgb(0,0,0);
     padding : 1%;
     padding-top : 10px;
+    font-family: sans
 }
 
 #content{
@@ -19,11 +20,27 @@ body {
     
 }
 
+#login_panel {
+    -moz-box-shadow:0 0 15px rgb(118,170,36);
+    -webkit-box-shadow:0 0 15px rgb(118,170,36);
+     -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    
+    font-size : 0.8em;
+
+    color : rgb(118,170,36);
+    float : left;
+    padding : 5px;
+    margin : 10px;
+}
+
 #lang_menu {
     -moz-border-radius:10px;
     -webkit-border-radius:10px;
     -moz-box-shadow:0 0 15px #aaa;
     -webkit-box-shadow:0 0 15px #aaa;
+
+    
 
     float : right;
     border : 1px solid rgb(108,160,26);
@@ -63,12 +80,10 @@ body {
 
 a{
     color : rgb(0,30,0);
-    font-family:  verdena, serif;
 }
 
 a:visited{
     color : rgb(68,120,40);
-    font-family:  verdena, serif;
 }
 
 
