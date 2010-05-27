@@ -96,7 +96,7 @@ class HtmlPage {
 
         $this->content.='</div>
         <div id="bottom">
-            Perroquet web site — Copyright ® Perroquet Team — <a href="mailto:perroquet-team@lists.launchpad.net" >perroquet-team@lists.launchpad.net</a>  — Licence : AGPL v3 or highter
+            Perroquet web site — Copyright ® Perroquet Team — <a href="mailto:perroquet-team@lists.launchpad.net" >perroquet-team@lists.launchpad.net</a>  — Licence : AGPL v3 or highter — <a href="https://code.launchpad.net/~perroquet-team/perroquet/website" >source</a>
         </div>
         </div>';
     }
