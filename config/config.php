@@ -21,11 +21,11 @@ class Config {
     static $languageList = array(
         'en' => array('key' => 'en_US.utf8', 'choosable' => True, 'label' => 'English', 'code' => 'en'),
         'fr' => array('key' => 'fr_FR.utf8', 'choosable' => True, 'label' => 'Français', 'code' => 'fr'),
-        'fr-fr' => array('key' => 'fr_FR.utf8', 'choosable' => False),
-        'fr-be' => array('key' => 'fr_FR.utf8', 'choosable' => False),
-        'fr-ca' => array('key' => 'fr_FR.utf8', 'choosable' => False),
-        'fr-lu' => array('key' => 'fr_FR.utf8', 'choosable' => False),
-        'fr-ch' => array('key' => 'fr_FR.utf8', 'choosable' => False),
+        'fr-fr' => array('key' => 'fr_FR.utf8', 'choosable' => False, 'ref' => 'fr'),
+        'fr-be' => array('key' => 'fr_FR.utf8', 'choosable' => False, 'ref' => 'fr'),
+        'fr-ca' => array('key' => 'fr_FR.utf8', 'choosable' => False, 'ref' => 'fr'),
+        'fr-lu' => array('key' => 'fr_FR.utf8', 'choosable' => False, 'ref' => 'fr'),
+        'fr-ch' => array('key' => 'fr_FR.utf8', 'choosable' => False, 'ref' => 'fr'),
         );
 
     public function getPageList() {

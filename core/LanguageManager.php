@@ -14,6 +14,11 @@ class LanguageManager {
         textdomain("perroquet-website");
 
         $languageList = Config::getLanguageList();
+
+        if(!$languageList[$lang]['choosable']) {
+            $lang = $languageList[$lang]['ref'];
+        }
+        
         setlocale( LC_ALL, $languageList[$lang]['key']);
 
         LanguageManager::$lang = $lang;
