@@ -1,0 +1,33 @@
+Perroquet website is designed to work with apache on a linux server.
+
+Needed packages are:
+  apache2
+  php5
+  php5-curl
+
+Rewrite module must be enable :
+
+in /etc/apache2/mods-enabled, "ln -s ../mods-available/rewrite"
+
+You need to configure an apache virtual host to the perroquet website directory.
+You also need to specify the AccessFileName and allow override to lets apache
+use the .htaccess file.
+
+An example:
+
+<VirtualHost *:80>
+	ServerAdmin webmaster@localhost
+	AccessFileName .htaccess
+	DocumentRoot /home/fred/projets/website
+	<Directory />
+		Options FollowSymLinks
+		AllowOverride None
+	</Directory>
+	<Directory /home/fred/projets/website>
+		Options Indexes FollowSymLinks MultiViews
+		AllowOverride FileInfo
+		Order allow,deny
+		allow from all
+	</Directory>
+...
+
