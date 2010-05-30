@@ -17,7 +17,7 @@ class CurrentPage extends HtmlPage{
 
         $content.='
 <form action="'.RessourceManager::getInnerUrl('special/login/perform_login').'"  method="get">
-      '._('OpenID: ').'<input type="text" name="openid" size="30" />
+      <label for="openid" >'._('OpenID: ').'</label><input id="openid" type="text" name="openid" size="30" />
       <br />
       <input type="submit" value="'._('Log In').'" />
 </form>

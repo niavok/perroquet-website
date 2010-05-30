@@ -15,6 +15,11 @@ class Config {
         'special/login/perform_login' => array('path' => 'special/login/perform_login'),
         'special/login/openid_return' => array('path' => 'special/login/openid_return'),
         'special/login/logout' => array('path' => 'special/login/logout'),
+
+        'exercises/index' => array('path' => 'exercises/index'),
+        'exercises/external_repo' => array('path' => 'exercises/external_repo'),
+        'exercises/propose_form' => array('path' => 'exercises/propose_form'),
+        'exercises/browse' => array('path' => 'exercises/browse'),
         'index' => array('path' => 'index'),
         );
 

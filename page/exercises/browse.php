@@ -5,9 +5,11 @@
  *
  * @author fred
  */
-class CurrentPage extends HtmlPage{
+require_once $_SERVER["DOCUMENT_ROOT"].'/page/exercises/exercise_page.php';
+
+class CurrentPage extends ExercisePage{
         function __construct() {
-        $this->id = 'index';
+        $this->id = 'exercises/browse';
         $this->title = _('Presentation');
     }
 

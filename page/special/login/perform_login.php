@@ -17,51 +17,33 @@ class CurrentPage extends HtmlPage{
 
     function execute() {
 
+        echo 'plop';
+
         if(isset($_GET['openid'])){
                if (trim($_GET['openid'] == '')) {
                 $this->error = _("Provide a valid OpenID.");
             }
             require_once 'openid.php';
 
-            $openid = new SimpleOpenID;
-            $openid->SetIdentity($_GET['openid']);
+            $openid = new Dope_OpenID($_GET['openid']);
+            $openid->setReturnURL(RessourceManager::getExternUrl('special/login/openid_return'));
             $openid->SetTrustRoot(RessourceManager::getServerName());
-            $openid->SetRequiredFields(array('email','fullname'));
-            $openid->SetOptionalFields(array('dob','gender','postcode','country','language','timezone'));
-            if ($openid->GetOpenIDServer()){
-                $openid->SetApprovedURL(RessourceManager::getExternUrl('special/login/openid_return'));      // Send Response from OpenID server to this script
-                $openid->Redirect();     // This will redirect user to OpenID Server
-            }else{
-                $error = $openid->GetError();
-                $this->error = '';
+            $openid->setRequiredInfo(array('email'));
 
-                $this->error .= "ERROR CODE: " . $error['code'] . "<br>";
-                $this->error .= "ERROR DESCRIPTION: " . $error['description'] . "<br>";
+            $endpoint_url = $openid->getOpenIDEndpoint();
+            if($endpoint_url){
+                    // If we find the endpoint, you might want to store it for later use.
+                    $_SESSION['openid_endpoint_url'] = $endpoint_url;
+                    // Redirect the user to their OpenID Provider
+                    $openid->redirect();
             }
-/*
-             // fichiers inclus
-            require_once 'Auth/OpenID/Consumer.php';
-            require_once 'Auth/OpenID/FileStore.php';
-            // démarrage de la session (requis pour YADIS)
-      
-            // crée une zone de stockage pour les données OpenID
-            $store = new Auth_OpenID_FileStore($_SERVER["DOCUMENT_ROOT"].'/openid_store');
+            else{
+                    $error = $openid->getError();
+                    $this->error = '';
 
-            // crée un consommateur OpenID
-            $consumer = new Auth_OpenID_Consumer($store);
-
-            // commence le process d'authentification
-            // crée une requête d'authentification pour le fournisseur OpenID
-            $auth = $consumer->begin($_GET['openid']);
-            if (!$auth) {
-                $this->error = _("OpenID provider not found. Verify your OpenId.");
-                return;
+                    $this->error .= "ERROR CODE: " . $error['code'] . "<br>";
+                    $this->error .= "ERROR DESCRIPTION: " . $error['description'] . "<br>";
             }
-
-            // redirige vers le fournisseur OpenID pour l'authentification
-
-            $url = $auth->redirectURL(RessourceManager::getServerName(), RessourceManager::getExternUrl('special/login/openid_return'));
-            header('Location: ' . $url);*/
 
         }
         else

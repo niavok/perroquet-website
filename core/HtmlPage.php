@@ -61,7 +61,7 @@ class HtmlPage {
         if(LoginManager::isLogged()) {
             $this->content.='
             <div id="login_panel">
-            '.sprintf(_('Logged as %s'),LoginManager::getLogin()).'
+            '.sprintf(_('Logged as %s'),LoginManager::getEmail()).'
             </div>
         ';
 
@@ -103,7 +103,8 @@ class HtmlPage {
 
     function generateMenu() {
         $menu='
-        <div id="menu">
+        <div id="menu">';
+        $menu .='
             <ul>
                 <li '.($this->id=='index'?'class= "active"':'').'><a href="'.RessourceManager::getInnerUrl('index').'/">'._('Presentation').'</a></li>
                 <li '.($this->id=='download'?'class= "active"':'').'><a href="'.RessourceManager::getInnerUrl('download').'/">'._('Download').'</a></li>
@@ -112,9 +113,47 @@ class HtmlPage {
                 <li '.($this->startswith($this->id,'exercises')?'class= "active"':'').'><a href="'.RessourceManager::getInnerUrl('exercises/index').'/">'._('Exercises').'</a></li>
                 <li '.($this->id=='contribute'?'class= "active"':'').'><a href="'.RessourceManager::getInnerUrl('contribute').'/">'._('Contribute').'</a></li>
                 <li '.($this->id=='contacts'?'class= "active"':'').'><a href="'.RessourceManager::getInnerUrl('contacts').'/">'._('Contacts').'</a></li>
-            </ul>
+            </ul>';
 
-        </div>';
+        
+
+        $subMenu = $this->generateSubMenu();
+        if($subMenu != '') {
+          $menu .='
+              
+                    <ul>
+                    '.$subMenu.'
+                    </ul>
+                 ';
+        }
+        
+
+        if(LoginManager::isLogged()) {
+            $userMenu = $this->generateUserMenu();
+            if($userMenu != '') {
+              $menu .='
+                  
+                        <ul>
+                        '.$userMenu.'
+                        </ul>
+                     ';
+            }
+
+            if(LoginManager::isAdministrator()) {
+                $adminMenu = $this->generateAdminMenu();
+                if($adminMenu != '') {
+                  $menu .='
+                      
+                            <ul>
+                            '.$adminMenu.'
+                            </ul>
+                         ';
+                }
+            }
+        }
+
+        $menu .='</div>';
+
         return $menu;
     }
 
@@ -122,6 +161,17 @@ class HtmlPage {
       return substr($hay, 0, strlen($needle)) === $needle;
     }
 
+    function generateSubMenu() {
+        return '';
+    }
+
+    function generateUserMenu() {
+        return '';
+    }
+
+    function generateAdminMenu() {
+        return '';
+    }
 
 }
 ?>

@@ -1,6 +1,7 @@
 <?php
 
-echo sqlite_libversion().'<br/>';
+print_r(Sqlite3::version());
+echo '<br/>';
 
 $dbname=$_SERVER["DOCUMENT_ROOT"].'/database/perroquet.sqlite';
 
@@ -10,11 +11,11 @@ if(is_file($dbname)) {
     echo "Database doesn't exist.\n".'<br/>';
 }
 
-$base=new SQLiteDatabase($dbname, 0666, $err);
-if ($err)
+$base=new SQLite3($dbname);
+if ($base == null)
 {
   echo "SQLite NOT supported.\n".'<br/>';
-  exit($err);
+  exit();
 }
 else
 {
@@ -25,13 +26,13 @@ else
 echo 'Existing tables :'.'<br/>';
 
 $query = "SELECT name FROM sqlite_master WHERE type='table' ORDER BY name;";
-$results = $base->arrayQuery($query, SQLITE_ASSOC);
+$results = $base->query($query);
 
 $existingTables = array();
 
 if($results)
 {
-   foreach($results as $result) {
+   while ($result = $results->fetchArray()) {
        echo 'Table \''.$result['name'].'\'<br/>';
        $existingTables[] = $result['name'];
    }
@@ -41,15 +42,6 @@ if($results)
 
 echo '<br/>';
 
-if(array_search('repositories', $existingTables) === FALSE) {
-    echo 'Table \'repositories\' not found. Create it.'.'<br/>';
-    $query = "CREATE TABLE repositories(
-            id TEXT NOT NULL PRIMARY KEY,
-            name TEXT NOT NULL,
-            description TEXT
-            )";
-    $results = $base->queryexec($query);
-}
 
 if(array_search('users', $existingTables) === FALSE) {
     echo 'Table \'users\' not found. Create it.'.'<br/>';
@@ -59,24 +51,38 @@ if(array_search('users', $existingTables) === FALSE) {
             email TEXT,
             admin INTEGER DEFAULT 0
             )";
-    $results = $base->queryexec($query);
+    $results = $base->exec($query);
 }
+
+if(array_search('repositories', $existingTables) === FALSE) {
+    echo 'Table \'repositories\' not found. Create it.'.'<br/>';
+    $query = "CREATE TABLE repositories(
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            code TEXT NOT NULL,
+            name TEXT NOT NULL,
+            description TEXT
+            )";
+    $results = $base->exec($query);
+}
+
 
 if(array_search('exercise_groups', $existingTables) === FALSE) {
     echo 'Table \'exercise_groups\' not found. Create it.'.'<br/>';
     $query = "CREATE TABLE exercise_groups(
-            id TEXT NOT NULL PRIMARY KEY,
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            code TEXT NOT NULL,
             repository_id TEXT NOT NULL,
             name TEXT NOT NULL,
             description TEXT
             )";
-    $results = $base->queryexec($query);
+    $results = $base->exec($query);
 }
 
 if(array_search('exercises', $existingTables) === FALSE) {
     echo 'Table \'exercises\' not found. Create it.'.'<br/>';
     $query = "CREATE TABLE exercises(
-            id TEXT NOT NULL PRIMARY KEY,
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            code TEXT NOT NULL,
             group_id TEXT NOT NULL,
             name TEXT NOT NULL,
             description TEXT,
@@ -84,7 +90,20 @@ if(array_search('exercises', $existingTables) === FALSE) {
             licence TEXT,
             language TEXT
             )";
-    $results = $base->queryexec($query);
+    $results = $base->exec($query);
+}
+
+
+if(array_search('proposed_exercises', $existingTables) === FALSE) {
+    echo 'Table \'proposed_exercises\' not found. Create it.'.'<br/>';
+    $query = "CREATE TABLE proposed_exercises(
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            name TEXT NOT NULL,
+            description TEXT,
+            links TEXT,
+            user TEXT
+            )";
+    $results = $base->exec($query);
 }
 /*
 

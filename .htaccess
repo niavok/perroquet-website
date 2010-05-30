@@ -5,3 +5,10 @@ RewriteRule ^([a-z]{1,3})/(.*)/$ index.php?lang=$1&path=$2&%{QUERY_STRING}
 RewriteRule ^([a-z]{1,3})/(.*)$ index.php?lang=$1&path=$2&%{QUERY_STRING}
 RewriteRule ^([a-z]{1,3})/?$ index.php?lang=$1&%{QUERY_STRING}
 
+
+
+<Files *.sqlite>
+    Order Deny,Allow
+    Deny from All
+    Allow from None
+</Files>
