@@ -4,6 +4,7 @@ Needed packages are:
   apache2
   php5
   php5-curl
+  php5-sqlite3
 
 Rewrite module must be enable :
 
@@ -25,9 +26,12 @@ An example:
 	</Directory>
 	<Directory /home/fred/projets/website>
 		Options Indexes FollowSymLinks MultiViews
-		AllowOverride FileInfo
+		AllowOverride All
 		Order allow,deny
 		allow from all
 	</Directory>
 ...
 
+
+
+You need to execute /database/index.php to init the database.

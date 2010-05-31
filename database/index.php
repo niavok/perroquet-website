@@ -71,7 +71,7 @@ if(array_search('exercise_groups', $existingTables) === FALSE) {
     $query = "CREATE TABLE exercise_groups(
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             code TEXT NOT NULL,
-            repository_id TEXT NOT NULL,
+            repository_id INTEGER NOT NULL,
             name TEXT NOT NULL,
             description TEXT
             )";
@@ -82,13 +82,25 @@ if(array_search('exercises', $existingTables) === FALSE) {
     echo 'Table \'exercises\' not found. Create it.'.'<br/>';
     $query = "CREATE TABLE exercises(
             id INTEGER PRIMARY KEY AUTOINCREMENT,
+            group_id INTEGER NOT NULL,
+            proposer TEXT,
+            state TEXT,
             code TEXT NOT NULL,
-            group_id TEXT NOT NULL,
             name TEXT NOT NULL,
             description TEXT,
             word_count INTEGER,
             licence TEXT,
-            language TEXT
+            language TEXT,
+            media_type TEXT,
+            exercise_version TEXT,
+            author TEXT,
+            author_website TEXT,
+            author_contact TEXT,
+            packager TEXT,
+            packager_website TEXT,
+            packager_contact TEXT,
+            translations TEXT,
+            file TEXT            
             )";
     $results = $base->exec($query);
 }
@@ -102,7 +114,23 @@ if(array_search('proposed_exercises', $existingTables) === FALSE) {
             description TEXT,
             links TEXT,
             user TEXT,
-            state TEXT
+            state TEXT,
+            code TEXT NOT NULL,
+            name TEXT NOT NULL,
+            description TEXT,
+            word_count INTEGER,
+            licence TEXT,
+            language TEXT,
+            media_type TEXT,
+            exercise_version TEXT,
+            author TEXT,
+            author_website TEXT,
+            author_contact TEXT,
+            packager TEXT,
+            packager_website TEXT,
+            packager_contact TEXT,
+            translations TEXT,
+            file TEXT  
             )";
     $results = $base->exec($query);
 }

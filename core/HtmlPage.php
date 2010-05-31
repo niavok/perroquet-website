@@ -176,6 +176,7 @@ class HtmlPage {
         $menu .= '
             <li '.($this->startswith($this->id,'admin/user_list')?'class= "active"':'').'><a href="'.RessourceManager::getInnerUrl('admin/user_list').'/">'._('Users list').'</a></li>
             <li '.($this->startswith($this->id,'exercises/propose_list')?'class= "active"':'').'><a href="'.RessourceManager::getInnerUrl('exercises/propose_list').'/">'._('Proposed exercises').'</a></li>
+                <li '.($this->startswith($this->id,'exercises/add_exercise')?'class= "active"':'').'><a href="'.RessourceManager::getInnerUrl('exercises/add_exercise').'/">'._('Add an exercise').'</a></li>
 
             ';
         return $menu;

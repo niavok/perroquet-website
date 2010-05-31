@@ -18,8 +18,7 @@ class CurrentPage extends ExercisePage{
         if(isset($_POST['propose_name']) &&  $_SESSION['form_enabled']) {
             
 
-            require_once $_SERVER["DOCUMENT_ROOT"].'/core/DatabaseManager.php';
-
+         
             LoginManager::register();
 
             $name = sqlite_escape_string($_POST['propose_name']);
