@@ -116,8 +116,6 @@ if(array_search('proposed_exercises', $existingTables) === FALSE) {
             user TEXT,
             state TEXT,
             code TEXT NOT NULL,
-            name TEXT NOT NULL,
-            description TEXT,
             word_count INTEGER,
             licence TEXT,
             language TEXT,

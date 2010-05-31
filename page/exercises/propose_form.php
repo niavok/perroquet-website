@@ -30,12 +30,26 @@ class CurrentPage extends ExercisePage{
             $state = 'waiting';
 
             DatabaseManager::setQuery("INSERT INTO proposed_exercises VALUES(
-                (SELECT max(id) FROM proposed_exercises)+1,
+                NULL,
                 '$name',
                 '$description',
                 '$links',
                 '$user',
-                '$state'
+                '$state',
+                '',
+                '',
+                NULL,
+                NULL,
+                NULL,
+                NULL,
+                NULL,
+                NULL,
+                NULL,
+                NULL,
+                NULL,
+                NULL,
+                NULL,
+                NULL
                 );");
 
             $this->message = "Exercise proposed.";
@@ -86,7 +100,7 @@ class CurrentPage extends ExercisePage{
 
             $content.='
         <form action="'.RessourceManager::getInnerUrl('exercises/propose_form').'"  method="post">
-              <label for="name">'._('Name: ').'</label><input id="name" type="text" name="propose_name"  /><br />
+              <label for="name">'._('Name: ').'</label><input id="name" type="text" name="propose_name" /><br />
               <label for="description">'._('Description: ').'</label><input type="text" id="description"  name="propose_description"  /><br />
               <label for="links">'._('Links to ressources: ').'</label><br /><textarea id="links"  name="propose_links"  ></textarea><br />
               <br />
