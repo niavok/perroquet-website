@@ -28,7 +28,7 @@ class CurrentPage extends HtmlPage{
             $openid = new Dope_OpenID($_GET['openid']);
             $openid->setReturnURL(RessourceManager::getExternUrl('special/login/openid_return'));
             $openid->SetTrustRoot(RessourceManager::getServerName());
-            $openid->setRequiredInfo(array('email'));
+            $openid->setRequiredInfo(array('email', 'fullname'));
 
             $endpoint_url = $openid->getOpenIDEndpoint();
             if($endpoint_url){

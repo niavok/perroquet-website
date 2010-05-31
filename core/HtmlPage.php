@@ -61,7 +61,7 @@ class HtmlPage {
         if(LoginManager::isLogged()) {
             $this->content.='
             <div id="login_panel">
-            '.sprintf(_('Logged as %s'),LoginManager::getEmail()).'
+            '.sprintf(_('Logged as %s'),LoginManager::getFullname()).'
             </div>
         ';
 
@@ -140,6 +140,7 @@ class HtmlPage {
             }
 
             if(LoginManager::isAdministrator()) {
+                echo 'plop';
                 $adminMenu = $this->generateAdminMenu();
                 if($adminMenu != '') {
                   $menu .='
@@ -170,7 +171,14 @@ class HtmlPage {
     }
 
     function generateAdminMenu() {
-        return '';
+        $menu = '';
+
+        $menu .= '
+            <li '.($this->startswith($this->id,'admin/user_list')?'class= "active"':'').'><a href="'.RessourceManager::getInnerUrl('admin/user_list').'/">'._('Users list').'</a></li>
+            <li '.($this->startswith($this->id,'exercises/propose_list')?'class= "active"':'').'><a href="'.RessourceManager::getInnerUrl('exercises/propose_list').'/">'._('Proposed exercises').'</a></li>
+
+            ';
+        return $menu;
     }
 
 }

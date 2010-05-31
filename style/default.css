@@ -49,9 +49,13 @@ body {
     margin : 10px;
 }
 
+ul {
+    list-style-image: url("/ressources/style/favicon.png");
+}
+
 #lang_menu ul{
 
-    list-style-image: url("/ressources/style/favicon.png");
+    
     font-size : 0.8em;
     margin : 0px;
 }
@@ -72,10 +76,7 @@ body {
 }
 
 #menu ul{
-
-    list-style-image: url("/ressources/style/favicon.png");
     font-size : 1.0em;
-
 }
 
 a{
@@ -185,7 +186,70 @@ font-family: verdena, serif;
     padding : 10px;
     margin : 15px;
 
-
 }
 
+.subblock {
+    -moz-box-shadow:0 0 15px rgb(118,170,36);
+    -webkit-box-shadow:0 0 15px rgb(118,170,36);
+     -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+
+    
+    
+    padding : 5px;
+    margin : 10px;
+}
+
+
+pdoc {
+    
+    -moz-box-shadow:0 0 15px rgb(217,235,149);
+    -webkit-box-shadow:0 0 15px rgb(217,235,149);
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-column-width:300px;
+
+    padding : 10px;
+    margin : 10px;
+}
+
+table {
+    font-size: 0.9em;
+    text-align: center;
+    border: 1px solid rgb(207,255,129);
+    border-spacing: 0;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    background: rgb(187,235,109);
+}
+
+th {
+    color: rgb(0,50,0);
+    font-size: 110%;
+    text-shadow: rgb(107,155,029) 2px 2px 2px
+}
+
+th:first-of-type {
+font-weight: bold;
+font-style: italic
+}
+
+tr {
+    text-align: left;
+}
+
+td {
+    padding:  5px 5px 5px 25px;
+}
+
+tr:nth-child(odd) {
+    color: black;
+    background: rgb(207,255,129);
+}
+
+tr:nth-child(even) {
+    color: black;
+    
+}
 

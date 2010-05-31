@@ -18,9 +18,10 @@ class LoginManager {
         unset($_SESSION['login']);
     }
 
-    static function login($login, $email) {
+    static function login($login, $email, $fullname) {
         $_SESSION['login'] = $login;
         $_SESSION['email'] = $email;
+        $_SESSION['fullname'] = $fullname;
     }
 
     static function getLogin() {
@@ -29,6 +30,10 @@ class LoginManager {
 
     static function getEmail() {
         return $_SESSION['email'];
+    }
+
+    static function getFullname() {
+        return $_SESSION['fullname'];
     }
 
 

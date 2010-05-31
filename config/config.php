@@ -19,7 +19,13 @@ class Config {
         'exercises/index' => array('path' => 'exercises/index'),
         'exercises/external_repo' => array('path' => 'exercises/external_repo'),
         'exercises/propose_form' => array('path' => 'exercises/propose_form'),
+        'exercises/propose_list' => array('path' => 'exercises/propose_list'),
+        'exercises/my_propose_list' => array('path' => 'exercises/my_propose_list'),
         'exercises/browse' => array('path' => 'exercises/browse'),
+        
+        'admin/user_list' => array('path' => 'admin/user_list'),
+
+        
         'index' => array('path' => 'index'),
         );
 

@@ -25,7 +25,7 @@ class CurrentPage extends HtmlPage{
 
             $userinfo = $openid->filterUserInfo($_GET);
 
-            LoginManager::login($_GET['openid_identity'], $userinfo['email']);
+            LoginManager::login($_GET['openid_identity'], $userinfo['email'], $userinfo['fullname']);
 	}
 	else if ($openid->isError() === TRUE){
 		LoginManager::logout();

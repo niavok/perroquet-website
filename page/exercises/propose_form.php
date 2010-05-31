@@ -28,12 +28,15 @@ class CurrentPage extends ExercisePage{
 
             $user = sqlite_escape_string(LoginManager::getLogin());
 
+            $state = 'waiting';
+
             DatabaseManager::setQuery("INSERT INTO proposed_exercises VALUES(
                 (SELECT max(id) FROM proposed_exercises)+1,
                 '$name',
                 '$description',
                 '$links',
-                '$user'
+                '$user',
+                '$state'
                 );");
 
             $this->message = "Exercise proposed.";

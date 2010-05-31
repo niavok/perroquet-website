@@ -101,7 +101,8 @@ if(array_search('proposed_exercises', $existingTables) === FALSE) {
             name TEXT NOT NULL,
             description TEXT,
             links TEXT,
-            user TEXT
+            user TEXT,
+            state TEXT
             )";
     $results = $base->exec($query);
 }

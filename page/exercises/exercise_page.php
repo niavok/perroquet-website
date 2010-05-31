@@ -28,15 +28,7 @@ class ExercisePage extends HtmlPage{
         return $menu;
     }
 
-    function generateAdminMenu() {
-        $menu = HtmlPage::generateSubMenu();
-
-        $menu .= '
-            <li '.($this->startswith($this->id,'exercises/propose_list')?'class= "active"':'').'><a href="'.RessourceManager::getInnerUrl('exercises/propose_list').'/">'._('Proposed exercises').'</a></li>
-
-            ';
-        return $menu;
-    }
+   
 
 }
 
