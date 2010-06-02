@@ -17,7 +17,7 @@ class CurrentPage extends ExercisePage {
 
         if(LoginManager::isLogged() && LoginManager::isAdministrator()) {
 
-            if(isset($_POST['propose_name']) &&  $_SESSION['form_enabled']) {
+            if(isset($_POST['exercise_name']) &&  $_SESSION['form_enabled']) {
 
 
                 LoginManager::register();
@@ -30,7 +30,7 @@ class CurrentPage extends ExercisePage {
                 $name = sqlite_escape_string($_POST['exercise_name']);
                 $description = sqlite_escape_string($_POST['propose_description']);
                 $proposer = sqlite_escape_string($_POST['exercise_proposer']);
-                $state = sqlite_escape_string($_POST['exercise_state']);
+                $state = 'draft';
                 $word_count = sqlite_escape_string($_POST['exercise_word_count']);
                 $licence = sqlite_escape_string($_POST['exercise_licence']);
                 $language = sqlite_escape_string($_POST['exercise_language']);
@@ -48,14 +48,14 @@ class CurrentPage extends ExercisePage {
                 $state = 'waiting';
 
                 DatabaseManager::setQuery("INSERT INTO exercises VALUES(
-                        '',
-                        '$group',
+                        NULL,
+                        $group,
                         '$proposer',
                         '$state',
                         '$code',
                         '$name',
                         '$description',
-                        '$word_count',
+                        $word_count,
                         '$licence',
                         '$language',
                         '$media_type',
@@ -67,7 +67,7 @@ class CurrentPage extends ExercisePage {
                         '$packager_website',
                         '$packager_contact',
                         '$translations',
-                        '$file',
+                        '$file'
                         );");
 
                 $this->message = "Exercise add.";
@@ -111,26 +111,6 @@ class CurrentPage extends ExercisePage {
     function displayForm() {
         $content='';
 
-        $group = sqlite_escape_string($_POST['exercise_group']);
-        $code = sqlite_escape_string($_POST['exercise_code']);
-        $name = sqlite_escape_string($_POST['exercise_name']);
-        $description = sqlite_escape_string($_POST['propose_description']);
-        $proposer = sqlite_escape_string($_POST['exercise_proposer']);
-        $state = sqlite_escape_string($_POST['exercise_state']);
-        $word_count = sqlite_escape_string($_POST['exercise_word_count']);
-        $licence = sqlite_escape_string($_POST['exercise_licence']);
-        $language = sqlite_escape_string($_POST['exercise_language']);
-        $media_type = sqlite_escape_string($_POST['exercise_media_type']);
-        $exercise_version = sqlite_escape_string($_POST['exercise_exercise_version']);
-        $author = sqlite_escape_string($_POST['exercise_author']);
-        $author_website = sqlite_escape_string($_POST['exercise_author_website']);
-        $author_contact = sqlite_escape_string($_POST['exercise_author_contact']);
-        $packager = sqlite_escape_string($_POST['exercise_packager']);
-        $packager_website = sqlite_escape_string($_POST['exercise_packager_website']);
-        $packager_contact = sqlite_escape_string($_POST['exercise_packager_contact']);
-        $translations = sqlite_escape_string($_POST['exercise_translations']);
-        $file = sqlite_escape_string($_POST['exercise_file']);
-
         $content.='
         <form action="'.RessourceManager::getInnerUrl('exercises/add_exercise').'"  method="post">
               <label for="exercise_name">'._('Name: ').'</label><input id="exercise_name" type="text" name="exercise_name"  /><br />
@@ -150,6 +130,7 @@ class CurrentPage extends ExercisePage {
               <label for="exercise_packager_contact">'._('Packager contact: ').'</label><input type="text" id="exercise_packager_contact"  name="exercise_packager_contact"  /><br />
               <label for="exercise_translations">'._('Translation (en, fr, ...): ').'</label><input type="text" id="exercise_translations"  name="exercise_translations"  /><br />
               <label for="exercise_file">'._('Package file: ').'</label><input type="text" id="exercise_file"  name="exercise_file"  /><br />
+                  <label for="exercise_proposer">'._('Proposer: ').'</label><input type="text" id="exercise_proposer"  name="exercise_proposer"  /><br />
 
               <br />
               <input type="submit" value="'._('Propose').'" />
