@@ -31,6 +31,8 @@ class Config {
         'index' => array('path' => 'index'),
         'screenshots' => array('path' => 'screenshots'),
         'contribute' => array('path' => 'contribute'),
+        'contacts' => array('path' => 'contacts'),
+        'download' => array('path' => 'download'),
         );
 
     static $languageList = array(
@@ -53,3 +55,4 @@ class Config {
 }
 
 ?>
+
