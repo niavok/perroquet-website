@@ -93,16 +93,14 @@ class CurrentPage extends ExercisePage{
             $content='';
 
             $content .= '
-            <p>Propose an exercise permit to help to full the official perroquet exercises\'s repository.</p>
-            <p>Before beeing accessible from the exercise manager, the proposed exercise will be examinated.
-            Also, be sure that you use free licenced file as public domain, CC-by-sa, GPL, Free Art, ...</p>
-            ';
+            <p>'._('Propose an exercise permit to help to full the official perroquet exercises\'s repository.').'</p>
+            <p>'._('Before beeing accessible from the exercise manager, the proposed exercise will be examinated. Also, be sure that you use free licenced file as public domain, CC-by-sa, GPL, Free Art, ...').'</p>';
 
             $content.='
         <form action="'.RessourceManager::getInnerUrl('exercises/propose_form').'"  method="post">
               <label for="name">'._('Name: ').'</label><input id="name" type="text" name="propose_name" /><br />
-              <label for="description">'._('Description: ').'</label><input type="text" id="description"  name="propose_description"  /><br />
-              <label for="links">'._('Links to ressources: ').'</label><br /><textarea id="links"  name="propose_links"  ></textarea><br />
+              <label for="description">'._('Short description: ').'</label><input type="text" id="description"  name="propose_description"  /><br />
+              <label for="links">'._('Others informations : links to ressources, comments, authors, licence, ... : ').'</label><br /><textarea id="links"  name="propose_links"  ></textarea><br />
               <br />
               <input type="submit" value="'._('Propose').'" />
         </form>

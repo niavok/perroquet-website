@@ -30,6 +30,7 @@ class Config {
         
         'index' => array('path' => 'index'),
         'screenshots' => array('path' => 'screenshots'),
+        'contribute' => array('path' => 'contribute'),
         );
 
     static $languageList = array(
