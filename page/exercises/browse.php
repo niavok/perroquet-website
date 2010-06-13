@@ -26,6 +26,7 @@ class CurrentPage extends ExercisePage{
                     <th>'._('Name').'</th>
                     <th>'._('Description').'</th>
                     <th>'._('Language').'</th>
+                    <th>'._('Word count').'</th>
                     <th>'._('Action').'</th>
                     
                 </thead>
@@ -39,6 +40,7 @@ class CurrentPage extends ExercisePage{
                 $content .= '<td>'.$result['name'].'</td>';
                 $content .= '<td>'.$result['description'].'</td>';
                 $content .= '<td>'.$result['language'].'</td>';
+                $content .= '<td>'.$result['word_count'].'</td>';
                 $content .= '<td>
                     <a href="'.RessourceManager::getInnerUrl('exercises/show').'?id='.$result['id'].'">'._('Details').'</a><br/>
                     <a href="'.$result['file'].'">'._('Download').'</a>
