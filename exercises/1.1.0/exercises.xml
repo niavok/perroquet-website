@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<perroquet_repository>
+	<name>Perroquet main exercises</name>
+	<description>Official perroquet exercises repository</description>
+	<id>main</id>
+	<version>1.1.0</version>
+	<exercises_groups>
+		<exercises_group>
+			<name>Blender films</name>
+			<description>Short-films mades with blender</description>
+			<id>blender</id>
+			<exercises>
+				<exercise>
+					<name>Elephant dream</name>
+					<id>elephant-dream</id>
+					<description>Elephants Dream is a computer-generated short film that was produced almost completely using the free software 3D suite Blender</description>
+					<words_count>346</words_count>
+					<licence>CC-by</licence>
+					<language>en</language>
+					<media_type>video</media_type>
+					<exercise_version>1.0</exercise_version>
+					<author>Orange Open Movie Project Team</author>
+					<author_website>http://www.elephantsdream.org/</author_website>
+					<author_contact>ton(at)blender.org</author_contact>
+					<packager>Frédéric Bertolus</packager>
+					<packager_website>http://fred.b219.org</packager_website>
+					<packager_contact>fred.bertolus@gmail.com</packager_contact>
+					<translations>
+						<translation>fr</translation>
+					</translations>
+					<file>
+						http://perroquet.b219.org/exercises/1.1.0/files/blender/perroquet-exercise_elephant_dream_1.0.tar
+					</file>
+				</exercise>
+			</exercises>
+		</exercises_group>
+		<exercises_group>
+			<name>www.soundguideweb.com</name>
+			<description>Audio ressources provide by www.soundguideweb.com</description>
+			<id>www.soundguideweb.com</id>
+			<exercises>
+				<exercise>
+					<name>Alison</name>
+					<id>alison</id>
+					<description>A short presentation of Alison</description>
+					<words_count>141</words_count>
+					<licence>Public domain</licence>
+					<language>en</language>
+					<media_type>audio</media_type>
+					<exercise_version>1.0</exercise_version>
+					<author>Rodolphe Maurel</author>
+					<author_website>http://www.soundguideweb.com</author_website>
+					<author_contact>rmaurel@ac-toulouse.fr</author_contact>
+					<packager>Frédéric Bertolus</packager>
+					<packager_website>http://fred.b219.org</packager_website>
+					<packager_contact>fred.bertolus@gmail.com</packager_contact>
+					<file>
+						http://perroquet.b219.org/exercises/files/1.1.0/www.soundguideweb.com/perroquet-exercise_alison_1.0.tar
+					</file>
+				</exercise>
+				<exercise>
+					<name>Elisabeth</name>
+					<id>elisabeth</id>
+					<description>A short presentation of Elisabeth</description>
+					<words_count>304</words_count>
+					<licence>Public domain</licence>
+					<language>en</language>
+					<media_type>audio</media_type>
+					<exercise_version>1.0</exercise_version>
+					<author>Rodolphe Maurel</author>
+					<author_website>http://www.soundguideweb.com</author_website>
+					<author_contact>rmaurel@ac-toulouse.fr</author_contact>
+					<packager>Frédéric Bertolus</packager>
+					<packager_website>http://fred.b219.org</packager_website>
+					<packager_contact>fred.bertolus@gmail.com</packager_contact>
+					<file>
+						http://perroquet.b219.org/exercises/files/1.1.0/www.soundguideweb.com/perroquet-exercise_elisabeth_1.0.tar
+					</file>
+				</exercise>
+				<exercise>
+					<name>Ruben family</name>
+					<id>ruben-family</id>
+					<description>A short presentation of Ruben family</description>
+					<words_count>219</words_count>
+					<licence>Public domain</licence>
+					<language>en</language>
+					<media_type>audio</media_type>
+					<exercise_version>1.0</exercise_version>
+					<author>Rodolphe Maurel</author>
+					<author_website>http://www.soundguideweb.com</author_website>
+					<author_contact>rmaurel@ac-toulouse.fr</author_contact>
+					<packager>Frédéric Bertolus</packager>
+					<packager_website>http://fred.b219.org</packager_website>
+					<packager_contact>fred.bertolus@gmail.com</packager_contact>
+					<file>
+						http://perroquet.b219.org/exercises/files/1.1.0/www.soundguideweb.com/perroquet-exercise_ruben-family_1.0.tar
+					</file>
+				</exercise>
+				<exercise>
+					<name>Nelson Mandela</name>
+					<id>mandela</id>
+					<description>A biography of Nelson Mandela</description>
+					<words_count>298</words_count>
+					<licence>Public domain</licence>
+					<language>en</language>
+					<media_type>audio</media_type>
+					<exercise_version>1.0</exercise_version>
+					<author>Rodolphe Maurel</author>
+					<author_website>http://www.soundguideweb.com</author_website>
+					<author_contact>rmaurel@ac-toulouse.fr</author_contact>
+					<packager>Frédéric Bertolus</packager>
+					<packager_website>http://fred.b219.org</packager_website>
+					<packager_contact>fred.bertolus@gmail.com</packager_contact>
+					<file>
+						http://perroquet.b219.org/exercises/files/1.1.0/www.soundguideweb.com/perroquet-exercise_mandela_1.0.tar
+					</file>
+				</exercise>
+				<exercise>
+					<name>Room reservation dialogue</name>
+					<id>room-reservation-dialogue</id>
+					<description>A room reservation dialogue</description>
+					<words_count>324</words_count>
+					<licence>Public domain</licence>
+					<language>en</language>
+					<media_type>audio</media_type>
+					<exercise_version>1.0</exercise_version>
+					<author>Rodolphe Maurel</author>
+					<author_website>http://www.soundguideweb.com</author_website>
+					<author_contact>rmaurel@ac-toulouse.fr</author_contact>
+					<packager>Frédéric Bertolus</packager>
+					<packager_website>http://fred.b219.org</packager_website>
+					<packager_contact>fred.bertolus@gmail.com</packager_contact>
+					<file>
+						http://perroquet.b219.org/exercises/files/1.1.0/www.soundguideweb.com/perroquet-exercise_room-reservation-dialog_1.0.tar
+					</file>
+				</exercise>
+
+			</exercises>
+		</exercises_group>
+	</exercises_groups>
+</perroquet_repository>
