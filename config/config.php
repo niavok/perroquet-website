@@ -21,14 +21,15 @@ class Config {
         'exercises/propose_form' => array('path' => 'exercises/propose_form'),
         'exercises/propose_list' => array('path' => 'exercises/propose_list'),
         'exercises/my_propose_list' => array('path' => 'exercises/my_propose_list'),
-        'exercises/browse' => array('path' => 'exercises/browse'),
-        'exercises/add_exercise' => array('path' => 'exercises/add_exercise'),
+        //'exercises/browse' => array('path' => 'exercises/browse'),
+        //'exercises/add_exercise' => array('path' => 'exercises/add_exercise'),
 
         
         'admin/user_list' => array('path' => 'admin/user_list'),
 
         
         'index' => array('path' => 'index'),
+        'screenshots' => array('path' => 'screenshots'),
         );
 
     static $languageList = array(

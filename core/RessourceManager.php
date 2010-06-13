@@ -7,8 +7,12 @@
  */
 class RessourceManager {
 
-    static function getImage($key, $alt) {
+    static function getImageLeft($key, $alt) {
         return '<img class="img_left" src="/ressources/common/'.$key.'" alt="'.$alt.'" />';
+    }
+
+    static function getImage($key, $alt) {
+        return '<img class="img_normal" src="/ressources/common/'.$key.'" alt="'.$alt.'" />';
     }
 
     static function getInnerUrl($key) {
