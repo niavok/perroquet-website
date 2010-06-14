@@ -33,6 +33,22 @@ class Config {
         'contribute' => array('path' => 'contribute'),
         'contacts' => array('path' => 'contacts'),
         'download' => array('path' => 'download'),
+        
+        'documentation/index' => array('path' => 'documentation/index'),
+        'documentation/faq' => array('path' => 'documentation/faq'),
+        'documentation/shortcuts' => array('path' => 'documentation/shortcuts'),
+        'documentation/installation/index' => array('path' => 'documentation/installation/index'),
+        'documentation/exercise_creation/index' => array('path' => 'documentation/exercise_creation/index'),
+        'documentation/use/navigate' => array('path' => 'documentation/use/navigate'),
+        'documentation/use/index' => array('path' => 'documentation/use/index'),
+        'documentation/use/work' => array('path' => 'documentation/use/work'),
+        'documentation/use/ui' => array('path' => 'documentation/use/ui'),
+        'documentation/use/manage_exercise' => array('path' => 'documentation/use/manage_exercise'),
+        'documentation/repositories/add_new_repository' => array('path' => 'documentation/repositories/add_new_repository'),
+        'documentation/repositories/index' => array('path' => 'documentation/repositories/index'),
+        'documentation/development/index' => array('path' => 'documentation/development/index'),
+        'documentation/help/index' => array('path' => 'documentation/help/index'),
+
         );
 
     static $languageList = array(
