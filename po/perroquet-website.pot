@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-06-14 08:23+0200\n"
+"POT-Creation-Date: 2010-06-15 01:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -67,7 +67,26 @@ msgstr ""
 msgid "Screenshots"
 msgstr ""
 
-#: ../core/HtmlPage.php:112
+#: ../core/HtmlPage.php:112 ../page/documentation/index.php:14
+#: ../page/documentation/index.php:23
+#: ../page/documentation/installation/index.php:14
+#: ../page/documentation/installation/index.php:23
+#: ../page/documentation/exercise_creation/index.php:14
+#: ../page/documentation/exercise_creation/index.php:23
+#: ../page/documentation/use/navigate.php:14
+#: ../page/documentation/use/navigate.php:23
+#: ../page/documentation/use/index.php:14
+#: ../page/documentation/use/index.php:23
+#: ../page/documentation/use/work.php:14 ../page/documentation/use/work.php:23
+#: ../page/documentation/use/ui.php:14 ../page/documentation/use/ui.php:23
+#: ../page/documentation/use/manage_exercise.php:14
+#: ../page/documentation/use/manage_exercise.php:23
+#: ../page/documentation/repositories/add_new_repository.php:14
+#: ../page/documentation/repositories/add_new_repository.php:23
+#: ../page/documentation/repositories/index.php:14
+#: ../page/documentation/repositories/index.php:23
+#: ../page/documentation/help/index.php:14
+#: ../page/documentation/help/index.php:23
 msgid "Documentation"
 msgstr ""
 
@@ -85,15 +104,19 @@ msgstr ""
 msgid "Contacts"
 msgstr ""
 
-#: ../core/HtmlPage.php:177
+#: ../core/HtmlPage.php:116
+msgid "Forums"
+msgstr ""
+
+#: ../core/HtmlPage.php:178
 msgid "Users list"
 msgstr ""
 
-#: ../core/HtmlPage.php:178 ../page/exercises/propose_list.php:13
+#: ../core/HtmlPage.php:179 ../page/exercises/propose_list.php:13
 msgid "Proposed exercises"
 msgstr ""
 
-#: ../core/HtmlPage.php:179
+#: ../core/HtmlPage.php:180
 msgid "Add an exercise"
 msgstr ""
 
@@ -606,7 +629,7 @@ msgstr ""
 msgid ""
 "The code for the version of development and the means to recover it are "
 "available at the following address: <a href=\"https://code.launchpad.net/"
-"~fred-bertolus/perroquet/trunk\" >Development branch of Perroquet</a>."
+"~perroquet-team/perroquet/trunk2\" >Development branch of Perroquet</a>."
 msgstr ""
 
 #: ../page/special/language/choose.php:11
@@ -953,4 +976,330 @@ msgstr ""
 
 #: ../page/exercises/add_exercise.php:132
 msgid "Package file: "
+msgstr ""
+
+#: ../page/documentation/shortcuts.php:14
+#: ../page/documentation/shortcuts.php:22
+msgid "Documentation - Shortcuts"
+msgstr ""
+
+#: ../page/documentation/shortcuts.php:26
+msgid "Perroquet 1.0"
+msgstr ""
+
+#: ../page/documentation/shortcuts.php:28
+msgid ""
+"These shortcuts are available when the focus is on the response area, ie "
+"there is a cursor:"
+msgstr ""
+
+#: ../page/documentation/shortcuts.php:30
+msgid "F1 : Hint"
+msgstr ""
+
+#: ../page/documentation/shortcuts.php:31
+msgid "F2 : Show/hide translation"
+msgstr ""
+
+#: ../page/documentation/shortcuts.php:32
+msgid "Enter : Replay sequence"
+msgstr ""
+
+#: ../page/documentation/shortcuts.php:33
+msgid "Page Up : Next sequence suivante"
+msgstr ""
+
+#: ../page/documentation/shortcuts.php:34
+msgid "Page Down : Previous sequence"
+msgstr ""
+
+#: ../page/documentation/index.php:24
+#: ../page/documentation/installation/index.php:24
+#: ../page/documentation/exercise_creation/index.php:24
+#: ../page/documentation/use/navigate.php:24
+#: ../page/documentation/use/index.php:24
+#: ../page/documentation/use/work.php:24 ../page/documentation/use/ui.php:24
+#: ../page/documentation/use/manage_exercise.php:24
+#: ../page/documentation/repositories/add_new_repository.php:24
+#: ../page/documentation/repositories/index.php:24
+#: ../page/documentation/help/index.php:24
+msgid ""
+"You will find here the documentation of Perroquet. This documentation is far "
+"to be complete but don't hesitate to contact us for question."
+msgstr ""
+
+#: ../page/documentation/index.php:29
+#: ../page/documentation/installation/index.php:29
+#: ../page/documentation/exercise_creation/index.php:29
+#: ../page/documentation/use/navigate.php:29
+#: ../page/documentation/use/index.php:29
+#: ../page/documentation/use/work.php:29 ../page/documentation/use/ui.php:29
+#: ../page/documentation/use/manage_exercise.php:29
+#: ../page/documentation/repositories/add_new_repository.php:29
+#: ../page/documentation/repositories/index.php:29
+#: ../page/documentation/help/index.php:29
+msgid "This documentation is subdivised in six section: "
+msgstr ""
+
+#: ../page/documentation/index.php:31
+#: ../page/documentation/installation/index.php:31
+#: ../page/documentation/exercise_creation/index.php:31
+#: ../page/documentation/use/navigate.php:31
+#: ../page/documentation/use/index.php:31
+#: ../page/documentation/use/work.php:31 ../page/documentation/use/ui.php:31
+#: ../page/documentation/use/manage_exercise.php:31
+#: ../page/documentation/repositories/add_new_repository.php:31
+#: ../page/documentation/repositories/index.php:31
+#: ../page/documentation/help/index.php:31
+#, php-format
+msgid ""
+"<a href=\"%s\">Installation</a> : explains how install, compile or only run "
+"perroquet."
+msgstr ""
+
+#: ../page/documentation/index.php:32
+#: ../page/documentation/installation/index.php:32
+#: ../page/documentation/exercise_creation/index.php:32
+#: ../page/documentation/use/navigate.php:32
+#: ../page/documentation/use/index.php:32
+#: ../page/documentation/use/work.php:32 ../page/documentation/use/ui.php:32
+#: ../page/documentation/use/manage_exercise.php:32
+#: ../page/documentation/repositories/add_new_repository.php:32
+#: ../page/documentation/repositories/index.php:32
+#: ../page/documentation/help/index.php:32
+#, php-format
+msgid ""
+"<a href=\"%s\">Use perroquet</a> : describe the user interface and explains "
+"how to create an simple exercise and work on it."
+msgstr ""
+
+#: ../page/documentation/index.php:33
+#: ../page/documentation/installation/index.php:33
+#: ../page/documentation/exercise_creation/index.php:33
+#: ../page/documentation/use/navigate.php:33
+#: ../page/documentation/use/index.php:33
+#: ../page/documentation/use/work.php:33 ../page/documentation/use/ui.php:33
+#: ../page/documentation/use/manage_exercise.php:33
+#: ../page/documentation/repositories/add_new_repository.php:33
+#: ../page/documentation/repositories/index.php:33
+#: ../page/documentation/help/index.php:33
+#, php-format
+msgid ""
+"<a href=\"%s\">Help tools</a> : if an exercise is too difficult for you, you "
+"can use help tools to give you hint or speed down the playback. This part "
+"also explain how to increase the difficulty of an exercise."
+msgstr ""
+
+#: ../page/documentation/index.php:34
+#: ../page/documentation/installation/index.php:34
+#: ../page/documentation/exercise_creation/index.php:34
+#: ../page/documentation/use/navigate.php:34
+#: ../page/documentation/use/index.php:34
+#: ../page/documentation/use/work.php:34 ../page/documentation/use/ui.php:34
+#: ../page/documentation/use/manage_exercise.php:34
+#: ../page/documentation/repositories/add_new_repository.php:34
+#: ../page/documentation/repositories/index.php:34
+#: ../page/documentation/help/index.php:34
+#, php-format
+msgid ""
+"<a href=\"%s\">Repositories</a> : this part explain how to add a new "
+"exercise source or create it own exercise repository."
+msgstr ""
+
+#: ../page/documentation/index.php:35
+#: ../page/documentation/installation/index.php:35
+#: ../page/documentation/exercise_creation/index.php:35
+#: ../page/documentation/use/navigate.php:35
+#: ../page/documentation/use/index.php:35
+#: ../page/documentation/use/work.php:35 ../page/documentation/use/ui.php:35
+#: ../page/documentation/use/manage_exercise.php:35
+#: ../page/documentation/repositories/add_new_repository.php:35
+#: ../page/documentation/repositories/index.php:35
+#: ../page/documentation/help/index.php:35
+#, php-format
+msgid ""
+"<a href=\"%s\">Exercise creation</a> : explains how to create an exercise "
+"using advanced features as teacher locks or multi files exercises."
+msgstr ""
+
+#: ../page/documentation/index.php:36
+#: ../page/documentation/installation/index.php:36
+#: ../page/documentation/exercise_creation/index.php:36
+#: ../page/documentation/use/navigate.php:36
+#: ../page/documentation/use/index.php:36
+#: ../page/documentation/use/work.php:36 ../page/documentation/use/ui.php:36
+#: ../page/documentation/use/manage_exercise.php:36
+#: ../page/documentation/repositories/add_new_repository.php:36
+#: ../page/documentation/repositories/index.php:36
+#: ../page/documentation/help/index.php:36
+#, php-format
+msgid ""
+"<a href=\"%s\">Development</a> : installation from source, code global "
+"structure."
+msgstr ""
+
+#: ../page/documentation/index.php:40
+#: ../page/documentation/installation/index.php:40
+#: ../page/documentation/exercise_creation/index.php:40
+#: ../page/documentation/use/navigate.php:40
+#: ../page/documentation/use/index.php:40
+#: ../page/documentation/use/work.php:40 ../page/documentation/use/ui.php:40
+#: ../page/documentation/use/manage_exercise.php:40
+#: ../page/documentation/repositories/add_new_repository.php:40
+#: ../page/documentation/repositories/index.php:40
+#: ../page/documentation/help/index.php:40
+msgid "There is also 2 special documentation page: "
+msgstr ""
+
+#: ../page/documentation/index.php:42
+#: ../page/documentation/installation/index.php:42
+#: ../page/documentation/exercise_creation/index.php:42
+#: ../page/documentation/use/navigate.php:42
+#: ../page/documentation/use/index.php:42
+#: ../page/documentation/use/work.php:42 ../page/documentation/use/ui.php:42
+#: ../page/documentation/use/manage_exercise.php:42
+#: ../page/documentation/repositories/add_new_repository.php:42
+#: ../page/documentation/repositories/index.php:42
+#: ../page/documentation/help/index.php:42
+#, php-format
+msgid "<a href=\"%s\">FAQ</a> : for common or strange questions."
+msgstr ""
+
+#: ../page/documentation/index.php:43
+#: ../page/documentation/installation/index.php:43
+#: ../page/documentation/exercise_creation/index.php:43
+#: ../page/documentation/use/navigate.php:43
+#: ../page/documentation/use/index.php:43
+#: ../page/documentation/use/work.php:43 ../page/documentation/use/ui.php:43
+#: ../page/documentation/use/manage_exercise.php:43
+#: ../page/documentation/repositories/add_new_repository.php:43
+#: ../page/documentation/repositories/index.php:43
+#: ../page/documentation/help/index.php:43
+#, php-format
+msgid "<a href=\"%s\">Shortcuts</a> : to stop to use the mouse."
+msgstr ""
+
+#: ../page/documentation/documentation_page.php:14
+msgid "Installation"
+msgstr ""
+
+#: ../page/documentation/documentation_page.php:15
+msgid "Use perroquet"
+msgstr ""
+
+#: ../page/documentation/documentation_page.php:16
+msgid "Help tools"
+msgstr ""
+
+#: ../page/documentation/documentation_page.php:17
+msgid "Reporitories"
+msgstr ""
+
+#: ../page/documentation/documentation_page.php:18
+msgid "Exercise creation"
+msgstr ""
+
+#: ../page/documentation/documentation_page.php:19
+msgid "Development"
+msgstr ""
+
+#: ../page/documentation/faq.php:14 ../page/documentation/faq.php:23
+msgid "Faq"
+msgstr ""
+
+#: ../page/documentation/faq.php:26
+msgid "General"
+msgstr ""
+
+#: ../page/documentation/faq.php:27
+msgid "Where to download Windows version ?"
+msgstr ""
+
+#: ../page/documentation/faq.php:28
+msgid "There is no Windows version but only a Linux version."
+msgstr ""
+
+#: ../page/documentation/faq.php:29
+msgid ""
+"However, perroquet use cross platform library will may have a Windows "
+"version if someone develop it."
+msgstr ""
+
+#: ../page/documentation/development/index.php:14
+#: ../page/documentation/development/index.php:23
+msgid "Documentation - Developement"
+msgstr ""
+
+#: ../page/documentation/development/index.php:24
+msgid ""
+"Perroquet is developed with python, it use GTK (with pyGTK) for the GUI and "
+"Gstreamer as media player"
+msgstr ""
+
+#: ../page/documentation/development/index.php:27
+msgid "Build from sources"
+msgstr ""
+
+#: ../page/documentation/development/index.php:29
+msgid "Download and run"
+msgstr ""
+
+#: ../page/documentation/development/index.php:31
+msgid "First, download the last development version on launchpad with bazaar:"
+msgstr ""
+
+#: ../page/documentation/development/index.php:38
+msgid "You can directly run perroquet without any build or install:"
+msgstr ""
+
+#: ../page/documentation/development/index.php:45
+msgid "Build locales"
+msgstr ""
+
+#: ../page/documentation/development/index.php:47
+msgid ""
+"Without built, perroquet will be in english. Without install, the best "
+"integration with your system will not be available: no icon, no entry in "
+"menu, no handle on *.perroquet."
+msgstr ""
+
+#: ../page/documentation/development/index.php:49
+msgid "You can build others languages easily:"
+msgstr ""
+
+#: ../page/documentation/development/index.php:56
+msgid ""
+"The language files should now be build. If you run Perroquet again and if "
+"your system language is one of translation language, the text in Perroquet "
+"wil be translated."
+msgstr ""
+
+#: ../page/documentation/development/index.php:58
+msgid "Install"
+msgstr ""
+
+#: ../page/documentation/development/index.php:60
+msgid "To install perroquet, type with root rigths:"
+msgstr ""
+
+#: ../page/documentation/development/index.php:67
+#: ../page/documentation/development/index.php:90
+msgid "or with sudo"
+msgstr ""
+
+#: ../page/documentation/development/index.php:73
+msgid ""
+"The install-files.txt file isi optionnal be need to uninstall Perroquet."
+msgstr ""
+
+#: ../page/documentation/development/index.php:74
+msgid "Once installed, you should be able to launch Perroquet from anywhere:"
+msgstr ""
+
+#: ../page/documentation/development/index.php:81
+msgid "Uninstall"
+msgstr ""
+
+#: ../page/documentation/development/index.php:83
+msgid "To uninstall perroquet, type with root rigths:"
 msgstr ""
