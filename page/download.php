@@ -52,7 +52,7 @@ class CurrentPage extends HtmlPage{
         $content .= '<p>'._('Read INSTALL file to installation instructions.').'</p>';
         $content .= '<p>'._('It is possible that this link is not updated. Go to this page to see all downloads: <a href="https://launchpad.net/perroquet/+download" >Download page on launchpad</a>').'</p>';
         $content .= '<h3>'._('Bazaar repository').'</h3>';
-        $content .= '<p>'._('The code for the version of development and the means to recover it are available at the following address: <a href="https://code.launchpad.net/~fred-bertolus/perroquet/trunk" >Development branch of Perroquet</a>.').'</p>';
+        $content .= '<p>'._('The code for the version of development and the means to recover it are available at the following address: <a href="https://code.launchpad.net/~perroquet-team/perroquet/trunk2" >Development branch of Perroquet</a>.').'</p>';
            
 
         return $content;

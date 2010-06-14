@@ -113,6 +113,7 @@ class HtmlPage {
                 <li '.($this->startswith($this->id,'exercises')?'class= "active"':'').'><a href="'.RessourceManager::getInnerUrl('exercises/index').'/">'._('Exercises').'</a></li>
                 <li '.($this->id=='contribute'?'class= "active"':'').'><a href="'.RessourceManager::getInnerUrl('contribute').'/">'._('Contribute').'</a></li>
                 <li '.($this->id=='contacts'?'class= "active"':'').'><a href="'.RessourceManager::getInnerUrl('contacts').'/">'._('Contacts').'</a></li>
+                    <li '.($this->id=='forums'?'class= "active"':'').'><a href="http://perroquet.b219.org/forums">'._('Forums').'</a></li>
             </ul>';
 
         

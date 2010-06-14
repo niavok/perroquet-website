@@ -11,7 +11,7 @@ require_once $_SERVER["DOCUMENT_ROOT"].'/page/documentation/documentation_page.p
 class CurrentPage extends DocumentationPage{
         function __construct() {
         $this->id = 'documentation/index';
-        $this->title = _('Documentation');
+        $this->title = _('Documentation - Developement');
     }
     function execute() {
 
@@ -20,29 +20,78 @@ class CurrentPage extends DocumentationPage{
     function generateContent() {
         $content ='';
         $content .= '
-        <h1>'._('Documentation').'</h1>
-            <p>'._('You will find here the documentation of Perroquet. This documentation is far to be complete but don\'t hesitate to contact us for question.').'</p>';
+        <h1>'._('Documentation - Developement').'</h1>
+            <p>'._('Perroquet is developed with python, it use GTK (with pyGTK) for the GUI and Gstreamer as media player').'</p>';
 
 
+        $content .= '<h2>'._('Build from sources').'</h2>';
 
+        $content .= '<h3>'._('Download and run').'</h3>';
 
-        $content .= '<p>'._('This documentation is subdivised in six section: ').'</p><ul>';
+        $content .= '<p>'._('First, download the last development version on launchpad with bazaar:').'</p>';
 
-        $content .= '<li>'.sprintf(_('<a href="%s">Installation</a> : explains how install, compile or only run perroquet.'),RessourceManager::getInnerUrl('documentation/installation/index')).'</li>';
-        $content .= '<li>'.sprintf(_('<a href="%s">Use perroquet</a> : describe the user interface and explains how to create an simple exercise and work on it.'),RessourceManager::getInnerUrl('documentation/use/index')).'</li>';
-        $content .= '<li>'.sprintf(_('<a href="%s">Help tools</a> : if an exercise is too difficult for you, you can use help tools to give you hint or speed down the playback. This part also explain how to increase the difficulty of an exercise.'),RessourceManager::getInnerUrl('documentation/help/index')).'</li>';
-        $content .= '<li>'.sprintf(_('<a href="%s">Repositories</a> : this part explain how to add a new exercise source or create it own exercise repository.'),RessourceManager::getInnerUrl('documentation/installation/index')).'</li>';
-        $content .= '<li>'.sprintf(_('<a href="%s">Exercise creation</a> : explains how to create an exercise using advanced features as teacher locks or multi files exercises.'),RessourceManager::getInnerUrl('documentation/installation/index')).'</li>';
-        $content .= '<li>'.sprintf(_('<a href="%s">Development</a> : installation from source, code global structure.'),RessourceManager::getInnerUrl('documentation/installation/index')).'</li>';
+        $content .= '
+<pre>
+bzr branch lp:perroquet
+</pre>';
 
-        $content .= '</ul>';
+        $content .= '<p>'._('You can directly run perroquet without any build or install:').'</p>';
+        $content .= '
+<pre>
+cd perroquet
+./perroquet
+</pre>';
 
-        $content .= '<p>'._('There is also 2 special documentation page: ').'</p><ul>';
+        $content .= '<h3>'._('Build locales').'</h3>';
 
-        $content .= '<li>'.sprintf(_('<a href="%s">FAQ</a> : for common or strange questions.'),RessourceManager::getInnerUrl('documentation/faq')).'</li>';
-        $content .= '<li>'.sprintf(_('<a href="%s">Shortcuts</a> : to stop to use the mouse.'),RessourceManager::getInnerUrl('documentation/shortcuts')).'</li>';
+        $content .= '<p>'._('Without built, perroquet will be in english. Without install, the best integration with your system will not be available: no icon, no entry in menu, no handle on *.perroquet.').'</p>';
 
-        $content .= '</ul>';
+        $content .= '<p>'._('You can build others languages easily:').'</p>';
+
+         $content .= '
+<pre>
+python setup.py build
+</pre>';
+
+         $content .= '<p>'._('The language files should now be build. If you run Perroquet again and if your system language is one of translation language, the text in Perroquet wil be translated.').'</p>';
+
+         $content .= '<h3>'._('Install').'</h3>';
+
+         $content .= '<p>'._('To install perroquet, type with root rigths:').'</p>';
+
+         $content .= '
+<pre>
+python setup.py install --record=install-files.txt
+</pre>';
+
+        $content .= '<p>'._('or with sudo').'</p>';
+        $content .= '
+<pre>
+sudo python setup.py install --record=install-files.txt
+</pre>';
+
+        $content .= '<p>'._('The install-files.txt file isi optionnal be need to uninstall Perroquet.').'</p>';
+        $content .= '<p>'._('Once installed, you should be able to launch Perroquet from anywhere:').'</p>';
+        $content .= '
+<pre>
+cd
+perroquet
+</pre>';
+
+        $content .= '<h3>'._('Uninstall').'</h3>';
+
+         $content .= '<p>'._('To uninstall perroquet, type with root rigths:').'</p>';
+
+         $content .= '
+<pre>
+python setup.py uninstall --manifest=install-files.txt
+</pre>';
+
+        $content .= '<p>'._('or with sudo').'</p>';
+        $content .= '
+<pre>
+sudo python setup.py uninstall --manifest=install-files.txt
+</pre>';
 
         return $content;
     }
