@@ -20,7 +20,7 @@ class CurrentPage extends HtmlPage{
         $content .= '<h2>'._('Help on Perroquet software').'</h2>';
 
          $content .= '<ul>
-             <li>'._('Signal a bug, or a translation error in Perroquet: <a href="https://bugs.launchpad.net/perroquet" >Perroquet bugtracker</a>').'</li>
+             <li>'._('Signal a bug or a translation error in Perroquet: <a href="https://bugs.launchpad.net/perroquet" >Perroquet bugtracker</a>').'</li>
              <li>'._('Packaging or adding in distributions').'</li>
              <li>'._('Send a patch: <a href="https://code.launchpad.net/~perroquet-team/perroquet/trunk2" >Perroquet code</a>').'</li>
              <li>'._('Help to translate Perroquet: <a href="https://translations.launchpad.net/perroquet" >Perroquet online translation</a>').'</li>
@@ -40,7 +40,7 @@ class CurrentPage extends HtmlPage{
         $content .= '<h2>'._('Help on Perroquet website').'</h2>';
          $content .= '<ul>
              <li>'._('Write documentation').'</li>
-             <li>'._('Signal a bug, or a translation error in this website: <a href="https://bugs.launchpad.net/perroquet/website" >Perroquet website bugtracker</a>').'</li>
+             <li>'._('Signal a bug or a translation error in this website: <a href="https://bugs.launchpad.net/perroquet/website" >Perroquet website bugtracker</a>').'</li>
              <li>'._('Help to translate the website: <a href="https://translations.launchpad.net/perroquet/website/+translations" >Perroquet website online translation</a>').'</li>
              <li>'._('Improve this website: <a href="https://code.launchpad.net/~perroquet-team/perroquet/website" >Perroquet website code</a> ').'</li>
                  </ul>';
