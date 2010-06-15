@@ -11,7 +11,7 @@ require_once $_SERVER["DOCUMENT_ROOT"].'/page/documentation/documentation_page.p
 class CurrentPage extends DocumentationPage{
         function __construct() {
         $this->id = 'documentation/faq';
-        $this->title = _('Faq');
+        $this->title = _('Documentation - Faq');
     }
     function execute() {
 
@@ -20,7 +20,7 @@ class CurrentPage extends DocumentationPage{
     function generateContent() {
         $content ='';
         $content .= '
-        <h1>'._('Faq').'</h1>';
+        <h1>'._('Documentation - Faq').'</h1>';
 
 
         $content .= '<h2>'._('General').'</h2>';
