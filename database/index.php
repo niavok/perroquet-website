@@ -1,6 +1,5 @@
 <?php
 
-print_r(Sqlite3::version());
 echo '<br/>';
 
 $dbname=$_SERVER["DOCUMENT_ROOT"].'/database/perroquet.sqlite';
