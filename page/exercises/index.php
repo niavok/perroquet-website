@@ -26,7 +26,7 @@ class CurrentPage extends ExercisePage{
 
             <h2>'._('Manual exercises creation').'</h2>
                 <p>'._('If you have a media file with an audio track in the language you want to works and a subtitle in the same language, you can manually create an exercises.').'</p>
-                    <p>'._('Read the documentation to lear to create an exercise: <a href='.RessourceManager::getInnerUrl('documentation').' >documentation</a>.').'</p>
+                    <p>'._('Read the documentation to lear to create an exercise: ').'<a href='.RessourceManager::getInnerUrl('documentation').' >'._('documentation').'</a>.</p>
 
             <h2>'._('Online exercises repositories').'</h2>
             <p>'._('Although perroquet works with every media file with a subtile file in the same language, a exercise manager in perroquet provide the access to an exercises\'s online database.').'</p>';

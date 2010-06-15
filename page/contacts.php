@@ -15,7 +15,7 @@ class CurrentPage extends HtmlPage{
         $content = '<h1>'._('Contacts').'</h1>';
 
 
-        $content .= '<p>'._('If you want to participate to Perroquet or report a problem, begin to visit the "contribute" page:  <a href="'.RessourceManager::getInnerUrl('contribute').'">Contribute to Perroquet</a>.').'</p>';
+        $content .= '<p>'._('If you want to participate to Perroquet or report a problem, begin to visit the "contribute" page: ').'<a href="'.RessourceManager::getInnerUrl('contribute').'">'._('Contribute to Perroquet').'</a>.</p>';
 
         $content .= '<p>'._('For general or public questions:  <a href="mailto:perroquet-team@lists.launchpad.net">perroquet-team@lists.launchpad.net</a>.').'</p>';
 
