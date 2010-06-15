@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: perroquet\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-18 00:42+0200\n"
-"PO-Revision-Date: 2010-05-21 04:36+0000\n"
+"POT-Creation-Date: 2010-06-15 01:30+0200\n"
+"PO-Revision-Date: 2010-06-14 17:14+0000\n"
 "Last-Translator: Fred Bertolus <fred.bertolus@gmail.com>\n"
 "Language-Team: French\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2010-06-14 03:53+0000\n"
+"X-Launchpad-Export-Date: 2010-06-15 03:43+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 "X-Poedit-Country: FRANCE\n"
 "X-Poedit-Language: French\n"
@@ -24,53 +24,654 @@ msgstr ""
 msgid "Perroquet — Listening comprehension tutor — "
 msgstr "Perroquet — Un assistant à la compréhension orale — "
 
-#: ../core/HtmlPage.php:63
+#: ../core/HtmlPage.php:64
+#, php-format
+msgid "Logged as %s"
+msgstr "Connecté en tant que %s"
+
+#: ../core/HtmlPage.php:72
 msgid "Change language"
 msgstr "Changer la langue"
 
-#: ../core/HtmlPage.php:92 ../page/index.php:11 ../page/index.php:16
+#: ../core/HtmlPage.php:75 ../page/special/login/logout.php:11
+#: ../page/special/login/logout.php:16
+msgid "Logout"
+msgstr "Se déconnecter"
+
+#: ../core/HtmlPage.php:77 ../page/special/login/openid_return.php:14
+#: ../page/special/login/openid_return.php:70
+#: ../page/special/login/login_form.php:11
+#: ../page/special/login/login_form.php:16
+#: ../page/special/login/perform_login.php:14
+#: ../page/special/login/perform_login.php:61
+msgid "Login"
+msgstr "Se connecter"
+
+#: ../core/HtmlPage.php:84
+msgid "Perroquet"
+msgstr "Perroquet"
+
+#: ../core/HtmlPage.php:85
+msgid "Listening comprehension tutor"
+msgstr "Assistant à la compréhension orale"
+
+#: ../core/HtmlPage.php:109 ../page/index.php:11 ../page/index.php:16
+#: ../page/exercises/external_repo.php:13
+#: ../page/exercises/external_repo.php:18
 msgid "Presentation"
 msgstr "Présentation"
 
-#: ../core/HtmlPage.php:93
+#: ../core/HtmlPage.php:110 ../page/download.php:11 ../page/download.php:15
+#: ../page/exercises/browse.php:46
 msgid "Download"
 msgstr "Télécharger"
 
-#: ../core/HtmlPage.php:94
+#: ../core/HtmlPage.php:111 ../page/screenshots.php:11
+#: ../page/screenshots.php:16
 msgid "Screenshots"
 msgstr "Captures d'écran"
 
-#: ../core/HtmlPage.php:95
+#: ../core/HtmlPage.php:112 ../page/documentation/index.php:14
+#: ../page/documentation/index.php:23
+#: ../page/documentation/installation/index.php:14
+#: ../page/documentation/installation/index.php:23
+#: ../page/documentation/exercise_creation/index.php:14
+#: ../page/documentation/exercise_creation/index.php:23
+#: ../page/documentation/use/navigate.php:14
+#: ../page/documentation/use/navigate.php:23
+#: ../page/documentation/use/index.php:14
+#: ../page/documentation/use/index.php:23
+#: ../page/documentation/use/work.php:14 ../page/documentation/use/work.php:23
+#: ../page/documentation/use/ui.php:14 ../page/documentation/use/ui.php:23
+#: ../page/documentation/use/manage_exercise.php:14
+#: ../page/documentation/use/manage_exercise.php:23
+#: ../page/documentation/repositories/add_new_repository.php:14
+#: ../page/documentation/repositories/add_new_repository.php:23
+#: ../page/documentation/repositories/index.php:14
+#: ../page/documentation/repositories/index.php:23
+#: ../page/documentation/help/index.php:14
+#: ../page/documentation/help/index.php:23
 msgid "Documentation"
 msgstr "Documentation"
 
-#: ../core/HtmlPage.php:96
+#: ../core/HtmlPage.php:113 ../page/exercises/index.php:14
+#: ../page/exercises/index.php:23
 msgid "Exercises"
 msgstr "Exercices"
 
-#: ../core/HtmlPage.php:97
+#: ../core/HtmlPage.php:114 ../page/contribute.php:11
+#: ../page/contribute.php:15
 msgid "Contribute"
 msgstr "Contribuer"
 
-#: ../core/HtmlPage.php:98
+#: ../core/HtmlPage.php:115 ../page/contacts.php:11 ../page/contacts.php:15
 msgid "Contacts"
 msgstr "Contacts"
 
-#: ../page/index.php:17
+#: ../core/HtmlPage.php:116
+msgid "Forums"
+msgstr ""
+
+#: ../core/HtmlPage.php:178
+msgid "Users list"
+msgstr "Liste des utilisateurs"
+
+#: ../core/HtmlPage.php:179 ../page/exercises/propose_list.php:13
+msgid "Proposed exercises"
+msgstr "Exercises proposés"
+
+#: ../core/HtmlPage.php:180
+msgid "Add an exercise"
+msgstr "Ajouter un exercice"
+
+#: ../page/index.php:17 ../page/screenshots.php:17 ../page/screenshots.php:18
+#: ../page/exercises/external_repo.php:19
 msgid "Perroquet in use"
 msgstr "Perroquet en cours d'utilisation"
 
-#: ../page/index.php:19
+#: ../page/index.php:18
+msgid ""
+"Perroquet is a educational program to improve playfully your listening in a "
+"foreign language"
+msgstr ""
+
+#: ../page/index.php:19 ../page/exercises/external_repo.php:21
 msgid "How it works"
 msgstr "Fonctionnement"
 
-#: ../page/index.php:22
+#: ../page/index.php:20
+msgid ""
+"The principe of Perroquet is to use a video or audio file and the associated "
+"subtitles to make you listen and understand the dialogue or lyrics. After "
+"having idendified the files to use, Perroquet will read a piece of video "
+"then pause. It will show you the number of words to find and you will have "
+"to type them to continue. You can listen a sequence as many times as "
+"necessary. If you do not understand, Perroquet offers several means to help "
+"you."
+msgstr ""
+
+#: ../page/index.php:22 ../page/exercises/external_repo.php:24
 msgid "Try now"
 msgstr "Tester maintenant"
 
-#: ../page/index.php:29
+#: ../page/index.php:23
+msgid ""
+"Perroquet work with every media file your computer can read. Choose one "
+"video ou a audio book in the language you want to work and download the "
+"corresponding subtitle in the same language (srt format). <a href=\""
+msgstr ""
+"Perroquet fonctionne avec tous les fichiers audiovisuels que votre "
+"ordinateur peu lire. (hoisissez une vidéo ou un livre audio de la langue que "
+"vous voulez travailler et téléchargez le sous-titre correspondant (format "
+"srt)."
+
+#: ../page/index.php:24
+msgid ""
+"You must then  Perroquet, run it, create a new exercise and put the video "
+"file in the first field, the file of English subtitles in the second file "
+"and the subtitle in the French final. To learn to use all the features of "
+"parrot, see the <a href="
+msgstr ""
+
+#: ../page/index.php:25
+msgid ""
+"If you want to test perroquet but you have no video available, you can use "
+"the integrated exercises manager. You can find it in \"Edit > Exercices "
+"Manager\" and provide a easy way to install exercises from a online database."
+msgstr ""
+
+#: ../page/index.php:26
+msgid ""
+"If you want plan to test perroquet without internet connection, you also can "
+"an exercises now from the online exercise repository and import it in "
+"perroquet later (File > Import): <a href=\"/exercises/\" >Exercises "
+"repository</a>"
+msgstr ""
+
+#: ../page/index.php:27
+msgid ""
+"For now, the online exercises only allows you to practice understanding "
+"English."
+msgstr ""
+
+#: ../page/index.php:31 ../page/exercises/external_repo.php:31
 msgid "News"
 msgstr "Nouveautés"
+
+#: ../page/index.php:33
+msgid "Version 1.1.0 - 2010-07-01"
+msgstr ""
+
+#: ../page/index.php:35
+msgid "Add repository manager"
+msgstr ""
+
+#: ../page/index.php:36
+msgid "Packages import and export"
+msgstr ""
+
+#: ../page/index.php:37
+msgid "Refactoring most of the code"
+msgstr ""
+
+#: ../page/index.php:38
+msgid "Add others exercise languages"
+msgstr ""
+
+#: ../page/index.php:39
+msgid "Added aliases and synonyms"
+msgstr "Ajout d'alias et synonymes"
+
+#: ../page/index.php:40
+msgid "Show last open files"
+msgstr "Affichage des derniers fichiers ouvert"
+
+#: ../page/index.php:41
+msgid "Add many teaching tools"
+msgstr "Ajout de plusieurs outils scolaires"
+
+#: ../page/index.php:42
+msgid "Change exercise properties"
+msgstr "Edition des réglages des exercices"
+
+#: ../page/index.php:43
+msgid "Add many navigation toots"
+msgstr "Ajout de plusieurs outils de navigation"
+
+#: ../page/index.php:44
+msgid "Add many new help tools"
+msgstr "Ajout de plusieurs outils d'aide"
+
+#: ../page/index.php:45
+msgid "Support multi files exercises"
+msgstr ""
+
+#: ../page/index.php:46
+msgid "Automatic move of wrong placed words"
+msgstr ""
+
+#: ../page/index.php:47 ../page/index.php:61
+msgid "Fix various bugs"
+msgstr ""
+
+#: ../page/index.php:48 ../page/index.php:62
+msgid "Translation updates"
+msgstr ""
+
+#: ../page/index.php:51
+msgid "Version 1.0.1 - 2010-01-13"
+msgstr "Version 1.0.1 - 2010-01-13"
+
+#: ../page/index.php:53
+msgid "Improve window resize"
+msgstr "Amélioration du redimentionnement de la fenêtre"
+
+#: ../page/index.php:54
+msgid "Add new shortcuts"
+msgstr "Ajout de noveaux raccourcis"
+
+#: ../page/index.php:55
+msgid "Remove html tags in srt files"
+msgstr "Suppression des balises HTML dans les fichiers srt"
+
+#: ../page/index.php:56
+msgid "Replace | by new line in srt"
+msgstr "Remplacement de | par un saut de ligne dans les fichiers srt"
+
+#: ../page/index.php:57
+msgid "Handle perroquet file, add mime type and icons on perroquet exercise"
+msgstr ""
+"Ouverture automatique de Perroquet à l'utilisation d'un fichier d'exercice. "
+"Ajout d'icone et de type MIME."
+
+#: ../page/index.php:58
+msgid "Improve exercice creation dialog"
+msgstr ""
+
+#: ../page/index.php:59
+msgid "Add tooltips"
+msgstr ""
+
+#: ../page/index.php:60
+msgid "Reimplement input system to support specials characters"
+msgstr ""
+
+#: ../page/index.php:64
+msgid "Licence"
+msgstr ""
+
+#: ../page/index.php:65
+msgid ""
+"Perroquet  is a free software distributed under the GNU Public License "
+"version 3 or higher. The source code of this software is available here: <a "
+"href=\"https://launchpad.net/perroquet/+download\" >Download page at "
+"launchpad</a>"
+msgstr ""
+"Perroquet est un logiciel libre distribué sous la licence GNU Public License "
+"version 3 ou supérieure. Le code source de ce logiciel est disponible à "
+"l'adresse suivante : <a href=\"https://launchpad.net/perroquet/+download\" "
+">Page de téléchargement sur launchpad</a>"
+
+#: ../page/index.php:67
+msgid ""
+"The full text of the license is available here <a "
+"href=\"http://www.gnu.org/licenses/gpl.html\">GPL</a>."
+msgstr ""
+
+#: ../page/screenshots.php:19 ../page/screenshots.php:20
+msgid "Perroquet exercises manager"
+msgstr ""
+
+#: ../page/admin/user_list.php:13 ../page/admin/user_list.php:34
+msgid "User list"
+msgstr ""
+
+#: ../page/admin/user_list.php:45 ../page/exercises/propose_list.php:29
+#: ../page/exercises/my_propose_list.php:29
+#: ../page/exercises/propose_form.php:85
+#: ../page/exercises/add_exercise.php:104
+msgid "Go to login page"
+msgstr ""
+
+#: ../page/admin/user_list.php:56
+msgid "Administrators"
+msgstr ""
+
+#: ../page/admin/user_list.php:63 ../page/admin/user_list.php:96
+msgid "OpenID"
+msgstr ""
+
+#: ../page/admin/user_list.php:64 ../page/admin/user_list.php:97
+#: ../page/exercises/browse.php:26
+msgid "Name"
+msgstr ""
+
+#: ../page/admin/user_list.php:65 ../page/admin/user_list.php:98
+msgid "Email"
+msgstr ""
+
+#: ../page/admin/user_list.php:66 ../page/admin/user_list.php:99
+msgid "Admin rights"
+msgstr ""
+
+#: ../page/admin/user_list.php:67 ../page/admin/user_list.php:80
+#: ../page/admin/user_list.php:100 ../page/admin/user_list.php:113
+msgid "Delete"
+msgstr "Supprimer"
+
+#: ../page/admin/user_list.php:79
+msgid "Remove"
+msgstr "Retirer"
+
+#: ../page/admin/user_list.php:89
+msgid "Users"
+msgstr "Utilisateurs"
+
+#: ../page/admin/user_list.php:112
+msgid "Add"
+msgstr "Ajouter"
+
+#: ../page/contribute.php:16
+msgid ""
+"Perroquet is open to extern contribution. There is a lot of things beside "
+"programming that can help us. There is work on the Perroquet software, but "
+"also on exercise repository and on this website."
+msgstr ""
+"Perroquet est ouvert aux contributions externes. Il y a beaucoup de choses à "
+"coté de la programmation qui peuvent nous aider. Il y a du travail sur le "
+"logiciel Perroquet, mais aussi sur le dépot d'exercices et sur ce site web."
+
+#: ../page/contribute.php:17
+msgid "If no special link is provide, please contact us: <a href=\""
+msgstr ""
+
+#: ../page/contribute.php:20
+msgid "Help on Perroquet software"
+msgstr ""
+
+#: ../page/contribute.php:23
+msgid ""
+"Signal a bug, or a translation error in Perroquet: <a "
+"href=\"https://bugs.launchpad.net/perroquet\" >Perroquet bugtracker</a>"
+msgstr ""
+
+#: ../page/contribute.php:24
+msgid "Packaging or adding in distributions"
+msgstr ""
+
+#: ../page/contribute.php:25
+msgid ""
+"Send a patch: <a href=\"https://code.launchpad.net/~perroquet-"
+"team/perroquet/trunk2\" >Perroquet code</a>"
+msgstr ""
+
+#: ../page/contribute.php:26
+msgid ""
+"Help to translate Perroquet: <a "
+"href=\"https://translations.launchpad.net/perroquet\" >Perroquet online "
+"translation</a>"
+msgstr ""
+"Aider à traduire Perroquet: <a "
+"href=\"https://translations.launchpad.net/perroquet\" >Traduiction en ligne "
+"dePerroquet</a>"
+
+#: ../page/contribute.php:27
+msgid "Suggest a new feature or make a suggestion"
+msgstr ""
+
+#: ../page/contribute.php:32
+msgid "Help on exercise repositoy"
+msgstr ""
+
+#: ../page/contribute.php:34
+msgid "Signal error on exercise"
+msgstr ""
+
+#: ../page/contribute.php:35
+msgid "Signal usable video or audio file (with or without subtitles)"
+msgstr ""
+
+#: ../page/contribute.php:36
+msgid "propose a new exercise"
+msgstr ""
+
+#: ../page/contribute.php:36
+msgid "Propose an exercise: <a href=\""
+msgstr ""
+
+#: ../page/contribute.php:37
+msgid "Write subtitles"
+msgstr ""
+
+#: ../page/contribute.php:40
+msgid "Help on Perroquet website"
+msgstr ""
+
+#: ../page/contribute.php:42
+msgid "Write documentation"
+msgstr ""
+
+#: ../page/contribute.php:43
+msgid ""
+"Signal a bug, or a translation error in this website: <a "
+"href=\"https://bugs.launchpad.net/perroquet/website\" >Perroquet website "
+"bugtracker</a>"
+msgstr ""
+"Signaler un bug ou une erreur de traduction dans ce site web : <a "
+"href=\"https://bugs.launchpad.net/perroquet/website\" >Bugtracker du site "
+"web de Perroquet</a>"
+
+#: ../page/contribute.php:44
+msgid ""
+"Help to translate the website: <a "
+"href=\"https://translations.launchpad.net/perroquet/website/+translationst\" "
+">Perroquet website online translation</a>"
+msgstr ""
+
+#: ../page/contribute.php:45
+msgid ""
+"Improve this website: <a href=\"https://code.launchpad.net/~perroquet-"
+"team/perroquet/website\" >Perroquet website code</a> "
+msgstr ""
+
+#: ../page/contribute.php:49
+msgid "Others helps"
+msgstr ""
+
+#: ../page/contribute.php:51
+msgid ""
+"All others help is welcome. If you want to participate more to perroquet, "
+"you can ask to join the team."
+msgstr ""
+
+#: ../page/contacts.php:18
+msgid ""
+"If you want to participate to Perroquet or report a problem, begin to visit "
+"the \"contribute\" page:  <a href=\""
+msgstr ""
+
+#: ../page/contacts.php:20
+msgid ""
+"For general or public questions:  <a href=\"mailto:perroquet-"
+"team@lists.launchpad.net\">perroquet-team@lists.launchpad.net</a>."
+msgstr ""
+
+#: ../page/contacts.php:22
+msgid ""
+"For private questions:  <a "
+"href=\"mailto:pfred.bertolus@gmail.com\">fred.bertolus@gmail.com</a>."
+msgstr ""
+
+#: ../page/download.php:18
+msgid "Last release : 1.1.0<br />2010-07-01"
+msgstr ""
+
+#: ../page/download.php:20
+msgid ""
+"Currently, Perroquet is only available for Linux, but it uses multi-platform "
+"technology. It should be easily portable to other systems."
+msgstr ""
+
+#: ../page/download.php:22
+msgid ""
+"Generally, the downloads are available here: <a "
+"href=\"https://launchpad.net/perroquet/+download\" >Download page on "
+"launchpad</a>."
+msgstr ""
+"De manière générale, les téléchargements sont disponible à l'adresse "
+"suivante : <a href=\"https://launchpad.net/perroquet/+download\" >Page de "
+"téléchargement sur launchpad</a>."
+
+#: ../page/download.php:24
+msgid "Ubuntu"
+msgstr "Ubuntu"
+
+#: ../page/download.php:25
+msgid "Installer"
+msgstr "Installeur"
+
+#: ../page/download.php:26
+msgid ""
+"Using the installer, you'll miss the updates of Perroquet. If you want to "
+"make the updates, install Perroquet with the PPA"
+msgstr ""
+
+#: ../page/download.php:27
+msgid ""
+"The installer for Ubuntu karmic is available here: <a "
+"href=\"http://launchpad.net/perroquet/trunk/1.0.1/+download/perroquet_1.0.1-"
+"0ubuntu2_all.deb\" >Ubuntu Karmic Perroquet 1.0.1 installer</a>"
+msgstr ""
+
+#: ../page/download.php:28
+msgid ""
+"It is possible that this link is not updated. Go to this page to see all "
+"downloads:<a href=\"https://launchpad.net/perroquet/+download\" >Download "
+"page on launchpad</a>"
+msgstr ""
+
+#: ../page/download.php:30
+msgid "PPA"
+msgstr ""
+
+#: ../page/download.php:31
+msgid ""
+"PPA mean Personal Package Archives. Adding the PPA in your ubuntu software "
+"sources, Perroquet will be upgraded by the system."
+msgstr ""
+
+#: ../page/download.php:32
+msgid ""
+"The details of the PPA are available at this address: <a "
+"href=\"https://launchpad.net/~fred-bertolus/+archive/perroquet\" >PPA "
+"Perroquet</a>"
+msgstr ""
+
+#: ../page/download.php:34
+msgid "Archlinux"
+msgstr ""
+
+#: ../page/download.php:35
+msgid "Version 1.0.0"
+msgstr "Version 1.0.0"
+
+#: ../page/download.php:36
+msgid ""
+"An AUR package is available here: <a "
+"href=\"http://aur.archlinux.org/packages.php?ID=33388\" >AUR package for "
+"Perroquet 1.0.0</a>."
+msgstr ""
+"Un paquet AUR est disponible à cette adresse: <a "
+"href=\"http://aur.archlinux.org/packages.php?ID=33388\" >Paquet AUR pour "
+"Perroquet 1.0.0</a>."
+
+#: ../page/download.php:37
+msgid "Developement version"
+msgstr "Version de développement"
+
+#: ../page/download.php:38
+msgid ""
+"An AUR package is available here: <a "
+"href=\"http://aur.archlinux.org/packages.php?ID=33389\" >AUR package for "
+"Perroquet using Bazaar</a>"
+msgstr ""
+
+#: ../page/download.php:39
+msgid ""
+"Using this package, Perroquet can be instable but will have the last "
+"features."
+msgstr ""
+
+#: ../page/download.php:40
+msgid "Exercise Elephant dream"
+msgstr ""
+
+#: ../page/download.php:41
+msgid ""
+"You can find here package for an exercise based on Elephant Dream : <a "
+"href=\"http://aur.archlinux.org/packages.php?ID=33400\" >AUR package for "
+"Elephant Dream exercise</a>."
+msgstr ""
+
+#: ../page/download.php:43
+msgid "Mandriva"
+msgstr ""
+
+#: ../page/download.php:44
+msgid ""
+"A perroquet package for Mandriva is available for Mandriva 2010. You can "
+"also download it here: <a href=\"http://rpmfind.unity-"
+"linux.org/Mandriva%20Cooker%20-%20Contrib/perroquet-1.0.1-"
+"2mdv2010.1.noarch.html\" >Perroquet 1.0.0 rpm </a>"
+msgstr ""
+
+#: ../page/download.php:46
+msgid "Others linux"
+msgstr ""
+
+#: ../page/download.php:48
+msgid ""
+"If you make a package for another distribution, send me it, I'll add it on "
+"this page."
+msgstr ""
+
+#: ../page/download.php:50
+msgid "Source tarball"
+msgstr ""
+
+#: ../page/download.php:51
+msgid ""
+"The tarball containing the sources of installable software can be found "
+"here: <a href=\"http://launchpad.net/perroquet/1.0/1.0.1/+download/perroquet-"
+"1.0.1.tar.gz\" >Tarball Perroquet 1.0.1</a>."
+msgstr ""
+
+#: ../page/download.php:52
+msgid "Read INSTALL file to installation instructions."
+msgstr "Lisez le fichier INSTALL pour les instructions d'installation."
+
+#: ../page/download.php:53
+msgid ""
+"It is possible that this link is not updated. Go to this page to see all "
+"downloads: <a href=\"https://launchpad.net/perroquet/+download\" >Download "
+"page on launchpad</a>"
+msgstr ""
+"Il est possible que les liens ne soient pas à jour. Aller sur la page "
+"suivante pour voir tout les téléchargements disponibles: <a "
+"href=\"https://launchpad.net/perroquet/+download\" >Page de téléchargement "
+"launchpad</a>;;"
+
+#: ../page/download.php:54
+msgid "Bazaar repository"
+msgstr ""
+
+#: ../page/download.php:55
+msgid ""
+"The code for the version of development and the means to recover it are "
+"available at the following address: <a "
+"href=\"https://code.launchpad.net/~perroquet-team/perroquet/trunk2\" "
+">Development branch of Perroquet</a>."
+msgstr ""
 
 #: ../page/special/language/choose.php:11
 #: ../page/special/language/choose.php:16
@@ -97,12 +698,653 @@ msgid "Invalid language selected."
 msgstr "La langue selectionnée n'est pas valide."
 
 #: ../page/special/language/select.php:57
+#: ../page/special/login/openid_return.php:83
+#: ../page/special/login/logout.php:30
 msgid "Return to index"
 msgstr "Retour à l'accueil"
 
 #: ../page/special/not_found.php:11 ../page/special/not_found.php:16
 msgid "Page not found"
 msgstr "Page introuvable"
+
+#. Signature Verification Failed
+#: ../page/special/login/openid_return.php:33
+#: ../page/special/login/openid_return.php:39
+msgid "Login failed."
+msgstr ""
+
+#: ../page/special/login/openid_return.php:77
+#: ../page/special/login/perform_login.php:68
+msgid "Return to login page"
+msgstr ""
+
+#: ../page/special/login/openid_return.php:80
+msgid "Login success."
+msgstr ""
+
+#: ../page/special/login/logout.php:20
+#, php-format
+msgid "Logout from '%s' success."
+msgstr ""
+
+#: ../page/special/login/logout.php:25
+msgid "You are not logged."
+msgstr ""
+
+#: ../page/special/login/login_form.php:20
+msgid "OpenID: "
+msgstr ""
+
+#: ../page/special/login/login_form.php:22
+msgid "Log In"
+msgstr ""
+
+#: ../page/special/login/perform_login.php:24
+msgid "Provide a valid OpenID."
+msgstr ""
+
+#: ../page/special/login/perform_login.php:51
+msgid "Login error."
+msgstr ""
+
+#: ../page/exercises/browse.php:13
+msgid "Exercise list"
+msgstr ""
+
+#: ../page/exercises/browse.php:18
+msgid "Exercises list"
+msgstr ""
+
+#: ../page/exercises/browse.php:27
+msgid "Description"
+msgstr ""
+
+#: ../page/exercises/browse.php:28
+msgid "Language"
+msgstr ""
+
+#: ../page/exercises/browse.php:29
+msgid "Word count"
+msgstr ""
+
+#: ../page/exercises/browse.php:30
+msgid "Action"
+msgstr ""
+
+#: ../page/exercises/browse.php:45
+msgid "Details"
+msgstr ""
+
+#: ../page/exercises/propose_list.php:18
+msgid "Proposed exercised"
+msgstr ""
+
+#: ../page/exercises/propose_list.php:40
+#: ../page/exercises/my_propose_list.php:40
+msgid "Current propositions"
+msgstr ""
+
+#: ../page/exercises/propose_list.php:50 ../page/exercises/propose_list.php:80
+#: ../page/exercises/my_propose_list.php:50
+#: ../page/exercises/my_propose_list.php:79
+#: ../page/exercises/propose_form.php:101
+#: ../page/exercises/add_exercise.php:116
+msgid "Name: "
+msgstr ""
+
+#: ../page/exercises/propose_list.php:51 ../page/exercises/propose_list.php:81
+#: ../page/exercises/my_propose_list.php:51
+#: ../page/exercises/my_propose_list.php:80
+#: ../page/exercises/add_exercise.php:119
+msgid "Description: "
+msgstr ""
+
+#: ../page/exercises/propose_list.php:52 ../page/exercises/propose_list.php:82
+#: ../page/exercises/my_propose_list.php:52
+#: ../page/exercises/my_propose_list.php:81
+msgid "Links: "
+msgstr ""
+
+#: ../page/exercises/propose_list.php:53 ../page/exercises/propose_list.php:83
+#: ../page/exercises/add_exercise.php:133
+msgid "Proposer: "
+msgstr ""
+
+#: ../page/exercises/propose_list.php:57 ../page/exercises/propose_list.php:87
+#: ../page/exercises/my_propose_list.php:56
+#: ../page/exercises/my_propose_list.php:85
+msgid "Unknown state"
+msgstr ""
+
+#: ../page/exercises/propose_list.php:59 ../page/exercises/propose_list.php:89
+#: ../page/exercises/my_propose_list.php:58
+#: ../page/exercises/my_propose_list.php:87
+msgid "Waiting for processing"
+msgstr ""
+
+#: ../page/exercises/propose_list.php:61 ../page/exercises/propose_list.php:91
+#: ../page/exercises/my_propose_list.php:60
+#: ../page/exercises/my_propose_list.php:89
+msgid "Processing"
+msgstr ""
+
+#: ../page/exercises/propose_list.php:63 ../page/exercises/propose_list.php:93
+#: ../page/exercises/my_propose_list.php:62
+#: ../page/exercises/my_propose_list.php:91
+msgid "Accepted"
+msgstr ""
+
+#: ../page/exercises/propose_list.php:65 ../page/exercises/propose_list.php:95
+#: ../page/exercises/my_propose_list.php:64
+#: ../page/exercises/my_propose_list.php:93
+msgid "State: "
+msgstr ""
+
+#: ../page/exercises/propose_list.php:72
+#: ../page/exercises/my_propose_list.php:71
+msgid "Old propositions"
+msgstr ""
+
+#: ../page/exercises/index.php:24
+msgid ""
+"Perroquet works the exercises. And exercises in perroquet is the association "
+"of one or more media files and the corresponding subtitles files."
+msgstr ""
+
+#: ../page/exercises/index.php:25
+msgid "There is various way to get an exercices."
+msgstr ""
+
+#: ../page/exercises/index.php:27
+msgid "Manual exercises creation"
+msgstr ""
+
+#: ../page/exercises/index.php:28
+msgid ""
+"If you have a media file with an audio track in the language you want to "
+"works and a subtitle in the same language, you can manually create an "
+"exercises."
+msgstr ""
+
+#: ../page/exercises/index.php:29
+msgid "Read the documentation to lear to create an exercise: <a href="
+msgstr ""
+
+#: ../page/exercises/index.php:31
+msgid "Online exercises repositories"
+msgstr ""
+
+#: ../page/exercises/index.php:32
+msgid ""
+"Although perroquet works with every media file with a subtile file in the "
+"same language, a exercise manager in perroquet provide the access to an "
+"exercises's online database."
+msgstr ""
+
+#: ../page/exercises/index.php:33
+msgid ""
+"The exercises manager (Edit>Exercise Manager) contains by default only one "
+"repository and this repository contains few exercises but no configuration "
+"is needed for these exercises."
+msgstr ""
+
+#: ../page/exercises/index.php:35
+msgid "Your help is welcome to fill the repositories with others exercises: "
+msgstr ""
+
+#: ../page/exercises/index.php:35
+msgid "Propose a new exercise or an update of an existing exercise."
+msgstr ""
+
+#. $content .= '<p><a href="'.RessourceManager::getInnerUrl('exercises/search').'">'._('Browse, not and comments exercises.').'</a></p>';
+#. $content .= '<p><a href="'.RessourceManager::getInnerUrl('exercises/search').'">'._('Signal a problem on an exercise.').'</a></p>';
+#. $content .= '<p><a href="'.RessourceManager::getInnerUrl('exercises/search').'">'._('Find others exercises.').'</a></p>';
+#: ../page/exercises/index.php:43
+msgid "Add new repository"
+msgstr ""
+
+#: ../page/exercises/my_propose_list.php:13
+#: ../page/exercises/exercise_page.php:30
+msgid "My proposed exercises"
+msgstr ""
+
+#: ../page/exercises/my_propose_list.php:18
+msgid "My proposed exercised"
+msgstr ""
+
+#: ../page/exercises/propose_form.php:13 ../page/exercises/propose_form.php:69
+msgid "Propose new exercise"
+msgstr ""
+
+#: ../page/exercises/propose_form.php:79 ../page/exercises/add_exercise.php:98
+msgid "Return to exercises index."
+msgstr ""
+
+#: ../page/exercises/propose_form.php:96
+msgid ""
+"Propose an exercise permit to help to full the official perroquet "
+"exercises's repository."
+msgstr ""
+
+#: ../page/exercises/propose_form.php:97
+msgid ""
+"Before beeing accessible from the exercise manager, the proposed exercise "
+"will be examinated. Also, be sure that you use free licenced file as public "
+"domain, CC-by-sa, GPL, Free Art, ..."
+msgstr ""
+
+#: ../page/exercises/propose_form.php:102
+msgid "Short description: "
+msgstr ""
+
+#: ../page/exercises/propose_form.php:103
+msgid ""
+"Others informations : links to ressources, comments, authors, licence, ... : "
+msgstr ""
+
+#: ../page/exercises/propose_form.php:105
+#: ../page/exercises/add_exercise.php:136
+msgid "Propose"
+msgstr ""
+
+#: ../page/exercises/exercise_page.php:14
+msgid "Propose an exercise"
+msgstr ""
+
+#: ../page/exercises/add_exercise.php:13
+msgid "Add new exercise"
+msgstr ""
+
+#: ../page/exercises/add_exercise.php:88
+msgid "Add a new exercise"
+msgstr ""
+
+#: ../page/exercises/add_exercise.php:117
+msgid "Group: "
+msgstr ""
+
+#: ../page/exercises/add_exercise.php:118
+msgid "Id: "
+msgstr ""
+
+#: ../page/exercises/add_exercise.php:120
+msgid "Word count: "
+msgstr ""
+
+#: ../page/exercises/add_exercise.php:121
+msgid "Licence: "
+msgstr ""
+
+#: ../page/exercises/add_exercise.php:122
+msgid "Languague (en, fr, ...): "
+msgstr ""
+
+#: ../page/exercises/add_exercise.php:123
+msgid "Media type (video, audio, ...): "
+msgstr ""
+
+#: ../page/exercises/add_exercise.php:124
+msgid "Exercise version: "
+msgstr ""
+
+#: ../page/exercises/add_exercise.php:125
+msgid "Author: "
+msgstr ""
+
+#: ../page/exercises/add_exercise.php:126
+msgid "Author website: "
+msgstr ""
+
+#: ../page/exercises/add_exercise.php:127
+msgid "Author contact: "
+msgstr ""
+
+#: ../page/exercises/add_exercise.php:128
+msgid "Packager: "
+msgstr ""
+
+#: ../page/exercises/add_exercise.php:129
+msgid "Packager website: "
+msgstr ""
+
+#: ../page/exercises/add_exercise.php:130
+msgid "Packager contact: "
+msgstr ""
+
+#: ../page/exercises/add_exercise.php:131
+msgid "Translation (en, fr, ...): "
+msgstr ""
+
+#: ../page/exercises/add_exercise.php:132
+msgid "Package file: "
+msgstr ""
+
+#: ../page/documentation/shortcuts.php:14
+#: ../page/documentation/shortcuts.php:22
+msgid "Documentation - Shortcuts"
+msgstr ""
+
+#: ../page/documentation/shortcuts.php:26
+msgid "Perroquet 1.0"
+msgstr ""
+
+#: ../page/documentation/shortcuts.php:28
+msgid ""
+"These shortcuts are available when the focus is on the response area, ie "
+"there is a cursor:"
+msgstr ""
+
+#: ../page/documentation/shortcuts.php:30
+msgid "F1 : Hint"
+msgstr ""
+
+#: ../page/documentation/shortcuts.php:31
+msgid "F2 : Show/hide translation"
+msgstr ""
+
+#: ../page/documentation/shortcuts.php:32
+msgid "Enter : Replay sequence"
+msgstr ""
+
+#: ../page/documentation/shortcuts.php:33
+msgid "Page Up : Next sequence suivante"
+msgstr ""
+
+#: ../page/documentation/shortcuts.php:34
+msgid "Page Down : Previous sequence"
+msgstr ""
+
+#: ../page/documentation/index.php:24
+#: ../page/documentation/installation/index.php:24
+#: ../page/documentation/exercise_creation/index.php:24
+#: ../page/documentation/use/navigate.php:24
+#: ../page/documentation/use/index.php:24
+#: ../page/documentation/use/work.php:24 ../page/documentation/use/ui.php:24
+#: ../page/documentation/use/manage_exercise.php:24
+#: ../page/documentation/repositories/add_new_repository.php:24
+#: ../page/documentation/repositories/index.php:24
+#: ../page/documentation/help/index.php:24
+msgid ""
+"You will find here the documentation of Perroquet. This documentation is far "
+"to be complete but don't hesitate to contact us for question."
+msgstr ""
+
+#: ../page/documentation/index.php:29
+#: ../page/documentation/installation/index.php:29
+#: ../page/documentation/exercise_creation/index.php:29
+#: ../page/documentation/use/navigate.php:29
+#: ../page/documentation/use/index.php:29
+#: ../page/documentation/use/work.php:29 ../page/documentation/use/ui.php:29
+#: ../page/documentation/use/manage_exercise.php:29
+#: ../page/documentation/repositories/add_new_repository.php:29
+#: ../page/documentation/repositories/index.php:29
+#: ../page/documentation/help/index.php:29
+msgid "This documentation is subdivised in six section: "
+msgstr ""
+
+#: ../page/documentation/index.php:31
+#: ../page/documentation/installation/index.php:31
+#: ../page/documentation/exercise_creation/index.php:31
+#: ../page/documentation/use/navigate.php:31
+#: ../page/documentation/use/index.php:31
+#: ../page/documentation/use/work.php:31 ../page/documentation/use/ui.php:31
+#: ../page/documentation/use/manage_exercise.php:31
+#: ../page/documentation/repositories/add_new_repository.php:31
+#: ../page/documentation/repositories/index.php:31
+#: ../page/documentation/help/index.php:31
+#, php-format
+msgid ""
+"<a href=\"%s\">Installation</a> : explains how install, compile or only run "
+"perroquet."
+msgstr ""
+
+#: ../page/documentation/index.php:32
+#: ../page/documentation/installation/index.php:32
+#: ../page/documentation/exercise_creation/index.php:32
+#: ../page/documentation/use/navigate.php:32
+#: ../page/documentation/use/index.php:32
+#: ../page/documentation/use/work.php:32 ../page/documentation/use/ui.php:32
+#: ../page/documentation/use/manage_exercise.php:32
+#: ../page/documentation/repositories/add_new_repository.php:32
+#: ../page/documentation/repositories/index.php:32
+#: ../page/documentation/help/index.php:32
+#, php-format
+msgid ""
+"<a href=\"%s\">Use perroquet</a> : describe the user interface and explains "
+"how to create an simple exercise and work on it."
+msgstr ""
+
+#: ../page/documentation/index.php:33
+#: ../page/documentation/installation/index.php:33
+#: ../page/documentation/exercise_creation/index.php:33
+#: ../page/documentation/use/navigate.php:33
+#: ../page/documentation/use/index.php:33
+#: ../page/documentation/use/work.php:33 ../page/documentation/use/ui.php:33
+#: ../page/documentation/use/manage_exercise.php:33
+#: ../page/documentation/repositories/add_new_repository.php:33
+#: ../page/documentation/repositories/index.php:33
+#: ../page/documentation/help/index.php:33
+#, php-format
+msgid ""
+"<a href=\"%s\">Help tools</a> : if an exercise is too difficult for you, you "
+"can use help tools to give you hint or speed down the playback. This part "
+"also explain how to increase the difficulty of an exercise."
+msgstr ""
+
+#: ../page/documentation/index.php:34
+#: ../page/documentation/installation/index.php:34
+#: ../page/documentation/exercise_creation/index.php:34
+#: ../page/documentation/use/navigate.php:34
+#: ../page/documentation/use/index.php:34
+#: ../page/documentation/use/work.php:34 ../page/documentation/use/ui.php:34
+#: ../page/documentation/use/manage_exercise.php:34
+#: ../page/documentation/repositories/add_new_repository.php:34
+#: ../page/documentation/repositories/index.php:34
+#: ../page/documentation/help/index.php:34
+#, php-format
+msgid ""
+"<a href=\"%s\">Repositories</a> : this part explain how to add a new "
+"exercise source or create it own exercise repository."
+msgstr ""
+
+#: ../page/documentation/index.php:35
+#: ../page/documentation/installation/index.php:35
+#: ../page/documentation/exercise_creation/index.php:35
+#: ../page/documentation/use/navigate.php:35
+#: ../page/documentation/use/index.php:35
+#: ../page/documentation/use/work.php:35 ../page/documentation/use/ui.php:35
+#: ../page/documentation/use/manage_exercise.php:35
+#: ../page/documentation/repositories/add_new_repository.php:35
+#: ../page/documentation/repositories/index.php:35
+#: ../page/documentation/help/index.php:35
+#, php-format
+msgid ""
+"<a href=\"%s\">Exercise creation</a> : explains how to create an exercise "
+"using advanced features as teacher locks or multi files exercises."
+msgstr ""
+
+#: ../page/documentation/index.php:36
+#: ../page/documentation/installation/index.php:36
+#: ../page/documentation/exercise_creation/index.php:36
+#: ../page/documentation/use/navigate.php:36
+#: ../page/documentation/use/index.php:36
+#: ../page/documentation/use/work.php:36 ../page/documentation/use/ui.php:36
+#: ../page/documentation/use/manage_exercise.php:36
+#: ../page/documentation/repositories/add_new_repository.php:36
+#: ../page/documentation/repositories/index.php:36
+#: ../page/documentation/help/index.php:36
+#, php-format
+msgid ""
+"<a href=\"%s\">Development</a> : installation from source, code global "
+"structure."
+msgstr ""
+
+#: ../page/documentation/index.php:40
+#: ../page/documentation/installation/index.php:40
+#: ../page/documentation/exercise_creation/index.php:40
+#: ../page/documentation/use/navigate.php:40
+#: ../page/documentation/use/index.php:40
+#: ../page/documentation/use/work.php:40 ../page/documentation/use/ui.php:40
+#: ../page/documentation/use/manage_exercise.php:40
+#: ../page/documentation/repositories/add_new_repository.php:40
+#: ../page/documentation/repositories/index.php:40
+#: ../page/documentation/help/index.php:40
+msgid "There is also 2 special documentation page: "
+msgstr ""
+
+#: ../page/documentation/index.php:42
+#: ../page/documentation/installation/index.php:42
+#: ../page/documentation/exercise_creation/index.php:42
+#: ../page/documentation/use/navigate.php:42
+#: ../page/documentation/use/index.php:42
+#: ../page/documentation/use/work.php:42 ../page/documentation/use/ui.php:42
+#: ../page/documentation/use/manage_exercise.php:42
+#: ../page/documentation/repositories/add_new_repository.php:42
+#: ../page/documentation/repositories/index.php:42
+#: ../page/documentation/help/index.php:42
+#, php-format
+msgid "<a href=\"%s\">FAQ</a> : for common or strange questions."
+msgstr ""
+
+#: ../page/documentation/index.php:43
+#: ../page/documentation/installation/index.php:43
+#: ../page/documentation/exercise_creation/index.php:43
+#: ../page/documentation/use/navigate.php:43
+#: ../page/documentation/use/index.php:43
+#: ../page/documentation/use/work.php:43 ../page/documentation/use/ui.php:43
+#: ../page/documentation/use/manage_exercise.php:43
+#: ../page/documentation/repositories/add_new_repository.php:43
+#: ../page/documentation/repositories/index.php:43
+#: ../page/documentation/help/index.php:43
+#, php-format
+msgid "<a href=\"%s\">Shortcuts</a> : to stop to use the mouse."
+msgstr ""
+
+#: ../page/documentation/documentation_page.php:14
+msgid "Installation"
+msgstr ""
+
+#: ../page/documentation/documentation_page.php:15
+msgid "Use perroquet"
+msgstr ""
+
+#: ../page/documentation/documentation_page.php:16
+msgid "Help tools"
+msgstr ""
+
+#: ../page/documentation/documentation_page.php:17
+msgid "Reporitories"
+msgstr ""
+
+#: ../page/documentation/documentation_page.php:18
+msgid "Exercise creation"
+msgstr ""
+
+#: ../page/documentation/documentation_page.php:19
+msgid "Development"
+msgstr ""
+
+#: ../page/documentation/faq.php:14 ../page/documentation/faq.php:23
+msgid "Faq"
+msgstr ""
+
+#: ../page/documentation/faq.php:26
+msgid "General"
+msgstr ""
+
+#: ../page/documentation/faq.php:27
+msgid "Where to download Windows version ?"
+msgstr ""
+
+#: ../page/documentation/faq.php:28
+msgid "There is no Windows version but only a Linux version."
+msgstr ""
+
+#: ../page/documentation/faq.php:29
+msgid ""
+"However, perroquet use cross platform library will may have a Windows "
+"version if someone develop it."
+msgstr ""
+
+#: ../page/documentation/development/index.php:14
+#: ../page/documentation/development/index.php:23
+msgid "Documentation - Developement"
+msgstr ""
+
+#: ../page/documentation/development/index.php:24
+msgid ""
+"Perroquet is developed with python, it use GTK (with pyGTK) for the GUI and "
+"Gstreamer as media player"
+msgstr ""
+
+#: ../page/documentation/development/index.php:27
+msgid "Build from sources"
+msgstr ""
+
+#: ../page/documentation/development/index.php:29
+msgid "Download and run"
+msgstr ""
+
+#: ../page/documentation/development/index.php:31
+msgid ""
+"First, download the last development version on launchpad with bazaar:"
+msgstr ""
+
+#: ../page/documentation/development/index.php:38
+msgid "You can directly run perroquet without any build or install:"
+msgstr ""
+
+#: ../page/documentation/development/index.php:45
+msgid "Build locales"
+msgstr ""
+
+#: ../page/documentation/development/index.php:47
+msgid ""
+"Without built, perroquet will be in english. Without install, the best "
+"integration with your system will not be available: no icon, no entry in "
+"menu, no handle on *.perroquet."
+msgstr ""
+
+#: ../page/documentation/development/index.php:49
+msgid "You can build others languages easily:"
+msgstr ""
+
+#: ../page/documentation/development/index.php:56
+msgid ""
+"The language files should now be build. If you run Perroquet again and if "
+"your system language is one of translation language, the text in Perroquet "
+"wil be translated."
+msgstr ""
+
+#: ../page/documentation/development/index.php:58
+msgid "Install"
+msgstr ""
+
+#: ../page/documentation/development/index.php:60
+msgid "To install perroquet, type with root rigths:"
+msgstr ""
+
+#: ../page/documentation/development/index.php:67
+#: ../page/documentation/development/index.php:90
+msgid "or with sudo"
+msgstr ""
+
+#: ../page/documentation/development/index.php:73
+msgid ""
+"The install-files.txt file isi optionnal be need to uninstall Perroquet."
+msgstr ""
+
+#: ../page/documentation/development/index.php:74
+msgid "Once installed, you should be able to launch Perroquet from anywhere:"
+msgstr ""
+
+#: ../page/documentation/development/index.php:81
+msgid "Uninstall"
+msgstr ""
+
+#: ../page/documentation/development/index.php:83
+msgid "To uninstall perroquet, type with root rigths:"
+msgstr ""
 
 #~ msgid ""
 #~ "\n"
