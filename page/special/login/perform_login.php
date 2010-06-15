@@ -17,8 +17,6 @@ class CurrentPage extends HtmlPage{
 
     function execute() {
 
-        echo 'plop';
-
         if(isset($_GET['openid'])){
                if (trim($_GET['openid'] == '')) {
                 $this->error = _("Provide a valid OpenID.");
