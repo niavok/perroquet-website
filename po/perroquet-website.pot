@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-06-15 01:30+0200\n"
+"POT-Creation-Date: 2010-06-15 08:43+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -151,18 +151,21 @@ msgid "Try now"
 msgstr ""
 
 #: ../page/index.php:23
+#, php-format
 msgid ""
 "Perroquet work with every media file your computer can read. Choose one "
 "video ou a audio book in the language you want to work and download the "
-"corresponding subtitle in the same language (srt format). <a href=\""
+"corresponding subtitle in the same language (srt format). <a href=\"%s\" "
+">Download</a>, install and launch perroquet."
 msgstr ""
 
 #: ../page/index.php:24
+#, php-format
 msgid ""
 "You must then  Perroquet, run it, create a new exercise and put the video "
 "file in the first field, the file of English subtitles in the second file "
 "and the subtitle in the French final. To learn to use all the features of "
-"parrot, see the <a href="
+"parrot, see the <a href=\"%s\" >documentation</a>."
 msgstr ""
 
 #: ../page/index.php:25
@@ -365,7 +368,11 @@ msgid ""
 msgstr ""
 
 #: ../page/contribute.php:17
-msgid "If no special link is provide, please contact us: <a href=\""
+msgid "If no special link is provide, please contact us: "
+msgstr ""
+
+#: ../page/contribute.php:17
+msgid "Contact perroquet team</a>."
 msgstr ""
 
 #: ../page/contribute.php:20
@@ -374,7 +381,7 @@ msgstr ""
 
 #: ../page/contribute.php:23
 msgid ""
-"Signal a bug, or a translation error in Perroquet: <a href=\"https://bugs."
+"Signal a bug or a translation error in Perroquet: <a href=\"https://bugs."
 "launchpad.net/perroquet\" >Perroquet bugtracker</a>"
 msgstr ""
 
@@ -411,11 +418,11 @@ msgid "Signal usable video or audio file (with or without subtitles)"
 msgstr ""
 
 #: ../page/contribute.php:36
-msgid "propose a new exercise"
+msgid "Propose an exercise:"
 msgstr ""
 
 #: ../page/contribute.php:36
-msgid "Propose an exercise: <a href=\""
+msgid "propose a new exercise"
 msgstr ""
 
 #: ../page/contribute.php:37
@@ -432,14 +439,14 @@ msgstr ""
 
 #: ../page/contribute.php:43
 msgid ""
-"Signal a bug, or a translation error in this website: <a href=\"https://bugs."
+"Signal a bug or a translation error in this website: <a href=\"https://bugs."
 "launchpad.net/perroquet/website\" >Perroquet website bugtracker</a>"
 msgstr ""
 
 #: ../page/contribute.php:44
 msgid ""
 "Help to translate the website: <a href=\"https://translations.launchpad.net/"
-"perroquet/website/+translationst\" >Perroquet website online translation</a>"
+"perroquet/website/+translations\" >Perroquet website online translation</a>"
 msgstr ""
 
 #: ../page/contribute.php:45
@@ -461,7 +468,11 @@ msgstr ""
 #: ../page/contacts.php:18
 msgid ""
 "If you want to participate to Perroquet or report a problem, begin to visit "
-"the \"contribute\" page:  <a href=\""
+"the \"contribute\" page: "
+msgstr ""
+
+#: ../page/contacts.php:18
+msgid "Contribute to Perroquet"
 msgstr ""
 
 #: ../page/contacts.php:20
@@ -826,7 +837,11 @@ msgid ""
 msgstr ""
 
 #: ../page/exercises/index.php:29
-msgid "Read the documentation to lear to create an exercise: <a href="
+msgid "Read the documentation to lear to create an exercise: "
+msgstr ""
+
+#: ../page/exercises/index.php:29
+msgid "documentation"
 msgstr ""
 
 #: ../page/exercises/index.php:31
