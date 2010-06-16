@@ -31,9 +31,9 @@ class CurrentPage extends DocumentationPage{
         $content .= '<li>'.sprintf(_('<a href="%s">Installation</a> : explains how install, compile or only run perroquet.'),RessourceManager::getInnerUrl('documentation/installation/index')).'</li>';
         $content .= '<li>'.sprintf(_('<a href="%s">Use perroquet</a> : describe the user interface and explains how to create an simple exercise and work on it.'),RessourceManager::getInnerUrl('documentation/use/index')).'</li>';
         $content .= '<li>'.sprintf(_('<a href="%s">Help tools</a> : if an exercise is too difficult for you, you can use help tools to give you hint or speed down the playback. This part also explain how to increase the difficulty of an exercise.'),RessourceManager::getInnerUrl('documentation/help/index')).'</li>';
-        $content .= '<li>'.sprintf(_('<a href="%s">Repositories</a> : this part explain how to add a new exercise source or create it own exercise repository.'),RessourceManager::getInnerUrl('documentation/installation/index')).'</li>';
-        $content .= '<li>'.sprintf(_('<a href="%s">Exercise creation</a> : explains how to create an exercise using advanced features as teacher locks or multi files exercises.'),RessourceManager::getInnerUrl('documentation/installation/index')).'</li>';
-        $content .= '<li>'.sprintf(_('<a href="%s">Development</a> : installation from source, code global structure.'),RessourceManager::getInnerUrl('documentation/installation/index')).'</li>';
+        $content .= '<li>'.sprintf(_('<a href="%s">Repositories</a> : this part explain how to add a new exercise source or create it own exercise repository.'),RessourceManager::getInnerUrl('documentation/repositories/index')).'</li>';
+        $content .= '<li>'.sprintf(_('<a href="%s">Exercise creation</a> : explains how to create an exercise using advanced features as teacher locks or multi files exercises.'),RessourceManager::getInnerUrl('documentation/exercise_creation/index')).'</li>';
+        $content .= '<li>'.sprintf(_('<a href="%s">Development</a> : installation from source, code global structure.'),RessourceManager::getInnerUrl('documentation/development/index')).'</li>';
 
         $content .= '</ul>';
 

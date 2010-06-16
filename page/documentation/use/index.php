@@ -10,8 +10,8 @@ require_once $_SERVER["DOCUMENT_ROOT"].'/page/documentation/documentation_page.p
 
 class CurrentPage extends DocumentationPage{
         function __construct() {
-        $this->id = 'documentation/index';
-        $this->title = _('Documentation');
+        $this->id = 'documentation/use/index';
+        $this->title = _('Documentation - Use');
     }
     function execute() {
 
@@ -20,28 +20,24 @@ class CurrentPage extends DocumentationPage{
     function generateContent() {
         $content ='';
         $content .= '
-        <h1>'._('Documentation').'</h1>
-            <p>'._('You will find here the documentation of Perroquet. This documentation is far to be complete but don\'t hesitate to contact us for question.').'</p>';
+        <h1>'._('Documentation - use').'</h1>';
 
 
+        $content .= '<p>'._('In this part, you will lear to works with perroquet.').'</p>';
+
+        $content .= '<p>'._('The principle of perroquet is to transform a vidéo or audio file in a cloze test with the help of a subtitles  file.').'</p>';
+
+        $content .= '<p>'._('Perroquet works with exercises. An exercise is a set of video or audio sequences that we will just call sequences. A sequence last only few seconds and correspond to a part of a dialog. The part of a video without dialogue can be in none sequence.').'</p>';
+
+        $content .= '<p>'._('For each sequence of an exercise, you will listen it then type words you hear. Perroquet show you the number of word to found and show the punctuation, you must complete the cloze test.').'</p>';
 
 
-        $content .= '<p>'._('This documentation is subdivised in six section: ').'</p><ul>';
+        $content .= '<p>'._('This part is subdivised in three chapters: ').'</p><ul>';
 
-        $content .= '<li>'.sprintf(_('<a href="%s">Installation</a> : explains how install, compile or only run perroquet.'),RessourceManager::getInnerUrl('documentation/installation/index')).'</li>';
-        $content .= '<li>'.sprintf(_('<a href="%s">Use perroquet</a> : describe the user interface and explains how to create an simple exercise and work on it.'),RessourceManager::getInnerUrl('documentation/use/index')).'</li>';
-        $content .= '<li>'.sprintf(_('<a href="%s">Help tools</a> : if an exercise is too difficult for you, you can use help tools to give you hint or speed down the playback. This part also explain how to increase the difficulty of an exercise.'),RessourceManager::getInnerUrl('documentation/help/index')).'</li>';
-        $content .= '<li>'.sprintf(_('<a href="%s">Repositories</a> : this part explain how to add a new exercise source or create it own exercise repository.'),RessourceManager::getInnerUrl('documentation/installation/index')).'</li>';
-        $content .= '<li>'.sprintf(_('<a href="%s">Exercise creation</a> : explains how to create an exercise using advanced features as teacher locks or multi files exercises.'),RessourceManager::getInnerUrl('documentation/installation/index')).'</li>';
-        $content .= '<li>'.sprintf(_('<a href="%s">Development</a> : installation from source, code global structure.'),RessourceManager::getInnerUrl('documentation/installation/index')).'</li>';
-
-        $content .= '</ul>';
-
-        $content .= '<p>'._('There is also 2 special documentation page: ').'</p><ul>';
-
-        $content .= '<li>'.sprintf(_('<a href="%s">FAQ</a> : for common or strange questions.'),RessourceManager::getInnerUrl('documentation/faq')).'</li>';
-        $content .= '<li>'.sprintf(_('<a href="%s">Shortcuts</a> : to stop to use the mouse.'),RessourceManager::getInnerUrl('documentation/shortcuts')).'</li>';
-
+        $content .= '<li>'.sprintf(_('<a href="%s">Interface</a> : this chapter descripte the interface.'),RessourceManager::getInnerUrl('documentation/installation/index')).'</li>';
+        $content .= '<li>'.sprintf(_('<a href="%s">Navigate</a> : this chapter explain how to navigate in an exercise.'),RessourceManager::getInnerUrl('documentation/use/index')).'</li>';
+        $content .= '<li>'.sprintf(_('<a href="%s">Works</a> : this chapter explain how to work on an exercise.'),RessourceManager::getInnerUrl('documentation/help/index')).'</li>';
+        
         $content .= '</ul>';
 
         return $content;
