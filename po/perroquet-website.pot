@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-06-15 08:43+0200\n"
+"POT-Creation-Date: 2010-06-16 23:35+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,7 +39,7 @@ msgstr ""
 #: ../page/special/login/login_form.php:11
 #: ../page/special/login/login_form.php:16
 #: ../page/special/login/perform_login.php:14
-#: ../page/special/login/perform_login.php:61
+#: ../page/special/login/perform_login.php:59
 msgid "Login"
 msgstr ""
 
@@ -75,12 +75,7 @@ msgstr ""
 #: ../page/documentation/exercise_creation/index.php:23
 #: ../page/documentation/use/navigate.php:14
 #: ../page/documentation/use/navigate.php:23
-#: ../page/documentation/use/index.php:14
-#: ../page/documentation/use/index.php:23
 #: ../page/documentation/use/work.php:14 ../page/documentation/use/work.php:23
-#: ../page/documentation/use/ui.php:14 ../page/documentation/use/ui.php:23
-#: ../page/documentation/use/manage_exercise.php:14
-#: ../page/documentation/use/manage_exercise.php:23
 #: ../page/documentation/repositories/add_new_repository.php:14
 #: ../page/documentation/repositories/add_new_repository.php:23
 #: ../page/documentation/repositories/index.php:14
@@ -684,7 +679,7 @@ msgid "Login failed."
 msgstr ""
 
 #: ../page/special/login/openid_return.php:77
-#: ../page/special/login/perform_login.php:68
+#: ../page/special/login/perform_login.php:66
 msgid "Return to login page"
 msgstr ""
 
@@ -709,11 +704,11 @@ msgstr ""
 msgid "Log In"
 msgstr ""
 
-#: ../page/special/login/perform_login.php:24
+#: ../page/special/login/perform_login.php:22
 msgid "Provide a valid OpenID."
 msgstr ""
 
-#: ../page/special/login/perform_login.php:51
+#: ../page/special/login/perform_login.php:49
 msgid "Login error."
 msgstr ""
 
@@ -1032,9 +1027,7 @@ msgstr ""
 #: ../page/documentation/installation/index.php:24
 #: ../page/documentation/exercise_creation/index.php:24
 #: ../page/documentation/use/navigate.php:24
-#: ../page/documentation/use/index.php:24
-#: ../page/documentation/use/work.php:24 ../page/documentation/use/ui.php:24
-#: ../page/documentation/use/manage_exercise.php:24
+#: ../page/documentation/use/work.php:24
 #: ../page/documentation/repositories/add_new_repository.php:24
 #: ../page/documentation/repositories/index.php:24
 #: ../page/documentation/help/index.php:24
@@ -1047,9 +1040,7 @@ msgstr ""
 #: ../page/documentation/installation/index.php:29
 #: ../page/documentation/exercise_creation/index.php:29
 #: ../page/documentation/use/navigate.php:29
-#: ../page/documentation/use/index.php:29
-#: ../page/documentation/use/work.php:29 ../page/documentation/use/ui.php:29
-#: ../page/documentation/use/manage_exercise.php:29
+#: ../page/documentation/use/work.php:29 ../page/documentation/use/ui.php:28
 #: ../page/documentation/repositories/add_new_repository.php:29
 #: ../page/documentation/repositories/index.php:29
 #: ../page/documentation/help/index.php:29
@@ -1060,9 +1051,7 @@ msgstr ""
 #: ../page/documentation/installation/index.php:31
 #: ../page/documentation/exercise_creation/index.php:31
 #: ../page/documentation/use/navigate.php:31
-#: ../page/documentation/use/index.php:31
-#: ../page/documentation/use/work.php:31 ../page/documentation/use/ui.php:31
-#: ../page/documentation/use/manage_exercise.php:31
+#: ../page/documentation/use/work.php:31
 #: ../page/documentation/repositories/add_new_repository.php:31
 #: ../page/documentation/repositories/index.php:31
 #: ../page/documentation/help/index.php:31
@@ -1076,9 +1065,7 @@ msgstr ""
 #: ../page/documentation/installation/index.php:32
 #: ../page/documentation/exercise_creation/index.php:32
 #: ../page/documentation/use/navigate.php:32
-#: ../page/documentation/use/index.php:32
-#: ../page/documentation/use/work.php:32 ../page/documentation/use/ui.php:32
-#: ../page/documentation/use/manage_exercise.php:32
+#: ../page/documentation/use/work.php:32
 #: ../page/documentation/repositories/add_new_repository.php:32
 #: ../page/documentation/repositories/index.php:32
 #: ../page/documentation/help/index.php:32
@@ -1092,9 +1079,7 @@ msgstr ""
 #: ../page/documentation/installation/index.php:33
 #: ../page/documentation/exercise_creation/index.php:33
 #: ../page/documentation/use/navigate.php:33
-#: ../page/documentation/use/index.php:33
-#: ../page/documentation/use/work.php:33 ../page/documentation/use/ui.php:33
-#: ../page/documentation/use/manage_exercise.php:33
+#: ../page/documentation/use/work.php:33
 #: ../page/documentation/repositories/add_new_repository.php:33
 #: ../page/documentation/repositories/index.php:33
 #: ../page/documentation/help/index.php:33
@@ -1109,9 +1094,7 @@ msgstr ""
 #: ../page/documentation/installation/index.php:34
 #: ../page/documentation/exercise_creation/index.php:34
 #: ../page/documentation/use/navigate.php:34
-#: ../page/documentation/use/index.php:34
-#: ../page/documentation/use/work.php:34 ../page/documentation/use/ui.php:34
-#: ../page/documentation/use/manage_exercise.php:34
+#: ../page/documentation/use/work.php:34
 #: ../page/documentation/repositories/add_new_repository.php:34
 #: ../page/documentation/repositories/index.php:34
 #: ../page/documentation/help/index.php:34
@@ -1125,9 +1108,7 @@ msgstr ""
 #: ../page/documentation/installation/index.php:35
 #: ../page/documentation/exercise_creation/index.php:35
 #: ../page/documentation/use/navigate.php:35
-#: ../page/documentation/use/index.php:35
-#: ../page/documentation/use/work.php:35 ../page/documentation/use/ui.php:35
-#: ../page/documentation/use/manage_exercise.php:35
+#: ../page/documentation/use/work.php:35
 #: ../page/documentation/repositories/add_new_repository.php:35
 #: ../page/documentation/repositories/index.php:35
 #: ../page/documentation/help/index.php:35
@@ -1141,9 +1122,7 @@ msgstr ""
 #: ../page/documentation/installation/index.php:36
 #: ../page/documentation/exercise_creation/index.php:36
 #: ../page/documentation/use/navigate.php:36
-#: ../page/documentation/use/index.php:36
-#: ../page/documentation/use/work.php:36 ../page/documentation/use/ui.php:36
-#: ../page/documentation/use/manage_exercise.php:36
+#: ../page/documentation/use/work.php:36
 #: ../page/documentation/repositories/add_new_repository.php:36
 #: ../page/documentation/repositories/index.php:36
 #: ../page/documentation/help/index.php:36
@@ -1157,9 +1136,7 @@ msgstr ""
 #: ../page/documentation/installation/index.php:40
 #: ../page/documentation/exercise_creation/index.php:40
 #: ../page/documentation/use/navigate.php:40
-#: ../page/documentation/use/index.php:40
-#: ../page/documentation/use/work.php:40 ../page/documentation/use/ui.php:40
-#: ../page/documentation/use/manage_exercise.php:40
+#: ../page/documentation/use/work.php:40
 #: ../page/documentation/repositories/add_new_repository.php:40
 #: ../page/documentation/repositories/index.php:40
 #: ../page/documentation/help/index.php:40
@@ -1170,9 +1147,7 @@ msgstr ""
 #: ../page/documentation/installation/index.php:42
 #: ../page/documentation/exercise_creation/index.php:42
 #: ../page/documentation/use/navigate.php:42
-#: ../page/documentation/use/index.php:42
-#: ../page/documentation/use/work.php:42 ../page/documentation/use/ui.php:42
-#: ../page/documentation/use/manage_exercise.php:42
+#: ../page/documentation/use/work.php:42
 #: ../page/documentation/repositories/add_new_repository.php:42
 #: ../page/documentation/repositories/index.php:42
 #: ../page/documentation/help/index.php:42
@@ -1184,14 +1159,75 @@ msgstr ""
 #: ../page/documentation/installation/index.php:43
 #: ../page/documentation/exercise_creation/index.php:43
 #: ../page/documentation/use/navigate.php:43
-#: ../page/documentation/use/index.php:43
-#: ../page/documentation/use/work.php:43 ../page/documentation/use/ui.php:43
-#: ../page/documentation/use/manage_exercise.php:43
+#: ../page/documentation/use/work.php:43
 #: ../page/documentation/repositories/add_new_repository.php:43
 #: ../page/documentation/repositories/index.php:43
 #: ../page/documentation/help/index.php:43
 #, php-format
 msgid "<a href=\"%s\">Shortcuts</a> : to stop to use the mouse."
+msgstr ""
+
+#: ../page/documentation/use/index.php:14
+msgid "Documentation - Use"
+msgstr ""
+
+#: ../page/documentation/use/index.php:23
+msgid "Documentation - use"
+msgstr ""
+
+#: ../page/documentation/use/index.php:26
+msgid "In this part, you will lear to works with perroquet."
+msgstr ""
+
+#: ../page/documentation/use/index.php:28
+msgid ""
+"The principle of perroquet is to transform a vidéo or audio file in a cloze "
+"test with the help of a subtitles  file."
+msgstr ""
+
+#: ../page/documentation/use/index.php:30
+msgid ""
+"Perroquet works with exercises. An exercise is a set of video or audio "
+"sequences that we will just call sequences. A sequence last only few seconds "
+"and correspond to a part of a dialog. The part of a video without dialogue "
+"can be in none sequence."
+msgstr ""
+
+#: ../page/documentation/use/index.php:32
+msgid ""
+"For each sequence of an exercise, you will listen it then type words you "
+"hear. Perroquet show you the number of word to found and show the "
+"punctuation, you must complete the cloze test."
+msgstr ""
+
+#: ../page/documentation/use/index.php:35
+msgid "This part is subdivised in three chapters: "
+msgstr ""
+
+#: ../page/documentation/use/index.php:37
+#, php-format
+msgid "<a href=\"%s\">Interface</a> : this chapter descripte the interface."
+msgstr ""
+
+#: ../page/documentation/use/index.php:38
+#, php-format
+msgid ""
+"<a href=\"%s\">Navigate</a> : this chapter explain how to navigate in an "
+"exercise."
+msgstr ""
+
+#: ../page/documentation/use/index.php:39
+#, php-format
+msgid ""
+"<a href=\"%s\">Works</a> : this chapter explain how to work on an exercise."
+msgstr ""
+
+#: ../page/documentation/use/ui.php:14
+msgid "Documentation - use - Interface"
+msgstr ""
+
+#: ../page/documentation/use/ui.php:23
+msgid "Documentation - Use - Interface"
 msgstr ""
 
 #: ../page/documentation/documentation_page.php:14
@@ -1219,7 +1255,7 @@ msgid "Development"
 msgstr ""
 
 #: ../page/documentation/faq.php:14 ../page/documentation/faq.php:23
-msgid "Faq"
+msgid "Documentation - Faq"
 msgstr ""
 
 #: ../page/documentation/faq.php:26
