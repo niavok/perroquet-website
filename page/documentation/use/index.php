@@ -20,7 +20,7 @@ class CurrentPage extends DocumentationPage{
     function generateContent() {
         $content ='';
         $content .= '
-        <h1>'._('Documentation - use').'</h1>';
+        <h1>'._('Documentation - Use').'</h1>';
 
 
         $content .= '<p>'._('In this part, you will lear to works with perroquet.').'</p>';
@@ -34,9 +34,9 @@ class CurrentPage extends DocumentationPage{
 
         $content .= '<p>'._('This part is subdivised in three chapters: ').'</p><ul>';
 
-        $content .= '<li>'.sprintf(_('<a href="%s">Interface</a> : this chapter descripte the interface.'),RessourceManager::getInnerUrl('documentation/installation/index')).'</li>';
-        $content .= '<li>'.sprintf(_('<a href="%s">Navigate</a> : this chapter explain how to navigate in an exercise.'),RessourceManager::getInnerUrl('documentation/use/index')).'</li>';
-        $content .= '<li>'.sprintf(_('<a href="%s">Works</a> : this chapter explain how to work on an exercise.'),RessourceManager::getInnerUrl('documentation/help/index')).'</li>';
+        $content .= '<li>'.sprintf(_('<a href="%s">Interface</a> : this chapter descripte the interface.'),RessourceManager::getInnerUrl('documentation/use/ui')).'</li>';
+        $content .= '<li>'.sprintf(_('<a href="%s">Navigate</a> : this chapter explain how to navigate in an exercise.'),RessourceManager::getInnerUrl('documentation/use/navigate')).'</li>';
+        $content .= '<li>'.sprintf(_('<a href="%s">Works</a> : this chapter explain how to work on an exercise.'),RessourceManager::getInnerUrl('documentation/use/work')).'</li>';
         
         $content .= '</ul>';
 
