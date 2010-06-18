@@ -10,8 +10,8 @@ require_once $_SERVER["DOCUMENT_ROOT"].'/page/documentation/documentation_page.p
 
 class CurrentPage extends DocumentationPage{
         function __construct() {
-        $this->id = 'documentation/index';
-        $this->title = _('Documentation');
+        $this->id = 'documentation/use/work';
+        $this->title = _('Documentation - Work');
     }
     function execute() {
 
@@ -20,29 +20,21 @@ class CurrentPage extends DocumentationPage{
     function generateContent() {
         $content ='';
         $content .= '
-        <h1>'._('Documentation').'</h1>
-            <p>'._('You will find here the documentation of Perroquet. This documentation is far to be complete but don\'t hesitate to contact us for question.').'</p>';
+        <h1>'._('Documentation - Work').'</h1>';
+           
+        $content .= '<p>'._('In the response zone, each word you have to found are symbolised by a blue rectangle. Before typing a response you must verify that a cursor is present in the response zone. If no cursor are present, click on the zone.').'</p>';
 
+        $content .= '<p>'._('In the response zone, each word you have to found are symbolised by a blue rectangle. Before typing a response you must verify that a cursor is present in the response zone. If no cursor are present, click on the zone near the word you want to type.').'</p>';
 
+        $content .= '<p>'._('If you place the cursor at the wrong place but the word you type is right, the word will be moved automatically.').'</p>';
 
+        $content .= '<p>'._('You don\'t have to uppercase letters, Perroquet ignore case.').'</p>';
 
-        $content .= '<p>'._('This documentation is subdivised in six section: ').'</p><ul>';
+        $content .= '<p>'._('When a word is correct, it is display in green and cannot be modified.').'</p>';
 
-        $content .= '<li>'.sprintf(_('<a href="%s">Installation</a> : explains how install, compile or only run perroquet.'),RessourceManager::getInnerUrl('documentation/installation/index')).'</li>';
-        $content .= '<li>'.sprintf(_('<a href="%s">Use perroquet</a> : describe the user interface and explains how to create an simple exercise and work on it.'),RessourceManager::getInnerUrl('documentation/use/index')).'</li>';
-        $content .= '<li>'.sprintf(_('<a href="%s">Help tools</a> : if an exercise is too difficult for you, you can use help tools to give you hint or speed down the playback. This part also explain how to increase the difficulty of an exercise.'),RessourceManager::getInnerUrl('documentation/help/index')).'</li>';
-        $content .= '<li>'.sprintf(_('<a href="%s">Repositories</a> : this part explain how to add a new exercise source or create it own exercise repository.'),RessourceManager::getInnerUrl('documentation/installation/index')).'</li>';
-        $content .= '<li>'.sprintf(_('<a href="%s">Exercise creation</a> : explains how to create an exercise using advanced features as teacher locks or multi files exercises.'),RessourceManager::getInnerUrl('documentation/installation/index')).'</li>';
-        $content .= '<li>'.sprintf(_('<a href="%s">Development</a> : installation from source, code global structure.'),RessourceManager::getInnerUrl('documentation/installation/index')).'</li>';
+        $content .= '<p>'._('To change the current word, you can use arrow keys, the mouse or the space key. These keys will skipped the completed words.').'</p>';
 
-        $content .= '</ul>';
-
-        $content .= '<p>'._('There is also 2 special documentation page: ').'</p><ul>';
-
-        $content .= '<li>'.sprintf(_('<a href="%s">FAQ</a> : for common or strange questions.'),RessourceManager::getInnerUrl('documentation/faq')).'</li>';
-        $content .= '<li>'.sprintf(_('<a href="%s">Shortcuts</a> : to stop to use the mouse.'),RessourceManager::getInnerUrl('documentation/shortcuts')).'</li>';
-
-        $content .= '</ul>';
+        $content .= '<p>'._('The punctuation is already displayed so you don\'t have to type it. However, characters as apostrophe in english exercises have to be guess. In english exercise, characters to find are : "a" to "z", "0" to "9" and "apostrophe".').'</p>';
 
         return $content;
     }

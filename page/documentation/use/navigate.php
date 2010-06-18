@@ -8,10 +8,10 @@
 
 require_once $_SERVER["DOCUMENT_ROOT"].'/page/documentation/documentation_page.php';
 
-class CurrentPage extends DocumentationPage{
+class CurrentPage extends DocumentationPage {
         function __construct() {
-        $this->id = 'documentation/index';
-        $this->title = _('Documentation');
+        $this->id = 'documentation/use/navigate';
+        $this->title = _('Documentation - Navigate');
     }
     function execute() {
 
@@ -20,29 +20,20 @@ class CurrentPage extends DocumentationPage{
     function generateContent() {
         $content ='';
         $content .= '
-        <h1>'._('Documentation').'</h1>
-            <p>'._('You will find here the documentation of Perroquet. This documentation is far to be complete but don\'t hesitate to contact us for question.').'</p>';
+        <h1>'._('Documentation - Navigate').'</h1>';
+
+        $content .= '<p>'._('For the chapter, you can open an exercise. Open the exercise manager (Edit > Exercise Manager), Select "Alison" exercise and click on Install button. Wait the end of the installation of the exercise the click on the Use button.').'</p>';
+
+        $content .= '<p>'._('At the right of the exercise slider, you can see the current position and the lenght of the exercise. The first number is the current sequence and the second is the sequence count. For exemple, in the "Alison" exercise, there is 8 sequences and the exercise begin at the first sequence.').'</p>';
+
+        $content .= '<p>'._('You are not obligated to answer to sequences in order. You can go directly to a sequence using the exercise slider. You can also use the "Previous sequence" and "Next sequence" button but the complete sequence will be skipped.').'</p>';
+
+        $content .= '<p>'._('With the sequence slider, you can listen the end of the current sequence. This is useful to focalise your listening on one word or when sequence are too long.').'</p>';
 
 
+        $content .= '<p>'._('When the sequences are not completed, it\'s not easily possible to see the video part located between 2 sequences because Perroquet stop the video at the end of the sequences. When you complete a sequence, Perroquet will not stop the playback at the end of sequence but continue to play until the end of the next uncomplete sequence. If you really want to see the video after an uncomplete sequence, you have to activate the Play/Pause button : Edit > Settings > Advanced tab > Show play and pause buttons. Then wait that the video stop at the and of the uncomplete sequence and use the Play button. Use the repeat button to return at the beginning of the current sequence.').'</p>';
 
 
-        $content .= '<p>'._('This documentation is subdivised in six section: ').'</p><ul>';
-
-        $content .= '<li>'.sprintf(_('<a href="%s">Installation</a> : explains how install, compile or only run perroquet.'),RessourceManager::getInnerUrl('documentation/installation/index')).'</li>';
-        $content .= '<li>'.sprintf(_('<a href="%s">Use perroquet</a> : describe the user interface and explains how to create an simple exercise and work on it.'),RessourceManager::getInnerUrl('documentation/use/index')).'</li>';
-        $content .= '<li>'.sprintf(_('<a href="%s">Help tools</a> : if an exercise is too difficult for you, you can use help tools to give you hint or speed down the playback. This part also explain how to increase the difficulty of an exercise.'),RessourceManager::getInnerUrl('documentation/help/index')).'</li>';
-        $content .= '<li>'.sprintf(_('<a href="%s">Repositories</a> : this part explain how to add a new exercise source or create it own exercise repository.'),RessourceManager::getInnerUrl('documentation/installation/index')).'</li>';
-        $content .= '<li>'.sprintf(_('<a href="%s">Exercise creation</a> : explains how to create an exercise using advanced features as teacher locks or multi files exercises.'),RessourceManager::getInnerUrl('documentation/installation/index')).'</li>';
-        $content .= '<li>'.sprintf(_('<a href="%s">Development</a> : installation from source, code global structure.'),RessourceManager::getInnerUrl('documentation/installation/index')).'</li>';
-
-        $content .= '</ul>';
-
-        $content .= '<p>'._('There is also 2 special documentation page: ').'</p><ul>';
-
-        $content .= '<li>'.sprintf(_('<a href="%s">FAQ</a> : for common or strange questions.'),RessourceManager::getInnerUrl('documentation/faq')).'</li>';
-        $content .= '<li>'.sprintf(_('<a href="%s">Shortcuts</a> : to stop to use the mouse.'),RessourceManager::getInnerUrl('documentation/shortcuts')).'</li>';
-
-        $content .= '</ul>';
 
         return $content;
     }
