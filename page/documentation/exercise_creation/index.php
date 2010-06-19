@@ -10,8 +10,8 @@ require_once $_SERVER["DOCUMENT_ROOT"].'/page/documentation/documentation_page.p
 
 class CurrentPage extends DocumentationPage{
         function __construct() {
-        $this->id = 'documentation/index';
-        $this->title = _('Documentation');
+        $this->id = 'documentation/xercise_creation/index';
+        $this->title = _('Documentation - Exercise creation');
     }
     function execute() {
 
@@ -19,30 +19,26 @@ class CurrentPage extends DocumentationPage{
 
     function generateContent() {
         $content ='';
-        $content .= '
-        <h1>'._('Documentation').'</h1>
-            <p>'._('You will find here the documentation of Perroquet. This documentation is far to be complete but don\'t hesitate to contact us for question.').'</p>';
+        $content .= '<h1>'._('Documentation - Exercise creation').'</h1>';
+
+
+        $content .= '<p>'._('To create an exercise, click on the button "New exercise" in the tools bar or on "File > New exercise" in the menu bar.').'</p>';
+
+
+        $content .= '<p>'._('A dialog appears with 4 field:').'</p>';
+
+        $content .= '<ul>
+            <li>'._(' Exercise video or audio: this field must be set to the media file in the language you want to work.').'</li>
+            <li>'._('Exercise subtitle: this field must be set to the subtitle file corresponding to the media file, in the same language. The subtitles format must be srt.').'</li>
+            <li>'._('Translation subtitles: this field can be set to another subtitle in another language. This field is optionnal. The subtitles format must be srt.').'</li>
+            <li>'._('Language: language to work. This field determines the list of character you have to guess.').'</li>
+                </ul>';
+
+        $content .= '<p>'._('Once these fields have been filled, click on "ok" button. Interface\'s components will be activated and the media file will begin to play.').'</p>';
 
 
 
-
-        $content .= '<p>'._('This documentation is subdivised in six section: ').'</p><ul>';
-
-        $content .= '<li>'.sprintf(_('<a href="%s">Installation</a> : explains how install, compile or only run perroquet.'),RessourceManager::getInnerUrl('documentation/installation/index')).'</li>';
-        $content .= '<li>'.sprintf(_('<a href="%s">Use perroquet</a> : describe the user interface and explains how to create an simple exercise and work on it.'),RessourceManager::getInnerUrl('documentation/use/index')).'</li>';
-        $content .= '<li>'.sprintf(_('<a href="%s">Help tools</a> : if an exercise is too difficult for you, you can use help tools to give you hint or speed down the playback. This part also explain how to increase the difficulty of an exercise.'),RessourceManager::getInnerUrl('documentation/help/index')).'</li>';
-        $content .= '<li>'.sprintf(_('<a href="%s">Repositories</a> : this part explain how to add a new exercise source or create it own exercise repository.'),RessourceManager::getInnerUrl('documentation/installation/index')).'</li>';
-        $content .= '<li>'.sprintf(_('<a href="%s">Exercise creation</a> : explains how to create an exercise using advanced features as teacher locks or multi files exercises.'),RessourceManager::getInnerUrl('documentation/installation/index')).'</li>';
-        $content .= '<li>'.sprintf(_('<a href="%s">Development</a> : installation from source, code global structure.'),RessourceManager::getInnerUrl('documentation/installation/index')).'</li>';
-
-        $content .= '</ul>';
-
-        $content .= '<p>'._('There is also 2 special documentation page: ').'</p><ul>';
-
-        $content .= '<li>'.sprintf(_('<a href="%s">FAQ</a> : for common or strange questions.'),RessourceManager::getInnerUrl('documentation/faq')).'</li>';
-        $content .= '<li>'.sprintf(_('<a href="%s">Shortcuts</a> : to stop to use the mouse.'),RessourceManager::getInnerUrl('documentation/shortcuts')).'</li>';
-
-        $content .= '</ul>';
+       
 
         return $content;
     }
