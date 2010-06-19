@@ -21,8 +21,8 @@ class CurrentPage extends ExercisePage{
         $content ='';
         $content .= '
         <h1>'._('Exercises').'</h1>
-            <p>'._('Perroquet works the exercises. And exercises in perroquet is the association of one or more media files and the corresponding subtitles files.').'</p>
-            <p>'._('There is various way to get an exercices.').'</p>
+            <p>'._('Perroquet works with exercises. And exercises in perroquet is the association of one or more media files and the corresponding subtitles files.').'</p>
+            <p>'._('There is various ways to get an exercise.').'</p>
 
             <h2>'._('Manual exercises creation').'</h2>
                 <p>'._('If you have a media file with an audio track in the language you want to works and a subtitle in the same language, you can manually create an exercises.').'</p>

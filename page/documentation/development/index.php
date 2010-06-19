@@ -70,7 +70,7 @@ python setup.py install --record=install-files.txt
 sudo python setup.py install --record=install-files.txt
 </pre>';
 
-        $content .= '<p>'._('The install-files.txt file isi optionnal be need to uninstall Perroquet.').'</p>';
+        $content .= '<p>'._('The install-files.txt file is optionnal. It is needed to uninstall Perroquet.').'</p>';
         $content .= '<p>'._('Once installed, you should be able to launch Perroquet from anywhere:').'</p>';
         $content .= '
 <pre>

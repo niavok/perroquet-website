@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-06-19 10:01+0200\n"
+"POT-Creation-Date: 2010-06-19 10:08+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -147,7 +147,7 @@ msgid ""
 "You must then  Perroquet, run it, create a new exercise and put the video "
 "file in the first field, the file of English subtitles in the second file "
 "and the subtitle in the French final. To learn to use all the features of "
-"parrot, see the <a href=\"%s\" >documentation</a>."
+"Perroquet, see the <a href=\"%s\" >documentation</a>."
 msgstr ""
 
 #: ../page/index.php:25
@@ -160,8 +160,8 @@ msgstr ""
 #: ../page/index.php:26
 msgid ""
 "If you want plan to test perroquet without internet connection, you also can "
-"an exercises now from the online exercise repository and import it in "
-"perroquet later (File > Import): <a href=\"/exercises/\" >Exercises "
+"download an exercises now from the online exercise repository and import it "
+"in perroquet later (File > Import): <a href=\"/exercises/\" >Exercises "
 "repository</a>"
 msgstr ""
 
@@ -799,12 +799,12 @@ msgstr ""
 
 #: ../page/exercises/index.php:24
 msgid ""
-"Perroquet works the exercises. And exercises in perroquet is the association "
-"of one or more media files and the corresponding subtitles files."
+"Perroquet works with exercises. And exercises in perroquet is the "
+"association of one or more media files and the corresponding subtitles files."
 msgstr ""
 
 #: ../page/exercises/index.php:25
-msgid "There is various way to get an exercices."
+msgid "There is various ways to get an exercise."
 msgstr ""
 
 #: ../page/exercises/index.php:27
@@ -1539,7 +1539,7 @@ msgstr ""
 
 #: ../page/documentation/development/index.php:73
 msgid ""
-"The install-files.txt file isi optionnal be need to uninstall Perroquet."
+"The install-files.txt file is optionnal. It is needed to uninstall Perroquet."
 msgstr ""
 
 #: ../page/documentation/development/index.php:74

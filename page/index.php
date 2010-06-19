@@ -21,9 +21,9 @@ class CurrentPage extends HtmlPage{
 
                 <h2>'._('Try now').'</h2>
                     <p>'.sprintf(_('Perroquet work with every media file your computer can read. Choose one video ou a audio book in the language you want to work and download the corresponding subtitle in the same language (srt format). <a href="%s" >Download</a>, install and launch perroquet.'), RessourceManager::getInnerUrl('download')).'</p>
-                    <p>'.sprintf(_('You must then  Perroquet, run it, create a new exercise and put the video file in the first field, the file of English subtitles in the second file and the subtitle in the French final. To learn to use all the features of parrot, see the <a href="%s" >documentation</a>.'), RessourceManager::getInnerUrl('documentation')).'</p>
+                    <p>'.sprintf(_('You must then  Perroquet, run it, create a new exercise and put the video file in the first field, the file of English subtitles in the second file and the subtitle in the French final. To learn to use all the features of Perroquet, see the <a href="%s" >documentation</a>.'), RessourceManager::getInnerUrl('documentation')).'</p>
                     <p>'._('If you want to test perroquet but you have no video available, you can use the integrated exercises manager. You can find it in "Edit > Exercices Manager" and provide a easy way to install exercises from a online database.').'</p>
-                    <p>'._('If you want plan to test perroquet without internet connection, you also can an exercises now from the online exercise repository and import it in perroquet later (File > Import): <a href="/exercises/" >Exercises repository</a>').'</p>
+                    <p>'._('If you want plan to test perroquet without internet connection, you also can download an exercises now from the online exercise repository and import it in perroquet later (File > Import): <a href="/exercises/" >Exercises repository</a>').'</p>
                     <p>'._('For now, the online exercises only allows you to practice understanding English.').'</p>
 
                     
