@@ -41,7 +41,7 @@ class CurrentPage extends DocumentationPage{
 
         $content .= '<h2>'._('Hint').'</h2>';
 
-        $content .= '<p>'._('Click on Hint button will give you help on the word where the cursor is. At fisrt hiny, le character count of the word will be displayed with some "~" (you don\'t have to delete these "~", they will be automaticaly replaced on typing). For each other hint, a new letter of the word will be displayed. Before ask a hint, don\'t delete your word: the corrects character will be preserved.').'</p>';
+        $content .= '<p>'._('Click on Hint button will give you help on the word where the cursor is. At first hint, the character count of the word will be displayed with some "~" (you don\'t have to delete these "~", they will be automaticaly replaced on typing). For each other hint, a new letter of the word will be displayed. Before ask a hint, don\'t delete your word: the correct character will be preserved.').'</p>';
 
         $content .= '<h2>'._('Translation').'</h2>';
 
@@ -55,12 +55,12 @@ class CurrentPage extends DocumentationPage{
 
         $content .= '<h2>'._('Complete words').'</h2>';
 
-        $content .= '<p>'._('You can use complete the current word or the current sequence using "Reveal the word" or "Reveal the sequence" in the help menu.').'</p>';
+        $content .= '<p>'._('You can complete the current word or the current sequence using "Reveal the word" or "Reveal the sequence" in the help menu.').'</p>';
 
         $content .= '<h2>'._('Show correction').'</h2>';
 
 
-        $content .= '<p>'._('Clicking on the Show correction button, you activate the correction mode. In this mode you show the correction without have to reveal au sequences. Also, you can easily hide the correction.').'</p>';
+        $content .= '<p>'._('Clicking on the Show correction button, you activate the correction mode. In this mode you show the correction without have to reveal all sequences. Also, you can easily hide the correction.').'</p>';
 
         return $content;
     }

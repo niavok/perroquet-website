@@ -53,7 +53,7 @@ cd perroquet
 python setup.py build
 </pre>';
 
-         $content .= '<p>'._('The language files should now be build. If you run Perroquet again and if your system language is one of translation language, the text in Perroquet wil be translated.').'</p>';
+         $content .= '<p>'._('The language files should now be build. If you run Perroquet again and if your system language is one of translation language, the text in Perroquet will be translated.').'</p>';
 
          $content .= '<h3>'._('Install').'</h3>';
 

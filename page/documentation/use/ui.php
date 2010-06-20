@@ -11,7 +11,7 @@ require_once $_SERVER["DOCUMENT_ROOT"].'/page/documentation/documentation_page.p
 class CurrentPage extends DocumentationPage{
         function __construct() {
         $this->id = 'documentation/use/interface';
-        $this->title = _('Documentation - use - Interface');
+        $this->title = _('Documentation - Use - Interface');
     }
     function execute() {
 
@@ -25,7 +25,7 @@ class CurrentPage extends DocumentationPage{
 
         $content .= '<p>'._('Perroquet\'s user interface has as goal to make easy to navigate between different sequences and inside a sequence. Perroquet doesn\'t aim to be a great video player but be good to learn foreign languages.').'</p>';
 
-        $content .= '<p>'._('This is the interface with annotation shwowing the differents components of the interface:').'</p>';
+        $content .= '<p>'._('This is the interface with annotation showing the differents components of the interface:').'</p>';
 
 
          $content .= '<p>'.RessourceManager::getImage('perroquet_ui_zones.png',_('Annotated Perroquet interface')).'</p>';

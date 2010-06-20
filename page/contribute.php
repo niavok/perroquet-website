@@ -7,7 +7,7 @@
  */
 class CurrentPage extends HtmlPage{
         function __construct() {
-        $this->id = 'contribure';
+        $this->id = 'contribute';
         $this->title = _('Contribute');
     }
 

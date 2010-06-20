@@ -21,7 +21,7 @@ class CurrentPage extends ExercisePage{
         $content ='';
         $content .= '
         <h1>'._('Exercises').'</h1>
-            <p>'._('Perroquet works with exercises. And exercises in perroquet is the association of one or more media files and the corresponding subtitles files.').'</p>
+            <p>'._('Perroquet works with exercises. An exercises in perroquet is the association of one or more media files and the corresponding subtitles files.').'</p>
             <p>'._('There is various ways to get an exercise.').'</p>
 
             <h2>'._('Manual exercises creation').'</h2>

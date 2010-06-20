@@ -11,7 +11,7 @@ require_once $_SERVER["DOCUMENT_ROOT"].'/page/documentation/documentation_page.p
 class CurrentPage extends DocumentationPage {
         function __construct() {
         $this->id = 'documentation/use/navigate';
-        $this->title = _('Documentation - Navigate');
+        $this->title = _('Documentation - Use - Navigate');
     }
     function execute() {
 
@@ -20,7 +20,7 @@ class CurrentPage extends DocumentationPage {
     function generateContent() {
         $content ='';
         $content .= '
-        <h1>'._('Documentation - Navigate').'</h1>';
+        <h1>'._('Documentation - Use - Navigate').'</h1>';
 
         $content .= '<p>'._('For the chapter, you can open an exercise. Open the exercise manager (Edit > Exercise Manager), Select "Alison" exercise and click on Install button. Wait the end of the installation of the exercise the click on the Use button.').'</p>';
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-06-19 10:08+0200\n"
+"POT-Creation-Date: 2010-06-21 01:38+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -799,8 +799,8 @@ msgstr ""
 
 #: ../page/exercises/index.php:24
 msgid ""
-"Perroquet works with exercises. And exercises in perroquet is the "
-"association of one or more media files and the corresponding subtitles files."
+"Perroquet works with exercises. An exercises in perroquet is the association "
+"of one or more media files and the corresponding subtitles files."
 msgstr ""
 
 #: ../page/exercises/index.php:25
@@ -1143,7 +1143,7 @@ msgstr ""
 
 #: ../page/documentation/use/navigate.php:14
 #: ../page/documentation/use/navigate.php:23
-msgid "Documentation - Navigate"
+msgid "Documentation - Use - Navigate"
 msgstr ""
 
 #: ../page/documentation/use/navigate.php:25
@@ -1242,7 +1242,7 @@ msgid ""
 msgstr ""
 
 #: ../page/documentation/use/work.php:14 ../page/documentation/use/work.php:23
-msgid "Documentation - Work"
+msgid "Documentation - Use - Work"
 msgstr ""
 
 #: ../page/documentation/use/work.php:25
@@ -1288,11 +1288,7 @@ msgid ""
 "\"apostrophe\"."
 msgstr ""
 
-#: ../page/documentation/use/ui.php:14
-msgid "Documentation - use - Interface"
-msgstr ""
-
-#: ../page/documentation/use/ui.php:23
+#: ../page/documentation/use/ui.php:14 ../page/documentation/use/ui.php:23
 msgid "Documentation - Use - Interface"
 msgstr ""
 
@@ -1305,7 +1301,7 @@ msgstr ""
 
 #: ../page/documentation/use/ui.php:28
 msgid ""
-"This is the interface with annotation shwowing the differents components of "
+"This is the interface with annotation showing the differents components of "
 "the interface:"
 msgstr ""
 
@@ -1521,7 +1517,7 @@ msgstr ""
 msgid ""
 "The language files should now be build. If you run Perroquet again and if "
 "your system language is one of translation language, the text in Perroquet "
-"wil be translated."
+"will be translated."
 msgstr ""
 
 #: ../page/documentation/development/index.php:58
@@ -1610,10 +1606,10 @@ msgstr ""
 #: ../page/documentation/help/index.php:44
 msgid ""
 "Click on Hint button will give you help on the word where the cursor is. At "
-"fisrt hiny, le character count of the word will be displayed with some \"~"
+"first hint, the character count of the word will be displayed with some \"~"
 "\" (you don't have to delete these \"~\", they will be automaticaly replaced "
 "on typing). For each other hint, a new letter of the word will be displayed. "
-"Before ask a hint, don't delete your word: the corrects character will be "
+"Before ask a hint, don't delete your word: the correct character will be "
 "preserved."
 msgstr ""
 
@@ -1641,13 +1637,13 @@ msgstr ""
 
 #: ../page/documentation/help/index.php:58
 msgid ""
-"You can use complete the current word or the current sequence using \"Reveal "
-"the word\" or \"Reveal the sequence\" in the help menu."
+"You can complete the current word or the current sequence using \"Reveal the "
+"word\" or \"Reveal the sequence\" in the help menu."
 msgstr ""
 
 #: ../page/documentation/help/index.php:63
 msgid ""
 "Clicking on the Show correction button, you activate the correction mode. In "
-"this mode you show the correction without have to reveal au sequences. Also, "
-"you can easily hide the correction."
+"this mode you show the correction without have to reveal all sequences. "
+"Also, you can easily hide the correction."
 msgstr ""

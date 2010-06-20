@@ -11,7 +11,7 @@ require_once $_SERVER["DOCUMENT_ROOT"].'/page/documentation/documentation_page.p
 class CurrentPage extends DocumentationPage{
         function __construct() {
         $this->id = 'documentation/use/work';
-        $this->title = _('Documentation - Work');
+        $this->title = _('Documentation - Use - Work');
     }
     function execute() {
 
@@ -20,7 +20,7 @@ class CurrentPage extends DocumentationPage{
     function generateContent() {
         $content ='';
         $content .= '
-        <h1>'._('Documentation - Work').'</h1>';
+        <h1>'._('Documentation - Use - Work').'</h1>';
            
         $content .= '<p>'._('In the response zone, each word you have to found are symbolised by a blue rectangle. Before typing a response you must verify that a cursor is present in the response zone. If no cursor are present, click on the zone.').'</p>';
 
