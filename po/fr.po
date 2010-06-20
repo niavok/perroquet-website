@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: perroquet\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-06-16 23:35+0200\n"
-"PO-Revision-Date: 2010-06-18 16:20+0000\n"
+"POT-Creation-Date: 2010-06-19 10:08+0200\n"
+"PO-Revision-Date: 2010-06-19 04:34+0000\n"
 "Last-Translator: Fred Bertolus <fred.bertolus@gmail.com>\n"
 "Language-Team: French\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2010-06-19 04:01+0000\n"
+"X-Launchpad-Export-Date: 2010-06-20 03:44+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 "X-Poedit-Country: FRANCE\n"
 "X-Poedit-Language: French\n"
@@ -73,19 +73,6 @@ msgstr "Captures d'écran"
 
 #: ../core/HtmlPage.php:112 ../page/documentation/index.php:14
 #: ../page/documentation/index.php:23
-#: ../page/documentation/installation/index.php:14
-#: ../page/documentation/installation/index.php:23
-#: ../page/documentation/exercise_creation/index.php:14
-#: ../page/documentation/exercise_creation/index.php:23
-#: ../page/documentation/use/navigate.php:14
-#: ../page/documentation/use/navigate.php:23
-#: ../page/documentation/use/work.php:14 ../page/documentation/use/work.php:23
-#: ../page/documentation/repositories/add_new_repository.php:14
-#: ../page/documentation/repositories/add_new_repository.php:23
-#: ../page/documentation/repositories/index.php:14
-#: ../page/documentation/repositories/index.php:23
-#: ../page/documentation/help/index.php:14
-#: ../page/documentation/help/index.php:23
 msgid "Documentation"
 msgstr "Documentation"
 
@@ -179,12 +166,8 @@ msgid ""
 "You must then  Perroquet, run it, create a new exercise and put the video "
 "file in the first field, the file of English subtitles in the second file "
 "and the subtitle in the French final. To learn to use all the features of "
-"parrot, see the <a href=\"%s\" >documentation</a>."
+"Perroquet, see the <a href=\"%s\" >documentation</a>."
 msgstr ""
-"You must then  Perroquet, run it, create a new exercise and put the video "
-"file in the first field, the file of English subtitles in the second file "
-"and the subtitle in the French final. To learn to use all the features of "
-"parrot ERROR, see the <a href=\"%s\" >documentation</a>."
 
 #: ../page/index.php:25
 msgid ""
@@ -200,14 +183,10 @@ msgstr ""
 #: ../page/index.php:26
 msgid ""
 "If you want plan to test perroquet without internet connection, you also can "
-"an exercises now from the online exercise repository and import it in "
-"perroquet later (File > Import): <a href=\"/exercises/\" >Exercises "
+"download an exercises now from the online exercise repository and import it "
+"in perroquet later (File > Import): <a href=\"/exercises/\" >Exercises "
 "repository</a>"
 msgstr ""
-"If you want plan to test perroquet without internet connection, you also can "
-"ERREUR EN ANGLAIS an exercises now from the online exercise repository and "
-"import it in perroquet later (File > Import): <a href=\"/exercises/\" "
-">Exercises repository</a>"
 
 #: ../page/index.php:27
 msgid ""
@@ -942,16 +921,13 @@ msgstr "Anciennes propositions"
 
 #: ../page/exercises/index.php:24
 msgid ""
-"Perroquet works the exercises. And exercises in perroquet is the association "
-"of one or more media files and the corresponding subtitles files."
+"Perroquet works with exercises. And exercises in perroquet is the "
+"association of one or more media files and the corresponding subtitles files."
 msgstr ""
-"Perroquet ERREUR EN ANGLAIS fonctionne avec des exercices. Un exercice dans "
-"perroquet est l'association d'un ou plusieurs fichier multimédia avec les "
-"sous-titres associés."
 
 #: ../page/exercises/index.php:25
-msgid "There is various way to get an exercices."
-msgstr "Il y a plusieurs moyen d'obtenir ERREUR EN ANGLAIS des exercices."
+msgid "There is various ways to get an exercise."
+msgstr ""
 
 #: ../page/exercises/index.php:27
 msgid "Manual exercises creation"
@@ -1161,29 +1137,30 @@ msgid "F1 : Hint"
 msgstr "F1 : Indice"
 
 #: ../page/documentation/shortcuts.php:31
+msgid "shift+F1 : Reveal the current word"
+msgstr ""
+
+#: ../page/documentation/shortcuts.php:32
+msgid "ctrl+shift+F1 : Reveal the current sequence"
+msgstr ""
+
+#: ../page/documentation/shortcuts.php:33
 msgid "F2 : Show/hide translation"
 msgstr "F2 : Afficher/Masquer la traduction"
 
-#: ../page/documentation/shortcuts.php:32
+#: ../page/documentation/shortcuts.php:34
 msgid "Enter : Replay sequence"
 msgstr "Enter : Rejouer la séquence"
 
-#: ../page/documentation/shortcuts.php:33
+#: ../page/documentation/shortcuts.php:35
 msgid "Page Up : Next sequence suivante"
 msgstr "Page Up : Next sequence suivante ERREUR"
 
-#: ../page/documentation/shortcuts.php:34
+#: ../page/documentation/shortcuts.php:36
 msgid "Page Down : Previous sequence"
 msgstr "Page bas : Séquence précédante"
 
 #: ../page/documentation/index.php:24
-#: ../page/documentation/installation/index.php:24
-#: ../page/documentation/exercise_creation/index.php:24
-#: ../page/documentation/use/navigate.php:24
-#: ../page/documentation/use/work.php:24
-#: ../page/documentation/repositories/add_new_repository.php:24
-#: ../page/documentation/repositories/index.php:24
-#: ../page/documentation/help/index.php:24
 msgid ""
 "You will find here the documentation of Perroquet. This documentation is far "
 "to be complete but don't hesitate to contact us for question."
@@ -1193,24 +1170,10 @@ msgstr ""
 "questions."
 
 #: ../page/documentation/index.php:29
-#: ../page/documentation/installation/index.php:29
-#: ../page/documentation/exercise_creation/index.php:29
-#: ../page/documentation/use/navigate.php:29
-#: ../page/documentation/use/work.php:29 ../page/documentation/use/ui.php:28
-#: ../page/documentation/repositories/add_new_repository.php:29
-#: ../page/documentation/repositories/index.php:29
-#: ../page/documentation/help/index.php:29
 msgid "This documentation is subdivised in six section: "
 msgstr "Cette documentation est subdivisée en six section : "
 
 #: ../page/documentation/index.php:31
-#: ../page/documentation/installation/index.php:31
-#: ../page/documentation/exercise_creation/index.php:31
-#: ../page/documentation/use/navigate.php:31
-#: ../page/documentation/use/work.php:31
-#: ../page/documentation/repositories/add_new_repository.php:31
-#: ../page/documentation/repositories/index.php:31
-#: ../page/documentation/help/index.php:31
 #, php-format
 msgid ""
 "<a href=\"%s\">Installation</a> : explains how install, compile or only run "
@@ -1220,13 +1183,6 @@ msgstr ""
 "seulement lancer  perroquet."
 
 #: ../page/documentation/index.php:32
-#: ../page/documentation/installation/index.php:32
-#: ../page/documentation/exercise_creation/index.php:32
-#: ../page/documentation/use/navigate.php:32
-#: ../page/documentation/use/work.php:32
-#: ../page/documentation/repositories/add_new_repository.php:32
-#: ../page/documentation/repositories/index.php:32
-#: ../page/documentation/help/index.php:32
 #, php-format
 msgid ""
 "<a href=\"%s\">Use perroquet</a> : describe the user interface and explains "
@@ -1236,13 +1192,6 @@ msgstr ""
 "explique comment créer un exercice simple et travailler avec."
 
 #: ../page/documentation/index.php:33
-#: ../page/documentation/installation/index.php:33
-#: ../page/documentation/exercise_creation/index.php:33
-#: ../page/documentation/use/navigate.php:33
-#: ../page/documentation/use/work.php:33
-#: ../page/documentation/repositories/add_new_repository.php:33
-#: ../page/documentation/repositories/index.php:33
-#: ../page/documentation/help/index.php:33
 #, php-format
 msgid ""
 "<a href=\"%s\">Help tools</a> : if an exercise is too difficult for you, you "
@@ -1255,13 +1204,6 @@ msgstr ""
 "difficulté de l'exercice."
 
 #: ../page/documentation/index.php:34
-#: ../page/documentation/installation/index.php:34
-#: ../page/documentation/exercise_creation/index.php:34
-#: ../page/documentation/use/navigate.php:34
-#: ../page/documentation/use/work.php:34
-#: ../page/documentation/repositories/add_new_repository.php:34
-#: ../page/documentation/repositories/index.php:34
-#: ../page/documentation/help/index.php:34
 #, php-format
 msgid ""
 "<a href=\"%s\">Repositories</a> : this part explain how to add a new "
@@ -1271,13 +1213,6 @@ msgstr ""
 "nouvelle source d'exercices ou créer son propre dépôt d'exercice."
 
 #: ../page/documentation/index.php:35
-#: ../page/documentation/installation/index.php:35
-#: ../page/documentation/exercise_creation/index.php:35
-#: ../page/documentation/use/navigate.php:35
-#: ../page/documentation/use/work.php:35
-#: ../page/documentation/repositories/add_new_repository.php:35
-#: ../page/documentation/repositories/index.php:35
-#: ../page/documentation/help/index.php:35
 #, php-format
 msgid ""
 "<a href=\"%s\">Exercise creation</a> : explains how to create an exercise "
@@ -1288,13 +1223,6 @@ msgstr ""
 "exercices multi fichiers."
 
 #: ../page/documentation/index.php:36
-#: ../page/documentation/installation/index.php:36
-#: ../page/documentation/exercise_creation/index.php:36
-#: ../page/documentation/use/navigate.php:36
-#: ../page/documentation/use/work.php:36
-#: ../page/documentation/repositories/add_new_repository.php:36
-#: ../page/documentation/repositories/index.php:36
-#: ../page/documentation/help/index.php:36
 #, php-format
 msgid ""
 "<a href=\"%s\">Development</a> : installation from source, code global "
@@ -1304,46 +1232,126 @@ msgstr ""
 "structure globale du code."
 
 #: ../page/documentation/index.php:40
-#: ../page/documentation/installation/index.php:40
-#: ../page/documentation/exercise_creation/index.php:40
-#: ../page/documentation/use/navigate.php:40
-#: ../page/documentation/use/work.php:40
-#: ../page/documentation/repositories/add_new_repository.php:40
-#: ../page/documentation/repositories/index.php:40
-#: ../page/documentation/help/index.php:40
 msgid "There is also 2 special documentation page: "
 msgstr "Il y a aussi 2 page de documentation spéciales : "
 
 #: ../page/documentation/index.php:42
-#: ../page/documentation/installation/index.php:42
-#: ../page/documentation/exercise_creation/index.php:42
-#: ../page/documentation/use/navigate.php:42
-#: ../page/documentation/use/work.php:42
-#: ../page/documentation/repositories/add_new_repository.php:42
-#: ../page/documentation/repositories/index.php:42
-#: ../page/documentation/help/index.php:42
 #, php-format
 msgid "<a href=\"%s\">FAQ</a> : for common or strange questions."
 msgstr "<a href=\"%s\">FAQ</a> : pour les questions récurrentes ou étranges."
 
 #: ../page/documentation/index.php:43
-#: ../page/documentation/installation/index.php:43
-#: ../page/documentation/exercise_creation/index.php:43
-#: ../page/documentation/use/navigate.php:43
-#: ../page/documentation/use/work.php:43
-#: ../page/documentation/repositories/add_new_repository.php:43
-#: ../page/documentation/repositories/index.php:43
-#: ../page/documentation/help/index.php:43
 #, php-format
 msgid "<a href=\"%s\">Shortcuts</a> : to stop to use the mouse."
 msgstr "<a href=\"%s\">Raccourcis</a> : pour arrêter d'utiliser la souris."
 
-#: ../page/documentation/use/index.php:14
-msgid "Documentation - Use"
+#: ../page/documentation/installation/index.php:14
+#: ../page/documentation/installation/index.php:23
+msgid "Documentation - Installation"
 msgstr ""
 
+#: ../page/documentation/installation/index.php:24
+#: ../page/documentation/repositories/add_new_repository.php:24
+#: ../page/documentation/repositories/index.php:24
+msgid "No documentation available."
+msgstr ""
+
+#: ../page/documentation/exercise_creation/index.php:14
+#: ../page/documentation/exercise_creation/index.php:22
+msgid "Documentation - Exercise creation"
+msgstr ""
+
+#: ../page/documentation/exercise_creation/index.php:25
+msgid ""
+"To create an exercise, click on the button \"New exercise\" in the tools bar "
+"or on \"File > New exercise\" in the menu bar."
+msgstr ""
+
+#: ../page/documentation/exercise_creation/index.php:28
+msgid "A dialog appears with 4 field:"
+msgstr ""
+
+#: ../page/documentation/exercise_creation/index.php:31
+msgid ""
+" Exercise video or audio: this field must be set to the media file in the "
+"language you want to work."
+msgstr ""
+
+#: ../page/documentation/exercise_creation/index.php:32
+msgid ""
+"Exercise subtitle: this field must be set to the subtitle file corresponding "
+"to the media file, in the same language. The subtitles format must be srt."
+msgstr ""
+
+#: ../page/documentation/exercise_creation/index.php:33
+msgid ""
+"Translation subtitles: this field can be set to another subtitle in another "
+"language. This field is optionnal. The subtitles format must be srt."
+msgstr ""
+
+#: ../page/documentation/exercise_creation/index.php:34
+msgid ""
+"Language: language to work. This field determines the list of character you "
+"have to guess."
+msgstr ""
+
+#: ../page/documentation/exercise_creation/index.php:37
+msgid ""
+"Once these fields have been filled, click on \"ok\" button. Interface's "
+"components will be activated and the media file will begin to play."
+msgstr ""
+
+#: ../page/documentation/use/navigate.php:14
+#: ../page/documentation/use/navigate.php:23
+msgid "Documentation - Navigate"
+msgstr ""
+
+#: ../page/documentation/use/navigate.php:25
+msgid ""
+"For the chapter, you can open an exercise. Open the exercise manager (Edit > "
+"Exercise Manager), Select \"Alison\" exercise and click on Install button. "
+"Wait the end of the installation of the exercise the click on the Use button."
+msgstr ""
+
+#: ../page/documentation/use/navigate.php:27
+msgid ""
+"At the right of the exercise slider, you can see the current position and "
+"the lenght of the exercise. The first number is the current sequence and the "
+"second is the sequence count. For exemple, in the \"Alison\" exercise, there "
+"is 8 sequences and the exercise begin at the first sequence."
+msgstr ""
+
+#: ../page/documentation/use/navigate.php:29
+msgid ""
+"You are not obligated to answer to sequences in order. You can go directly "
+"to a sequence using the exercise slider. You can also use the \"Previous "
+"sequence\" and \"Next sequence\" button but the complete sequence will be "
+"skipped."
+msgstr ""
+
+#: ../page/documentation/use/navigate.php:31
+msgid ""
+"With the sequence slider, you can listen the end of the current sequence. "
+"This is useful to focalise your listening on one word or when sequence are "
+"too long."
+msgstr ""
+
+#: ../page/documentation/use/navigate.php:34
+msgid ""
+"When the sequences are not completed, it's not easily possible to see the "
+"video part located between 2 sequences because Perroquet stop the video at "
+"the end of the sequences. When you complete a sequence, Perroquet will not "
+"stop the playback at the end of sequence but continue to play until the end "
+"of the next uncomplete sequence. If you really want to see the video after "
+"an uncomplete sequence, you have to activate the Play/Pause button : Edit > "
+"Settings > Advanced tab > Show play and pause buttons. Then wait that the "
+"video stop at the and of the uncomplete sequence and use the Play button. "
+"Use the repeat button to return at the beginning of the current sequence."
+msgstr ""
+
+#: ../page/documentation/use/index.php:14
 #: ../page/documentation/use/index.php:23
-msgid "Documentation - use"
+msgid "Documentation - Use"
 msgstr ""
 
 #: ../page/documentation/use/index.php:26
@@ -1395,12 +1403,184 @@ msgid ""
 "<a href=\"%s\">Works</a> : this chapter explain how to work on an exercise."
 msgstr ""
 
+#: ../page/documentation/use/work.php:14 ../page/documentation/use/work.php:23
+msgid "Documentation - Work"
+msgstr ""
+
+#: ../page/documentation/use/work.php:25
+msgid ""
+"In the response zone, each word you have to found are symbolised by a blue "
+"rectangle. Before typing a response you must verify that a cursor is present "
+"in the response zone. If no cursor are present, click on the zone."
+msgstr ""
+
+#: ../page/documentation/use/work.php:27
+msgid ""
+"In the response zone, each word you have to found are symbolised by a blue "
+"rectangle. Before typing a response you must verify that a cursor is present "
+"in the response zone. If no cursor are present, click on the zone near the "
+"word you want to type."
+msgstr ""
+
+#: ../page/documentation/use/work.php:29
+msgid ""
+"If you place the cursor at the wrong place but the word you type is right, "
+"the word will be moved automatically."
+msgstr ""
+
+#: ../page/documentation/use/work.php:31
+msgid "You don't have to uppercase letters, Perroquet ignore case."
+msgstr ""
+
+#: ../page/documentation/use/work.php:33
+msgid ""
+"When a word is correct, it is display in green and cannot be modified."
+msgstr ""
+
+#: ../page/documentation/use/work.php:35
+msgid ""
+"To change the current word, you can use arrow keys, the mouse or the space "
+"key. These keys will skipped the completed words."
+msgstr ""
+
+#: ../page/documentation/use/work.php:37
+msgid ""
+"The punctuation is already displayed so you don't have to type it. However, "
+"characters as apostrophe in english exercises have to be guess. In english "
+"exercise, characters to find are : \"a\" to \"z\", \"0\" to \"9\" and "
+"\"apostrophe\"."
+msgstr ""
+
 #: ../page/documentation/use/ui.php:14
 msgid "Documentation - use - Interface"
 msgstr ""
 
 #: ../page/documentation/use/ui.php:23
 msgid "Documentation - Use - Interface"
+msgstr ""
+
+#: ../page/documentation/use/ui.php:26
+msgid ""
+"Perroquet's user interface has as goal to make easy to navigate between "
+"different sequences and inside a sequence. Perroquet doesn't aim to be a "
+"great video player but be good to learn foreign languages."
+msgstr ""
+
+#: ../page/documentation/use/ui.php:28
+msgid ""
+"This is the interface with annotation shwowing the differents components of "
+"the interface:"
+msgstr ""
+
+#: ../page/documentation/use/ui.php:31
+msgid "Annotated Perroquet interface"
+msgstr ""
+
+#: ../page/documentation/use/ui.php:36
+msgid "These components are:"
+msgstr ""
+
+#: ../page/documentation/use/ui.php:37
+msgid ""
+"1 - Title bar. It display the project name and the current save state of the "
+"exercise."
+msgstr ""
+
+#: ../page/documentation/use/ui.php:38
+msgid "2 - Menu bar. It permit an access to most of Perroquet's features."
+msgstr ""
+
+#: ../page/documentation/use/ui.php:39
+msgid ""
+"3 - Tools bar. It permet a fast access to important of Perroquet's features."
+msgstr ""
+
+#: ../page/documentation/use/ui.php:40
+msgid "4 - Video zone. The video is displayed in this zone."
+msgstr ""
+
+#: ../page/documentation/use/ui.php:41
+msgid ""
+"5 - Statistic's zone. It displays informations about exercise progress."
+msgstr ""
+
+#: ../page/documentation/use/ui.php:42
+msgid "6 - Filter field. Allow to filter words in words list."
+msgstr ""
+
+#: ../page/documentation/use/ui.php:43
+msgid ""
+"7 - Words list. It contains all words you have to find in the whole exercise."
+msgstr ""
+
+#: ../page/documentation/use/ui.php:44
+msgid "8 - Response zone. It displays the cloze test."
+msgstr ""
+
+#: ../page/documentation/use/ui.php:45
+msgid ""
+"9 - Translation zone. It displays the translation of the current sequence. "
+"This zone is hidden by default"
+msgstr ""
+
+#: ../page/documentation/use/ui.php:46
+msgid "10 - Sequence slider. It permit to navigate in the current sequence."
+msgstr ""
+
+#: ../page/documentation/use/ui.php:47
+msgid "11 - Exercise slider. It permit to navigate in the exercise."
+msgstr ""
+
+#: ../page/documentation/use/ui.php:50
+msgid "The tools bar button are (from left to right):"
+msgstr ""
+
+#: ../page/documentation/use/ui.php:51
+msgid "New exercise."
+msgstr ""
+
+#: ../page/documentation/use/ui.php:52
+msgid "Open en exercise."
+msgstr ""
+
+#: ../page/documentation/use/ui.php:53
+msgid "Save the exercise."
+msgstr ""
+
+#: ../page/documentation/use/ui.php:54
+msgid "Previous sequence."
+msgstr ""
+
+#: ../page/documentation/use/ui.php:55
+msgid "Next sequence."
+msgstr ""
+
+#: ../page/documentation/use/ui.php:56
+msgid "Listen the sequence again."
+msgstr ""
+
+#: ../page/documentation/use/ui.php:57
+msgid "Hint."
+msgstr ""
+
+#: ../page/documentation/use/ui.php:58
+msgid "Show/hide translation."
+msgstr ""
+
+#: ../page/documentation/use/ui.php:59
+msgid "Show/hide correction."
+msgstr ""
+
+#: ../page/documentation/use/ui.php:60
+msgid "Slow down playback."
+msgstr ""
+
+#: ../page/documentation/use/ui.php:61
+msgid "Exercise properties."
+msgstr ""
+
+#: ../page/documentation/use/ui.php:62
+msgid "Reset the exercise."
 msgstr ""
 
 #: ../page/documentation/documentation_page.php:14
@@ -1426,6 +1606,16 @@ msgstr "Création d'exercices"
 #: ../page/documentation/documentation_page.php:19
 msgid "Development"
 msgstr "Développement"
+
+#: ../page/documentation/repositories/add_new_repository.php:14
+#: ../page/documentation/repositories/add_new_repository.php:23
+msgid "Documentation - Add new Repository"
+msgstr ""
+
+#: ../page/documentation/repositories/index.php:14
+#: ../page/documentation/repositories/index.php:23
+msgid "Documentation - Repositories"
+msgstr ""
 
 #: ../page/documentation/faq.php:14 ../page/documentation/faq.php:23
 msgid "Documentation - Faq"
@@ -1526,8 +1716,8 @@ msgstr "ou avec sudo"
 
 #: ../page/documentation/development/index.php:73
 msgid ""
-"The install-files.txt file isi optionnal be need to uninstall Perroquet."
-msgstr "Le fichier install-files.txt ERREUR"
+"The install-files.txt file is optionnal. It is needed to uninstall Perroquet."
+msgstr ""
 
 #: ../page/documentation/development/index.php:74
 msgid "Once installed, you should be able to launch Perroquet from anywhere:"
@@ -1540,6 +1730,104 @@ msgstr ""
 #: ../page/documentation/development/index.php:83
 msgid "To uninstall perroquet, type with root rigths:"
 msgstr "Pour désinstaller Perroquet, tapez avec les droits administrateur :"
+
+#: ../page/documentation/help/index.php:14
+#: ../page/documentation/help/index.php:22
+msgid "Documentation - Help tools"
+msgstr ""
+
+#: ../page/documentation/help/index.php:25
+msgid ""
+"In some cases, you may fail to understand what is said. Sometimes nothing is "
+"said (if there are subtitles for the deaf). Sometimes, the subtitles are "
+"broken. In these case, there is multiple ways to get help."
+msgstr ""
+
+#: ../page/documentation/help/index.php:27
+msgid "Most of these help tools can be accessed by the help menu."
+msgstr ""
+
+#: ../page/documentation/help/index.php:30
+#: ../page/documentation/help/index.php:38
+msgid "Autocoloration"
+msgstr ""
+
+#: ../page/documentation/help/index.php:31
+#: ../page/documentation/help/index.php:42
+msgid "Hint"
+msgstr ""
+
+#: ../page/documentation/help/index.php:32
+#: ../page/documentation/help/index.php:46
+msgid "Translation"
+msgstr ""
+
+#: ../page/documentation/help/index.php:33
+#: ../page/documentation/help/index.php:50
+msgid "Words list"
+msgstr ""
+
+#: ../page/documentation/help/index.php:34
+#: ../page/documentation/help/index.php:56
+msgid "Complete words"
+msgstr ""
+
+#: ../page/documentation/help/index.php:35
+#: ../page/documentation/help/index.php:60
+msgid "Show correction"
+msgstr ""
+
+#: ../page/documentation/help/index.php:40
+msgid ""
+"Perroquet change the background color of words when you are editing a word. "
+"If the color turn to green, you are near of the good word. If the color turn "
+"to red, you are wrong or misplaced."
+msgstr ""
+
+#: ../page/documentation/help/index.php:44
+msgid ""
+"Click on Hint button will give you help on the word where the cursor is. At "
+"fisrt hiny, le character count of the word will be displayed with some \"~\" "
+"(you don't have to delete these \"~\", they will be automaticaly replaced on "
+"typing). For each other hint, a new letter of the word will be displayed. "
+"Before ask a hint, don't delete your word: the corrects character will be "
+"preserved."
+msgstr ""
+
+#: ../page/documentation/help/index.php:48
+msgid ""
+"The translation button show or hide the translation zone. If a translation "
+"file has been choose at exercise creation, the translation of the current "
+"sequence is displayed in the translation zone. Perroquet translate sometimes "
+"more text then necessary to be sure the the interresting part is present."
+msgstr ""
+
+#: ../page/documentation/help/index.php:52
+msgid ""
+"The words list contains the list of words to find in whole exercise. It can "
+"serve to find the exact spell of a word."
+msgstr ""
+
+#: ../page/documentation/help/index.php:54
+msgid ""
+"The filter can help to display less words. To use the filter, you just have "
+"to type the pattern in the filter field. The filter use regexp, so typing "
+"\"^s.{3}r$\" select only words of 5 letters beginning with s and ending with "
+"\"r\"."
+msgstr ""
+
+#: ../page/documentation/help/index.php:58
+msgid ""
+"You can use complete the current word or the current sequence using \"Reveal "
+"the word\" or \"Reveal the sequence\" in the help menu."
+msgstr ""
+
+#: ../page/documentation/help/index.php:63
+msgid ""
+"Clicking on the Show correction button, you activate the correction mode. In "
+"this mode you show the correction without have to reveal au sequences. Also, "
+"you can easily hide the correction."
+msgstr ""
 
 #~ msgid ""
 #~ "\n"
@@ -1628,5 +1916,43 @@ msgstr "Pour désinstaller Perroquet, tapez avec les droits administrateur :"
 #~ "href=\"https://bugs.launchpad.net/perroquet/website\" >Bugtracker du site "
 #~ "web de Perroquet</a>"
 
+#~ msgid "There is various way to get an exercices."
+#~ msgstr "Il y a plusieurs moyen d'obtenir ERREUR EN ANGLAIS des exercices."
+
+#~ msgid ""
+#~ "Perroquet works the exercises. And exercises in perroquet is the association "
+#~ "of one or more media files and the corresponding subtitles files."
+#~ msgstr ""
+#~ "Perroquet ERREUR EN ANGLAIS fonctionne avec des exercices. Un exercice dans "
+#~ "perroquet est l'association d'un ou plusieurs fichier multimédia avec les "
+#~ "sous-titres associés."
+
 #~ msgid "Faq"
 #~ msgstr "Faq"
+
+#~ msgid ""
+#~ "The install-files.txt file isi optionnal be need to uninstall Perroquet."
+#~ msgstr "Le fichier install-files.txt ERREUR"
+
+#, php-format
+#~ msgid ""
+#~ "You must then  Perroquet, run it, create a new exercise and put the video "
+#~ "file in the first field, the file of English subtitles in the second file "
+#~ "and the subtitle in the French final. To learn to use all the features of "
+#~ "parrot, see the <a href=\"%s\" >documentation</a>."
+#~ msgstr ""
+#~ "You must then  Perroquet, run it, create a new exercise and put the video "
+#~ "file in the first field, the file of English subtitles in the second file "
+#~ "and the subtitle in the French final. To learn to use all the features of "
+#~ "parrot ERROR, see the <a href=\"%s\" >documentation</a>."
+
+#~ msgid ""
+#~ "If you want plan to test perroquet without internet connection, you also can "
+#~ "an exercises now from the online exercise repository and import it in "
+#~ "perroquet later (File > Import): <a href=\"/exercises/\" >Exercises "
+#~ "repository</a>"
+#~ msgstr ""
+#~ "If you want plan to test perroquet without internet connection, you also can "
+#~ "ERREUR EN ANGLAIS an exercises now from the online exercise repository and "
+#~ "import it in perroquet later (File > Import): <a href=\"/exercises/\" "
+#~ ">Exercises repository</a>"
