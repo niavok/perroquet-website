@@ -24,7 +24,7 @@ class CurrentPage extends HtmlPage{
         $content .= '<h2>'._('Ubuntu').'</h2>';
         $content .= '<h3>'._('Installer').'</h3>';
         $content .= '<p>'._('Using the installer, you\'ll miss the updates of Perroquet. If you want to make the updates, install Perroquet with the PPA').'</p>';
-        $content .= '<p>'._('The installer for Ubuntu is available here: <a href="http://launchpad.net/perroquet/trunk/1.1.0/+download/perroquet_1.1.0-0ubuntu4_all.deb" >Ubuntu Perroquet 1.1.0 installer</a>').'</p>';
+        $content .= '<p>'._('The installer for Ubuntu is available here: <a href="http://launchpad.net/perroquet/1.1/1.1.0/+download/perroquet_1.1.0-0ubuntu4_all.deb" >Ubuntu Perroquet 1.1.0 installer</a>').'</p>';
         $content .= '<p>'._('It is possible that this link is not updated. Go to this page to see all downloads:<a href="https://launchpad.net/perroquet/+download" >Download page on launchpad</a>').'</p>';
 
         $content .= '<h3>'._('PPA').'</h3>';
