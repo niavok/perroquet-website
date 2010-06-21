@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-06-21 01:38+0200\n"
+"POT-Creation-Date: 2010-06-21 13:08+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -144,10 +144,10 @@ msgstr ""
 #: ../page/index.php:24
 #, php-format
 msgid ""
-"You must then  Perroquet, run it, create a new exercise and put the video "
-"file in the first field, the file of English subtitles in the second file "
-"and the subtitle in the French final. To learn to use all the features of "
-"Perroquet, see the <a href=\"%s\" >documentation</a>."
+"You must download Perroquet, run it, create a new exercise and put the video "
+"file in the first field and the subtitles in the same language then video in "
+"the second field. To learn to use all the features of Perroquet, see the <a "
+"href=\"%s\" >documentation</a>."
 msgstr ""
 
 #: ../page/index.php:25
