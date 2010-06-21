@@ -15,7 +15,7 @@ class CurrentPage extends HtmlPage{
         $content = '<h1>'._('Download').'</h1>';
 
 
-        $content .= '<p>'._('Last release : 1.1.0<br />2010-07-01').'</p>';
+        $content .= '<p>'._('Last release : ').'1.1.0<br />2010-06-21</p>';
 
         $content .= '<p>'._('Currently, Perroquet is only available for Linux, but it uses multi-platform technology. It should be easily portable to other systems.').'</p>';
 
@@ -24,7 +24,7 @@ class CurrentPage extends HtmlPage{
         $content .= '<h2>'._('Ubuntu').'</h2>';
         $content .= '<h3>'._('Installer').'</h3>';
         $content .= '<p>'._('Using the installer, you\'ll miss the updates of Perroquet. If you want to make the updates, install Perroquet with the PPA').'</p>';
-        $content .= '<p>'._('The installer for Ubuntu karmic is available here: <a href="http://launchpad.net/perroquet/trunk/1.0.1/+download/perroquet_1.0.1-0ubuntu2_all.deb" >Ubuntu Karmic Perroquet 1.0.1 installer</a>').'</p>';
+        $content .= '<p>'._('The installer for Ubuntu is available here: <a href="http://launchpad.net/perroquet/trunk/1.1.0/+download/perroquet_1.1.0-0ubuntu4_all.deb" >Ubuntu Perroquet 1.1.0 installer</a>').'</p>';
         $content .= '<p>'._('It is possible that this link is not updated. Go to this page to see all downloads:<a href="https://launchpad.net/perroquet/+download" >Download page on launchpad</a>').'</p>';
 
         $content .= '<h3>'._('PPA').'</h3>';
@@ -41,14 +41,14 @@ class CurrentPage extends HtmlPage{
         $content .= '<p>'._('You can find here package for an exercise based on Elephant Dream : <a href="http://aur.archlinux.org/packages.php?ID=33400" >AUR package for Elephant Dream exercise</a>.').'</p>';
 
         $content .= '<h2>'._('Mandriva').'</h2>';
-        $content .= '<p>'._('A perroquet package for Mandriva is available for Mandriva 2010. You can also download it here: <a href="http://rpmfind.unity-linux.org/Mandriva%20Cooker%20-%20Contrib/perroquet-1.0.1-2mdv2010.1.noarch.html" >Perroquet 1.0.0 rpm </a>').'</p>';
+        $content .= '<p>'._('A perroquet 1.0.1 package for Mandriva is available for Mandriva 2010. You can also download it here: <a href="http://rpmfind.unity-linux.org/Mandriva%20Cooker%20-%20Contrib/perroquet-1.0.1-2mdv2010.1.noarch.html" >Perroquet 1.0.0 rpm </a>').'</p>';
 
         $content .= '<h2>'._('Others linux').'</h2>';
        
         $content .= '<p>'._('If you make a package for another distribution, send me it, I\'ll add it on this page.').'</p>';
         
         $content .= '<h3>'._('Source tarball').'</h3>';
-        $content .= '<p>'._('The tarball containing the sources of installable software can be found here: <a href="http://launchpad.net/perroquet/1.0/1.0.1/+download/perroquet-1.0.1.tar.gz" >Tarball Perroquet 1.0.1</a>.').'</p>';
+        $content .= '<p>'._('The tarball containing the sources of installable software can be found here: <a href="http://launchpad.net/perroquet/1.1/1.1.0/+download/perroquet-1.1.0.tar.gz" >Tarball Perroquet 1.1.0</a>.').'</p>';
         $content .= '<p>'._('Read INSTALL file to installation instructions.').'</p>';
         $content .= '<p>'._('It is possible that this link is not updated. Go to this page to see all downloads: <a href="https://launchpad.net/perroquet/+download" >Download page on launchpad</a>').'</p>';
         $content .= '<h3>'._('Bazaar repository').'</h3>';

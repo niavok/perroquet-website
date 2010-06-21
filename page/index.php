@@ -30,7 +30,7 @@ class CurrentPage extends HtmlPage{
 
                 <h2>'._('News').'</h2>
 
-                    <h3>'._('Version 1.1.0 - 2010-07-01').'</h3>
+                    <h3>'._('Version 1.1.0 - 2010-06-21').'</h3>
                     <ul>
                         <li>'._('Add repository manager').'</li>
                         <li>'._('Packages import and export').'</li>
