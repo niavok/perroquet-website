@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-06-21 13:42+0200\n"
+"POT-Creation-Date: 2010-06-21 20:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -502,7 +502,7 @@ msgstr ""
 #: ../page/download.php:27
 msgid ""
 "The installer for Ubuntu is available here: <a href=\"http://launchpad.net/"
-"perroquet/trunk/1.1.0/+download/perroquet_1.1.0-0ubuntu4_all.deb\" >Ubuntu "
+"perroquet/1.1/1.1.0/+download/perroquet_1.1.0-0ubuntu4_all.deb\" >Ubuntu "
 "Perroquet 1.1.0 installer</a>"
 msgstr ""
 
@@ -534,13 +534,13 @@ msgid "Archlinux"
 msgstr ""
 
 #: ../page/download.php:35
-msgid "Version 1.0.0"
+msgid "Version 1.1.0"
 msgstr ""
 
 #: ../page/download.php:36
 msgid ""
 "An AUR package is available here: <a href=\"http://aur.archlinux.org/"
-"packages.php?ID=33388\" >AUR package for Perroquet 1.0.0</a>."
+"packages.php?ID=33388\" >AUR package for Perroquet 1.1.0</a>."
 msgstr ""
 
 #: ../page/download.php:37

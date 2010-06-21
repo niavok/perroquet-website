@@ -32,8 +32,8 @@ class CurrentPage extends HtmlPage{
         $content .= '<p>'._('The details of the PPA are available at this address: <a href="https://launchpad.net/~fred-bertolus/+archive/perroquet" >PPA Perroquet</a>').'</p>';
 
         $content .= '<h2>'._('Archlinux').'</h2>';
-        $content .= '<h3>'._('Version 1.0.0').'</h3>';
-        $content .= '<p>'._('An AUR package is available here: <a href="http://aur.archlinux.org/packages.php?ID=33388" >AUR package for Perroquet 1.0.0</a>.').'</p>';
+        $content .= '<h3>'._('Version 1.1.0').'</h3>';
+        $content .= '<p>'._('An AUR package is available here: <a href="http://aur.archlinux.org/packages.php?ID=33388" >AUR package for Perroquet 1.1.0</a>.').'</p>';
         $content .= '<h3>'._('Developement version').'</h3>';
         $content .= '<p>'._('An AUR package is available here: <a href="http://aur.archlinux.org/packages.php?ID=33389" >AUR package for Perroquet using Bazaar</a>').'</p>';
         $content .= '<p>'._('Using this package, Perroquet can be instable but will have the last features.').'</p>';
