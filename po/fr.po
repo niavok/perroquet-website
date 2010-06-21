@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: perroquet\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-06-21 01:38+0200\n"
-"PO-Revision-Date: 2010-06-20 23:23+0000\n"
+"PO-Revision-Date: 2010-06-21 07:15+0000\n"
 "Last-Translator: Fred Bertolus <fred.bertolus@gmail.com>\n"
 "Language-Team: French\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2010-06-21 03:52+0000\n"
+"X-Launchpad-Export-Date: 2010-06-21 07:20+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 "X-Poedit-Country: FRANCE\n"
 "X-Poedit-Language: French\n"
@@ -932,6 +932,9 @@ msgid ""
 "Perroquet works with exercises. An exercises in perroquet is the association "
 "of one or more media files and the corresponding subtitles files."
 msgstr ""
+"Perroquet fonctionne avec des exercices. Un exercice dans Perroquet est "
+"l'association de un ou plusieurs fichiers multimédia et des fichiers de sous-"
+"titre correspondant."
 
 #: ../page/exercises/index.php:25
 msgid "There is various ways to get an exercise."
@@ -1328,7 +1331,7 @@ msgstr ""
 #: ../page/documentation/use/navigate.php:14
 #: ../page/documentation/use/navigate.php:23
 msgid "Documentation - Use - Navigate"
-msgstr ""
+msgstr "Documentation - Utiliser - Navigation"
 
 #: ../page/documentation/use/navigate.php:25
 msgid ""
@@ -1388,15 +1391,25 @@ msgid ""
 "video stop at the and of the uncomplete sequence and use the Play button. "
 "Use the repeat button to return at the beginning of the current sequence."
 msgstr ""
+"Lorsqu'une séquence n'est pas complète, il n'est pas possible de regarder "
+"simplement la partie de la vidéo situé entre 2 séquence parce que Perroquet "
+"arrête la lecture de vidéo à la fin des séquences. Quand vous complétez une "
+"séquence, Perroquet ne va plus stopper la vidéo jusqu'à la fin de la "
+"prochaine séquence incomplète. Si vous voulez vraiment regarder la vidéo "
+"après une séquence incomplète, vous devez activer les boutons Lecture/Pause "
+": Édition > Préférences > Onglet Avancées > Afficher les boutons de lecture "
+"et de pause. Ensuite attendez que la vidéo s'arrête à la fin d'un séquence "
+"incomplète et utilisé le bouton Lecture. Utilisez le bouton répéter pour "
+"retourner au début de la séquence courante."
 
 #: ../page/documentation/use/index.php:14
 #: ../page/documentation/use/index.php:23
 msgid "Documentation - Use"
-msgstr ""
+msgstr "Documentation - Utiliser"
 
 #: ../page/documentation/use/index.php:26
 msgid "In this part, you will lear to works with perroquet."
-msgstr ""
+msgstr "Dans cette partie, vous allez apprendre à travailler avec Perroquet."
 
 #: ../page/documentation/use/index.php:28
 msgid ""
@@ -1452,10 +1465,12 @@ msgstr ""
 msgid ""
 "<a href=\"%s\">Works</a> : this chapter explain how to work on an exercise."
 msgstr ""
+"<a href=\"%s\">Travailler</a> : ce chapitre explique comment travailler sur "
+"un exercice."
 
 #: ../page/documentation/use/work.php:14 ../page/documentation/use/work.php:23
 msgid "Documentation - Use - Work"
-msgstr ""
+msgstr "Documentation - Utiliser - Travailler"
 
 #: ../page/documentation/use/work.php:25
 msgid ""
@@ -1463,6 +1478,10 @@ msgid ""
 "rectangle. Before typing a response you must verify that a cursor is present "
 "in the response zone. If no cursor are present, click on the zone."
 msgstr ""
+"Dans la zone de réponse, chaque mots que vous avez à trouver est symbolisé "
+"par un rectangle bleu. Avant de taper une réponse, vous devez vérifier qu'un "
+"curseur est présent dans la zone de réponse. Si aucun curseur n'est présent, "
+"cliquez dans la zone."
 
 #: ../page/documentation/use/work.php:27
 msgid ""
@@ -1471,6 +1490,10 @@ msgid ""
 "in the response zone. If no cursor are present, click on the zone near the "
 "word you want to type."
 msgstr ""
+"Dans la zone de réponse, chaque mots que vous avez à trouver est symbolisé "
+"par un rectangle bleu. Avant de taper une réponse, vous devez vérifier qu'un "
+"curseur est présent dans la zone de réponse. Si aucun curseur n'est présent, "
+"cliquez dans la zone prêt de l'endroit ou vous voulez taper."
 
 #: ../page/documentation/use/work.php:29
 msgid ""
@@ -1534,6 +1557,8 @@ msgid ""
 "This is the interface with annotation showing the differents components of "
 "the interface:"
 msgstr ""
+"Voici l'interface avec des annotations montrant les différents composants de "
+"l'interface :"
 
 #: ../page/documentation/use/ui.php:31
 msgid "Annotated Perroquet interface"
@@ -1778,6 +1803,9 @@ msgid ""
 "your system language is one of translation language, the text in Perroquet "
 "will be translated."
 msgstr ""
+"Les fichiers de traduction devrait maintenant être construit. Si vous lancez "
+"à nouveau Perroquet et si la langue de votre système est une de celle "
+"traduite, le texte dans Perroquet sera traduit."
 
 #: ../page/documentation/development/index.php:58
 msgid "Install"
@@ -1882,6 +1910,12 @@ msgid ""
 "displayed. Before ask a hint, don't delete your word: the correct character "
 "will be preserved."
 msgstr ""
+"Appuyer sur le bouton indice va fournir une aide sur le mot en cours "
+"d'édition. Au premier indice, le nombre de caractère du mot va être indiqué "
+"par des \"~\" (qu'il est inutile de supprimer, ils seront remplacés "
+"automatiquement). À chaque autre indice, une lettre du mot sera complété. "
+"Avant de demander le premier indice, ne supprimez pas le mot faux : les "
+"bonnes lettres seront conservés."
 
 #: ../page/documentation/help/index.php:48
 msgid ""
@@ -1922,6 +1956,8 @@ msgid ""
 "You can complete the current word or the current sequence using \"Reveal the "
 "word\" or \"Reveal the sequence\" in the help menu."
 msgstr ""
+"Vous pouvez compléter le mot ou la phrase courante en utilisant \"Révéler le "
+"mot\" ou \"Révéler la séquence\" dans le menu Aide."
 
 #: ../page/documentation/help/index.php:63
 msgid ""
@@ -1929,6 +1965,9 @@ msgid ""
 "this mode you show the correction without have to reveal all sequences. "
 "Also, you can easily hide the correction."
 msgstr ""
+"En cliquant sur le bouton Afficher la correction, vous activez le mode "
+"corrigé. Dans ce mod, vous voyez la correction sans avoir à révéler toutes "
+"les séquences. Vous pouvez aussi faciliment  masquer la correction."
 
 #~ msgid ""
 #~ "\n"
