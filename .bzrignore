@@ -4,3 +4,4 @@ openid_store/associations
 openid_store/nonces
 openid_store/temp
 database/perroquet.sqlite
+forums

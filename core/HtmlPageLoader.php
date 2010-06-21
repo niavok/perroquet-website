@@ -27,7 +27,7 @@ class HtmlPageLoader {
                 $this->language = $_GET['lang'];
             }
         }
-        else {
+        else if (isset($_SERVER['HTTP_ACCEPT_LANGUAGE'])){
             $langs = explode(',',$_SERVER['HTTP_ACCEPT_LANGUAGE']);
             $nblang = count($langs);
 
@@ -38,7 +38,7 @@ class HtmlPageLoader {
                     break;
                 }
             }
-        }
+	}
 
         LanguageManager::loadLocales($this->language);
 
