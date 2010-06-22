@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: perroquet\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-06-21 13:08+0200\n"
-"PO-Revision-Date: 2010-06-21 11:19+0000\n"
+"POT-Creation-Date: 2010-06-21 20:36+0200\n"
+"PO-Revision-Date: 2010-06-21 18:38+0000\n"
 "Last-Translator: Fred Bertolus <fred.bertolus@gmail.com>\n"
 "Language-Team: French\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2010-06-21 11:20+0000\n"
+"X-Launchpad-Export-Date: 2010-06-22 04:32+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 "X-Poedit-Country: FRANCE\n"
 "X-Poedit-Language: French\n"
@@ -210,8 +210,8 @@ msgid "News"
 msgstr "Nouveautés"
 
 #: ../page/index.php:33
-msgid "Version 1.1.0 - 2010-07-01"
-msgstr "Version 1.1.0 - 2010-07-01"
+msgid "Version 1.1.0 - 2010-06-21"
+msgstr "Version 1.1.0 - 2010-06-21"
 
 #: ../page/index.php:35
 msgid "Add repository manager"
@@ -520,7 +520,7 @@ msgid ""
 "If you want to participate to Perroquet or report a problem, begin to visit "
 "the \"contribute\" page: "
 msgstr ""
-"Is vous voulez participer à Perroquet ou signaler un problème, commencez par "
+"Si vous voulez participer à Perroquet ou signaler un problème, commencez par "
 "visiter la page \"Contribuez\" : "
 
 #: ../page/contacts.php:18
@@ -544,8 +544,8 @@ msgstr ""
 "href=\"mailto:pfred.bertolus@gmail.com\">fred.bertolus@gmail.com</a>."
 
 #: ../page/download.php:18
-msgid "Last release : 1.1.0<br />2010-07-01"
-msgstr "Dernière sortie : 1.1.0<br/>2010-07-01."
+msgid "Last release : "
+msgstr "Dernière sortie : "
 
 #: ../page/download.php:20
 msgid ""
@@ -585,13 +585,10 @@ msgstr ""
 
 #: ../page/download.php:27
 msgid ""
-"The installer for Ubuntu karmic is available here: <a "
-"href=\"http://launchpad.net/perroquet/trunk/1.0.1/+download/perroquet_1.0.1-"
-"0ubuntu2_all.deb\" >Ubuntu Karmic Perroquet 1.0.1 installer</a>"
+"The installer for Ubuntu is available here: <a "
+"href=\"http://launchpad.net/perroquet/1.1/1.1.0/+download/perroquet_1.1.0-"
+"0ubuntu4_all.deb\" >Ubuntu Perroquet 1.1.0 installer</a>"
 msgstr ""
-"L'installeur pour Ubuntu Karmic est disponible ici : <a "
-"href=\"http://launchpad.net/perroquet/trunk/1.0.1/+download/perroquet_1.0.1-"
-"0ubuntu2_all.deb\" >Installeur de Perroquet 1.0.1 pour Ubuntu Karmic</a>"
 
 #: ../page/download.php:28
 msgid ""
@@ -633,18 +630,15 @@ msgid "Archlinux"
 msgstr "Archlinux"
 
 #: ../page/download.php:35
-msgid "Version 1.0.0"
-msgstr "Version 1.0.0"
+msgid "Version 1.1.0"
+msgstr ""
 
 #: ../page/download.php:36
 msgid ""
 "An AUR package is available here: <a "
 "href=\"http://aur.archlinux.org/packages.php?ID=33388\" >AUR package for "
-"Perroquet 1.0.0</a>."
+"Perroquet 1.1.0</a>."
 msgstr ""
-"Un paquet AUR est disponible à cette adresse: <a "
-"href=\"http://aur.archlinux.org/packages.php?ID=33388\" >Paquet AUR pour "
-"Perroquet 1.0.0</a>."
 
 #: ../page/download.php:37
 msgid "Developement version"
@@ -689,13 +683,13 @@ msgstr "Mandriva"
 
 #: ../page/download.php:44
 msgid ""
-"A perroquet package for Mandriva is available for Mandriva 2010. You can "
-"also download it here: <a href=\"http://rpmfind.unity-"
+"A perroquet 1.0.1 package for Mandriva is available for Mandriva 2010. You "
+"can also download it here: <a href=\"http://rpmfind.unity-"
 "linux.org/Mandriva%20Cooker%20-%20Contrib/perroquet-1.0.1-"
 "2mdv2010.1.noarch.html\" >Perroquet 1.0.0 rpm </a>"
 msgstr ""
-"Un paquet pour Mandriva est disponible pour Mandriva 2010. Vous pouvez ausii "
-"le télécharger ici : <a href=\"http://rpmfind.unity-"
+"Un package pour perroquet 1.0.1 est disponible pour Mandriva 2010. Vous "
+"pouvez aussi le télécharger ici: <a href=\"http://rpmfind.unity-"
 "linux.org/Mandriva%20Cooker%20-%20Contrib/perroquet-1.0.1-"
 "2mdv2010.1.noarch.html\" >Perroquet 1.0.0 rpm </a>"
 
@@ -718,12 +712,12 @@ msgstr "Tarball source"
 #: ../page/download.php:51
 msgid ""
 "The tarball containing the sources of installable software can be found "
-"here: <a href=\"http://launchpad.net/perroquet/1.0/1.0.1/+download/perroquet-"
-"1.0.1.tar.gz\" >Tarball Perroquet 1.0.1</a>."
+"here: <a href=\"http://launchpad.net/perroquet/1.1/1.1.0/+download/perroquet-"
+"1.1.0.tar.gz\" >Tarball Perroquet 1.1.0</a>."
 msgstr ""
-"Le tarball contenant les sources installables du logiciel se trouve ici : <a "
-"href=\"http://launchpad.net/perroquet/1.0/1.0.1/+download/perroquet-"
-"1.0.1.tar.gz\" >Tarball Perroquet 1.0.1</a>."
+"Le tarball contenant les sources peut être trouvé ici: <a "
+"href=\"http://launchpad.net/perroquet/1.1/1.1.0/+download/perroquet-"
+"1.1.0.tar.gz\" >Tarball de Perroquet 1.1.0</a>."
 
 #: ../page/download.php:52
 msgid "Read INSTALL file to installation instructions."
@@ -2057,6 +2051,21 @@ msgstr ""
 #~ "href=\"https://bugs.launchpad.net/perroquet/website\" >Bugtracker du site "
 #~ "web de Perroquet</a>"
 
+#~ msgid "Version 1.0.0"
+#~ msgstr "Version 1.0.0"
+
+#~ msgid ""
+#~ "An AUR package is available here: <a "
+#~ "href=\"http://aur.archlinux.org/packages.php?ID=33388\" >AUR package for "
+#~ "Perroquet 1.0.0</a>."
+#~ msgstr ""
+#~ "Un paquet AUR est disponible à cette adresse: <a "
+#~ "href=\"http://aur.archlinux.org/packages.php?ID=33388\" >Paquet AUR pour "
+#~ "Perroquet 1.0.0</a>."
+
+#~ msgid "Version 1.1.0 - 2010-07-01"
+#~ msgstr "Version 1.1.0 - 2010-07-01"
+
 #~ msgid "There is various way to get an exercices."
 #~ msgstr "Il y a plusieurs moyen d'obtenir ERREUR EN ANGLAIS des exercices."
 
@@ -2075,6 +2084,18 @@ msgstr ""
 #~ "The install-files.txt file isi optionnal be need to uninstall Perroquet."
 #~ msgstr "Le fichier install-files.txt ERREUR"
 
+#~ msgid ""
+#~ "The installer for Ubuntu karmic is available here: <a "
+#~ "href=\"http://launchpad.net/perroquet/trunk/1.0.1/+download/perroquet_1.0.1-"
+#~ "0ubuntu2_all.deb\" >Ubuntu Karmic Perroquet 1.0.1 installer</a>"
+#~ msgstr ""
+#~ "L'installeur pour Ubuntu Karmic est disponible ici : <a "
+#~ "href=\"http://launchpad.net/perroquet/trunk/1.0.1/+download/perroquet_1.0.1-"
+#~ "0ubuntu2_all.deb\" >Installeur de Perroquet 1.0.1 pour Ubuntu Karmic</a>"
+
+#~ msgid "Last release : 1.1.0<br />2010-07-01"
+#~ msgstr "Dernière sortie : 1.1.0<br/>2010-07-01."
+
 #, php-format
 #~ msgid ""
 #~ "You must then  Perroquet, run it, create a new exercise and put the video "
@@ -2088,6 +2109,17 @@ msgstr ""
 #~ "parrot ERROR, see the <a href=\"%s\" >documentation</a>."
 
 #~ msgid ""
+#~ "A perroquet package for Mandriva is available for Mandriva 2010. You can "
+#~ "also download it here: <a href=\"http://rpmfind.unity-"
+#~ "linux.org/Mandriva%20Cooker%20-%20Contrib/perroquet-1.0.1-"
+#~ "2mdv2010.1.noarch.html\" >Perroquet 1.0.0 rpm </a>"
+#~ msgstr ""
+#~ "Un paquet pour Mandriva est disponible pour Mandriva 2010. Vous pouvez ausii "
+#~ "le télécharger ici : <a href=\"http://rpmfind.unity-"
+#~ "linux.org/Mandriva%20Cooker%20-%20Contrib/perroquet-1.0.1-"
+#~ "2mdv2010.1.noarch.html\" >Perroquet 1.0.0 rpm </a>"
+
+#~ msgid ""
 #~ "If you want plan to test perroquet without internet connection, you also can "
 #~ "an exercises now from the online exercise repository and import it in "
 #~ "perroquet later (File > Import): <a href=\"/exercises/\" >Exercises "
@@ -2097,6 +2129,15 @@ msgstr ""
 #~ "ERREUR EN ANGLAIS an exercises now from the online exercise repository and "
 #~ "import it in perroquet later (File > Import): <a href=\"/exercises/\" "
 #~ ">Exercises repository</a>"
+
+#~ msgid ""
+#~ "The tarball containing the sources of installable software can be found "
+#~ "here: <a href=\"http://launchpad.net/perroquet/1.0/1.0.1/+download/perroquet-"
+#~ "1.0.1.tar.gz\" >Tarball Perroquet 1.0.1</a>."
+#~ msgstr ""
+#~ "Le tarball contenant les sources installables du logiciel se trouve ici : <a "
+#~ "href=\"http://launchpad.net/perroquet/1.0/1.0.1/+download/perroquet-"
+#~ "1.0.1.tar.gz\" >Tarball Perroquet 1.0.1</a>."
 
 #, php-format
 #~ msgid ""
