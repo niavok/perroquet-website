@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-06-21 20:36+0200\n"
+"POT-Creation-Date: 2010-06-22 08:29+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -860,12 +860,9 @@ msgid "Add new repository"
 msgstr ""
 
 #: ../page/exercises/my_propose_list.php:13
+#: ../page/exercises/my_propose_list.php:18
 #: ../page/exercises/exercise_page.php:30
 msgid "My proposed exercises"
-msgstr ""
-
-#: ../page/exercises/my_propose_list.php:18
-msgid "My proposed exercised"
 msgstr ""
 
 #: ../page/exercises/propose_form.php:13 ../page/exercises/propose_form.php:69

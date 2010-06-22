@@ -15,7 +15,7 @@ class CurrentPage extends ExercisePage{
     
     function generateContent() {
         $content = '
-        <h1>'._('My proposed exercised').'</h1>
+        <h1>'._('My proposed exercises').'</h1>
         ';
 
         if(LoginManager::isLogged()) {
