@@ -1,42 +1,39 @@
-# French translations for PACKAGE package.
-# Copyright (C) 2010 THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# Fred <fred.bertolus@gmail.com>, 2010.
+# Spanish translation for perroquet
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the perroquet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: perroquet\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2010-06-22 08:29+0200\n"
-"PO-Revision-Date: 2010-06-22 05:09+0000\n"
-"Last-Translator: Fred Bertolus <fred.bertolus@gmail.com>\n"
-"Language-Team: French\n"
+"PO-Revision-Date: 2010-06-22 09:00+0000\n"
+"Last-Translator: Romain Garbage <Unknown>\n"
+"Language-Team: Spanish <es@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2010-06-23 04:04+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
-"X-Poedit-Country: FRANCE\n"
-"X-Poedit-Language: French\n"
-"X-Poedit-SourceCharset: utf-8\n"
 
 #: ../core/HtmlPage.php:35
 msgid "Perroquet — Listening comprehension tutor — "
-msgstr "Perroquet — Un assistant à la compréhension orale — "
+msgstr ""
 
 #: ../core/HtmlPage.php:64
 #, php-format
 msgid "Logged as %s"
-msgstr "Connecté en tant que %s"
+msgstr "Sesión iniciada como %s"
 
 #: ../core/HtmlPage.php:72
 msgid "Change language"
-msgstr "Changer la langue"
+msgstr "Cambiar idioma."
 
 #: ../core/HtmlPage.php:75 ../page/special/login/logout.php:11
 #: ../page/special/login/logout.php:16
 msgid "Logout"
-msgstr "Se déconnecter"
+msgstr "Cerrar sesión"
 
 #: ../core/HtmlPage.php:77 ../page/special/login/openid_return.php:14
 #: ../page/special/login/openid_return.php:70
@@ -45,83 +42,81 @@ msgstr "Se déconnecter"
 #: ../page/special/login/perform_login.php:14
 #: ../page/special/login/perform_login.php:59
 msgid "Login"
-msgstr "Se connecter"
+msgstr "Iniciar sesión"
 
 #: ../core/HtmlPage.php:84
 msgid "Perroquet"
-msgstr "Perroquet"
+msgstr ""
 
 #: ../core/HtmlPage.php:85
 msgid "Listening comprehension tutor"
-msgstr "Assistant à la compréhension orale"
+msgstr ""
 
 #: ../core/HtmlPage.php:109 ../page/index.php:11 ../page/index.php:16
 #: ../page/exercises/external_repo.php:13
 #: ../page/exercises/external_repo.php:18
 msgid "Presentation"
-msgstr "Présentation"
+msgstr "Presentación"
 
 #: ../core/HtmlPage.php:110 ../page/download.php:11 ../page/download.php:15
 #: ../page/exercises/browse.php:46
 msgid "Download"
-msgstr "Télécharger"
+msgstr "Descargar"
 
 #: ../core/HtmlPage.php:111 ../page/screenshots.php:11
 #: ../page/screenshots.php:16
 msgid "Screenshots"
-msgstr "Captures d'écran"
+msgstr "Capturas de pantalla"
 
 #: ../core/HtmlPage.php:112 ../page/documentation/index.php:14
 #: ../page/documentation/index.php:23
 msgid "Documentation"
-msgstr "Documentation"
+msgstr ""
 
 #: ../core/HtmlPage.php:113 ../page/exercises/index.php:14
 #: ../page/exercises/index.php:23
 msgid "Exercises"
-msgstr "Exercices"
+msgstr "Ejercicios"
 
 #: ../core/HtmlPage.php:114 ../page/contribute.php:11
 #: ../page/contribute.php:15
 msgid "Contribute"
-msgstr "Contribuer"
+msgstr "Contribuir"
 
 #: ../core/HtmlPage.php:115 ../page/contacts.php:11 ../page/contacts.php:15
 msgid "Contacts"
-msgstr "Contacts"
+msgstr "Contactos"
 
 #: ../core/HtmlPage.php:116
 msgid "Forums"
-msgstr "Forums"
+msgstr "Foros"
 
 #: ../core/HtmlPage.php:178
 msgid "Users list"
-msgstr "Liste des utilisateurs"
+msgstr "Lista de usuarios"
 
 #: ../core/HtmlPage.php:179 ../page/exercises/propose_list.php:13
 msgid "Proposed exercises"
-msgstr "Exercises proposés"
+msgstr ""
 
 #: ../core/HtmlPage.php:180
 msgid "Add an exercise"
-msgstr "Ajouter un exercice"
+msgstr "Añadir un ejercicio"
 
 #: ../page/index.php:17 ../page/screenshots.php:17 ../page/screenshots.php:18
 #: ../page/exercises/external_repo.php:19
 msgid "Perroquet in use"
-msgstr "Perroquet en cours d'utilisation"
+msgstr ""
 
 #: ../page/index.php:18
 msgid ""
 "Perroquet is a educational program to improve playfully your listening in a "
 "foreign language"
 msgstr ""
-"Perroquet est un programme éducatif dont le but est d'améliorer de manière "
-"divertissant votre niveau de compréhension orale des langues étrangères"
 
 #: ../page/index.php:19 ../page/exercises/external_repo.php:21
 msgid "How it works"
-msgstr "Fonctionnement"
+msgstr "Cómo funciona"
 
 #: ../page/index.php:20
 msgid ""
@@ -133,18 +128,10 @@ msgid ""
 "necessary. If you do not understand, Perroquet offers several means to help "
 "you."
 msgstr ""
-"Le principe de Perroquet est d'utiliser une vidéo ou un fichier audio et les "
-"sous-titres associés pour vous faire écouter et comprendre les dialogues ou "
-"paroles. Après lui avoir indiqué les fichiers à utiliser, Perroquet va lire "
-"un morceau de la vidéo et puis la mettre en pause. Il vous indiquera alors "
-"le nombre de mot à trouver et vous devrez les taper pour pouvoir continuer "
-"la lecture. Il est possible de réécouter une séquence autant de fois que "
-"nécessaire. Si vous ne comprenez pas tout, Perroquet présente plusieurs "
-"moyen de vous aider."
 
 #: ../page/index.php:22 ../page/exercises/external_repo.php:24
 msgid "Try now"
-msgstr "Tester maintenant"
+msgstr "Prueba ya"
 
 #: ../page/index.php:23
 #, php-format
@@ -154,11 +141,6 @@ msgid ""
 "corresponding subtitle in the same language (srt format). <a href=\"%s\" "
 ">Download</a>, install and launch perroquet."
 msgstr ""
-"Perroquet fonctionne avec n'importe quel fichier multimédia que votre "
-"ordiateur est capable de lire. Choisissez une vidéo ou un livre audio dans "
-"la langue que vous souhaitez travailler et télécharger le sous-titre "
-"correcpondant dans la même langue (format str). <a href=\"%s\" "
-">Téléchargez</a>, installez puis lancez Perroquet."
 
 #: ../page/index.php:24
 #, php-format
@@ -168,11 +150,6 @@ msgid ""
 "the second field. To learn to use all the features of Perroquet, see the <a "
 "href=\"%s\" >documentation</a>."
 msgstr ""
-"Vous devez télécharger Perroquet, le lancer, créer un nouvel exercice et "
-"choisir le fichier vidéo pour le premier champ et le sous-titre de la même "
-"langue que la vidéo dans le second champ. Pour apprendre à utiliser toutes "
-"les fonctionnalités de Perroquet, consultez la <a href=\"%s\" "
-">documentation</a>."
 
 #: ../page/index.php:25
 msgid ""
@@ -180,10 +157,6 @@ msgid ""
 "the integrated exercises manager. You can find it in \"Edit > Exercices "
 "Manager\" and provide a easy way to install exercises from a online database."
 msgstr ""
-"Si vous voulez tester Perroquet mais que vous n'avez aucune vidéo "
-"disponible, vous pouvez utiliser le gestionnaire d'exercices intégré. Vous "
-"pouvez le trouvez dans \"Édition > Gestionnaire d'exercices\" et il procure "
-"un moyen facile d'installer des exercices depuis une base de donnée en ligne."
 
 #: ../page/index.php:26
 msgid ""
@@ -192,127 +165,117 @@ msgid ""
 "in perroquet later (File > Import): <a href=\"/exercises/\" >Exercises "
 "repository</a>"
 msgstr ""
-"Si vous prévoyez de tester Perroquet sans connection internet, vous pouvez "
-"aussi télécharger tout de suite un exercice depuis le dépôt d'exercice en "
-"ligne et l'importer plus tard dans Perroquet (Fichier > Importer) : <a "
-"href=\"/exercises/\" >Exercises repository</a>"
 
 #: ../page/index.php:27
 msgid ""
 "For now, the online exercises only allows you to practice understanding "
 "English."
 msgstr ""
-"Pour le moment, les exercices en ligne sont uniquement fait entrainer son "
-"anglais."
+"De momento, los ejercicios en línea sólo permiten practicar el inglés."
 
 #: ../page/index.php:31 ../page/exercises/external_repo.php:31
 msgid "News"
-msgstr "Nouveautés"
+msgstr ""
 
 #: ../page/index.php:33
 msgid "Version 1.1.0 - 2010-06-21"
-msgstr "Version 1.1.0 - 2010-06-21"
+msgstr "Versión 1.1.0 - 21-06-2010"
 
 #: ../page/index.php:35
 msgid "Add repository manager"
-msgstr "Ajout du gestionnaire d'exercices"
+msgstr ""
 
 #: ../page/index.php:36
 msgid "Packages import and export"
-msgstr "Importation et exportation de paquets"
+msgstr ""
 
 #: ../page/index.php:37
 msgid "Refactoring most of the code"
-msgstr "Refactoring de la plupart du code"
+msgstr ""
 
 #: ../page/index.php:38
 msgid "Add others exercise languages"
 msgstr ""
-"Ajout de la possibilité d'exercices dans d'autres langues que l'anglais"
 
 #: ../page/index.php:39
 msgid "Added aliases and synonyms"
-msgstr "Ajout d'alias et synonymes"
+msgstr ""
 
 #: ../page/index.php:40
 msgid "Show last open files"
-msgstr "Affichage des derniers fichiers ouvert"
+msgstr ""
 
 #: ../page/index.php:41
 msgid "Add many teaching tools"
-msgstr "Ajout de plusieurs outils scolaires"
+msgstr ""
 
 #: ../page/index.php:42
 msgid "Change exercise properties"
-msgstr "Edition des réglages des exercices"
+msgstr ""
 
 #: ../page/index.php:43
 msgid "Add many navigation toots"
-msgstr "Ajout de plusieurs outils de navigation"
+msgstr ""
 
 #: ../page/index.php:44
 msgid "Add many new help tools"
-msgstr "Ajout de plusieurs outils d'aide"
+msgstr ""
 
 #: ../page/index.php:45
 msgid "Support multi files exercises"
-msgstr "Support des exercices multi fichiers"
+msgstr ""
 
 #: ../page/index.php:46
 msgid "Automatic move of wrong placed words"
-msgstr "Déplacement autotmatique des mots placés au mauvais endroit"
+msgstr ""
 
 #: ../page/index.php:47 ../page/index.php:61
 msgid "Fix various bugs"
-msgstr "Plusieurs corrections de bugs"
+msgstr ""
 
 #: ../page/index.php:48 ../page/index.php:62
 msgid "Translation updates"
-msgstr "Mise à jour des traductions"
+msgstr ""
 
 #: ../page/index.php:51
 msgid "Version 1.0.1 - 2010-01-13"
-msgstr "Version 1.0.1 - 2010-01-13"
+msgstr ""
 
 #: ../page/index.php:53
 msgid "Improve window resize"
-msgstr "Amélioration du redimentionnement de la fenêtre"
+msgstr ""
 
 #: ../page/index.php:54
 msgid "Add new shortcuts"
-msgstr "Ajout de noveaux raccourcis"
+msgstr ""
 
 #: ../page/index.php:55
 msgid "Remove html tags in srt files"
-msgstr "Suppression des balises HTML dans les fichiers srt"
+msgstr ""
 
 #: ../page/index.php:56
 msgid "Replace | by new line in srt"
-msgstr "Remplacement de | par un saut de ligne dans les fichiers srt"
+msgstr ""
 
 #: ../page/index.php:57
 msgid "Handle perroquet file, add mime type and icons on perroquet exercise"
 msgstr ""
-"Ouverture automatique de Perroquet à l'utilisation d'un fichier d'exercice. "
-"Ajout d'icone et de type MIME."
 
 #: ../page/index.php:58
 msgid "Improve exercice creation dialog"
-msgstr "Amélioration de la boite de dialogue de création d'exercices"
+msgstr ""
 
 #: ../page/index.php:59
 msgid "Add tooltips"
-msgstr "Ajout d'infobulles"
+msgstr ""
 
 #: ../page/index.php:60
 msgid "Reimplement input system to support specials characters"
 msgstr ""
-"Réimplémentation du système d'entrée clavier pour supporter les caratères "
-"spéciaux"
 
 #: ../page/index.php:64
 msgid "Licence"
-msgstr "Licence"
+msgstr ""
 
 #: ../page/index.php:65
 msgid ""
@@ -321,71 +284,65 @@ msgid ""
 "href=\"https://launchpad.net/perroquet/+download\" >Download page at "
 "launchpad</a>"
 msgstr ""
-"Perroquet est un logiciel libre distribué sous la licence GNU Public License "
-"version 3 ou supérieure. Le code source de ce logiciel est disponible à "
-"l'adresse suivante : <a href=\"https://launchpad.net/perroquet/+download\" "
-">Page de téléchargement sur launchpad</a>"
 
 #: ../page/index.php:67
 msgid ""
 "The full text of the license is available here <a "
 "href=\"http://www.gnu.org/licenses/gpl.html\">GPL</a>."
 msgstr ""
-"Le texte complet de la licence est disponible ici <a "
-"href=\"http://www.gnu.org/licenses/gpl.html\">GPL</a>."
 
 #: ../page/screenshots.php:19 ../page/screenshots.php:20
 msgid "Perroquet exercises manager"
-msgstr "Gestionnaire d'exercices de Perroquet"
+msgstr ""
 
 #: ../page/admin/user_list.php:13 ../page/admin/user_list.php:34
 msgid "User list"
-msgstr "Liste des utilisateurs"
+msgstr ""
 
 #: ../page/admin/user_list.php:45 ../page/exercises/propose_list.php:29
 #: ../page/exercises/my_propose_list.php:29
 #: ../page/exercises/propose_form.php:85
 #: ../page/exercises/add_exercise.php:104
 msgid "Go to login page"
-msgstr "Aller à la page d'authentification"
+msgstr ""
 
 #: ../page/admin/user_list.php:56
 msgid "Administrators"
-msgstr "Administrateurs"
+msgstr ""
 
 #: ../page/admin/user_list.php:63 ../page/admin/user_list.php:96
 msgid "OpenID"
-msgstr "OpenID"
+msgstr ""
 
 #: ../page/admin/user_list.php:64 ../page/admin/user_list.php:97
 #: ../page/exercises/browse.php:26
 msgid "Name"
-msgstr "Nom"
+msgstr ""
 
 #: ../page/admin/user_list.php:65 ../page/admin/user_list.php:98
 msgid "Email"
-msgstr "Email"
+msgstr ""
 
 #: ../page/admin/user_list.php:66 ../page/admin/user_list.php:99
 msgid "Admin rights"
-msgstr "Droits administrateurs"
+msgstr ""
 
 #: ../page/admin/user_list.php:67 ../page/admin/user_list.php:80
 #: ../page/admin/user_list.php:100 ../page/admin/user_list.php:113
 msgid "Delete"
-msgstr "Supprimer"
+msgstr ""
 
 #: ../page/admin/user_list.php:79
 msgid "Remove"
-msgstr "Retirer"
+msgstr ""
 
 #: ../page/admin/user_list.php:89
 msgid "Users"
-msgstr "Utilisateurs"
+msgstr ""
 
 #: ../page/admin/user_list.php:112
 msgid "Add"
-msgstr "Ajouter"
+msgstr ""
 
 #: ../page/contribute.php:16
 msgid ""
@@ -393,41 +350,34 @@ msgid ""
 "programming that can help us. There is work on the Perroquet software, but "
 "also on exercise repository and on this website."
 msgstr ""
-"Perroquet est ouvert aux contributions externes. Il y a beaucoup de choses à "
-"coté de la programmation qui peuvent nous aider. Il y a du travail sur le "
-"logiciel Perroquet, mais aussi sur le dépot d'exercices et sur ce site web."
 
 #: ../page/contribute.php:17
 msgid "If no special link is provide, please contact us: "
-msgstr "Si aucun lien particulier est indiqué, contactez-nous : "
+msgstr ""
 
 #: ../page/contribute.php:17
 msgid "Contact perroquet team</a>."
-msgstr "Contacter l'équipe de Perroquet</a>."
+msgstr ""
 
 #: ../page/contribute.php:20
 msgid "Help on Perroquet software"
-msgstr "Aider sur le logiciel Perroquet"
+msgstr ""
 
 #: ../page/contribute.php:23
 msgid ""
 "Signal a bug or a translation error in Perroquet: <a "
 "href=\"https://bugs.launchpad.net/perroquet\" >Perroquet bugtracker</a>"
 msgstr ""
-"Signaler un bug ou une erreur de traduction dans Perroquet: <a "
-"href=\"https://bugs.launchpad.net/perroquet\" >Bugtracker de Perroquet</a>"
 
 #: ../page/contribute.php:24
 msgid "Packaging or adding in distributions"
-msgstr "Packager ou ajouter Perroquet dans des distributions"
+msgstr ""
 
 #: ../page/contribute.php:25
 msgid ""
 "Send a patch: <a href=\"https://code.launchpad.net/~perroquet-"
 "team/perroquet/trunk2\" >Perroquet code</a>"
 msgstr ""
-"Envoyer un patch : <a href=\"https://code.launchpad.net/~perroquet-"
-"team/perroquet/trunk2\" >Code de Perroquet</a>"
 
 #: ../page/contribute.php:26
 msgid ""
@@ -435,45 +385,42 @@ msgid ""
 "href=\"https://translations.launchpad.net/perroquet\" >Perroquet online "
 "translation</a>"
 msgstr ""
-"Aider à traduire Perroquet: <a "
-"href=\"https://translations.launchpad.net/perroquet\" >Traduction en ligne "
-"de Perroquet</a>"
 
 #: ../page/contribute.php:27
 msgid "Suggest a new feature or make a suggestion"
-msgstr "Suggérer une nouvelle fonctionnalité ou émettre une suggestion"
+msgstr ""
 
 #: ../page/contribute.php:32
 msgid "Help on exercise repositoy"
-msgstr "Aider sur le dépôt d'exercices"
+msgstr ""
 
 #: ../page/contribute.php:34
 msgid "Signal error on exercise"
-msgstr "Signaler une erreur dans un exercice"
+msgstr ""
 
 #: ../page/contribute.php:35
 msgid "Signal usable video or audio file (with or without subtitles)"
-msgstr "Signaler un vidéo ou un fichier audio (avec ou sans sous-titres)"
+msgstr ""
 
 #: ../page/contribute.php:36
 msgid "Propose an exercise:"
-msgstr "Proposer un exercice :"
+msgstr ""
 
 #: ../page/contribute.php:36
 msgid "propose a new exercise"
-msgstr "proposer un nouvel exercice"
+msgstr ""
 
 #: ../page/contribute.php:37
 msgid "Write subtitles"
-msgstr "Rédigier des sous-titres"
+msgstr ""
 
 #: ../page/contribute.php:40
 msgid "Help on Perroquet website"
-msgstr "Aider sur le site web de Perroquet"
+msgstr ""
 
 #: ../page/contribute.php:42
 msgid "Write documentation"
-msgstr "Rédiger de la documentation"
+msgstr ""
 
 #: ../page/contribute.php:43
 msgid ""
@@ -481,9 +428,6 @@ msgid ""
 "href=\"https://bugs.launchpad.net/perroquet/website\" >Perroquet website "
 "bugtracker</a>"
 msgstr ""
-"Signaler un bug ou une erreur de traduction dans ce site web : <a "
-"href=\"https://bugs.launchpad.net/perroquet/website\" >Bugtracker du site "
-"web de Perroquet</a>"
 
 #: ../page/contribute.php:44
 msgid ""
@@ -491,70 +435,54 @@ msgid ""
 "href=\"https://translations.launchpad.net/perroquet/website/+translations\" "
 ">Perroquet website online translation</a>"
 msgstr ""
-"Aider à traduire le site web : <a "
-"href=\"https://translations.launchpad.net/perroquet/website/+translations\" "
-">Site de traduction de Perroquet en ligne</a>"
 
 #: ../page/contribute.php:45
 msgid ""
 "Improve this website: <a href=\"https://code.launchpad.net/~perroquet-"
 "team/perroquet/website\" >Perroquet website code</a> "
 msgstr ""
-"Améliorer ce site web : <a href=\"https://code.launchpad.net/~perroquet-"
-"team/perroquet/website\" >Code du site web de Perroquet</a> "
 
 #: ../page/contribute.php:49
 msgid "Others helps"
-msgstr "Autres formes d'aide"
+msgstr ""
 
 #: ../page/contribute.php:51
 msgid ""
 "All others help is welcome. If you want to participate more to perroquet, "
 "you can ask to join the team."
 msgstr ""
-"Toutes les autres formes d'aide sont bienvenue. Si vous participer encore "
-"plus à Perroquet, vous pouvez demander à intégrer l'équipe."
 
 #: ../page/contacts.php:18
 msgid ""
 "If you want to participate to Perroquet or report a problem, begin to visit "
 "the \"contribute\" page: "
 msgstr ""
-"Si vous voulez participer à Perroquet ou signaler un problème, commencez par "
-"visiter la page \"Contribuez\" : "
 
 #: ../page/contacts.php:18
 msgid "Contribute to Perroquet"
-msgstr "Contribuer à Perroquet"
+msgstr ""
 
 #: ../page/contacts.php:20
 msgid ""
 "For general or public questions:  <a href=\"mailto:perroquet-"
 "team@lists.launchpad.net\">perroquet-team@lists.launchpad.net</a>."
 msgstr ""
-"Pour les question générales ou publics :  <a href=\"mailto:perroquet-"
-"team@lists.launchpad.net\">perroquet-team@lists.launchpad.net</a>."
 
 #: ../page/contacts.php:22
 msgid ""
 "For private questions:  <a "
 "href=\"mailto:pfred.bertolus@gmail.com\">fred.bertolus@gmail.com</a>."
 msgstr ""
-"Pour les questions privés :  <a "
-"href=\"mailto:pfred.bertolus@gmail.com\">fred.bertolus@gmail.com</a>."
 
 #: ../page/download.php:18
 msgid "Last release : "
-msgstr "Dernière sortie : "
+msgstr ""
 
 #: ../page/download.php:20
 msgid ""
 "Currently, Perroquet is only available for Linux, but it uses multi-platform "
 "technology. It should be easily portable to other systems."
 msgstr ""
-"Actuellement, Perroquet c'est disponible que pour Linux, mais il utilise des "
-"technologie multiplateformes. Il devrait être facilement portable sur "
-"d'autres systèmes."
 
 #: ../page/download.php:22
 msgid ""
@@ -562,26 +490,20 @@ msgid ""
 "href=\"https://launchpad.net/perroquet/+download\" >Download page on "
 "launchpad</a>."
 msgstr ""
-"De manière générale, les téléchargements sont disponible à l'adresse "
-"suivante : <a href=\"https://launchpad.net/perroquet/+download\" >Page de "
-"téléchargement sur launchpad</a>."
 
 #: ../page/download.php:24
 msgid "Ubuntu"
-msgstr "Ubuntu"
+msgstr ""
 
 #: ../page/download.php:25
 msgid "Installer"
-msgstr "Installeur"
+msgstr ""
 
 #: ../page/download.php:26
 msgid ""
 "Using the installer, you'll miss the updates of Perroquet. If you want to "
 "make the updates, install Perroquet with the PPA"
 msgstr ""
-"En utilisant l'installeur, vous ne profiterez pas des mises à jours de "
-"Perroquet. Si vous tenez à profiter des mises à jours, installez Perroquet "
-"via le PPA"
 
 #: ../page/download.php:27
 msgid ""
@@ -596,24 +518,16 @@ msgid ""
 "downloads:<a href=\"https://launchpad.net/perroquet/+download\" >Download "
 "page on launchpad</a>"
 msgstr ""
-"Il est possible que ce lien ne soit pas à jour. Aller sur cette page pour "
-"voir tous les téléchargements :<a "
-"href=\"https://launchpad.net/perroquet/+download\" >Page de téléchargement "
-"launchpad</a>"
 
 #: ../page/download.php:30
 msgid "PPA"
-msgstr "PPA"
+msgstr ""
 
 #: ../page/download.php:31
 msgid ""
 "PPA mean Personal Package Archives. Adding the PPA in your ubuntu software "
 "sources, Perroquet will be upgraded by the system."
 msgstr ""
-"Un PPA (Personal Package Archives) est un dépôt de logiciels personnel. En "
-"ajoutant ce dépôt dans la liste des sources de logiciels d'Ubuntu, Perroquet "
-"appaitra dans la liste des logiciels installable et profitera des mises à "
-"jours quand elles sont disponible."
 
 #: ../page/download.php:32
 msgid ""
@@ -621,13 +535,10 @@ msgid ""
 "href=\"https://launchpad.net/~fred-bertolus/+archive/perroquet\" >PPA "
 "Perroquet</a>"
 msgstr ""
-"Les détails concernant le PPA sont disponibles à cette adresse :  <a "
-"href=\"https://launchpad.net/~fred-bertolus/+archive/perroquet\" >PPA "
-"Perroquet</a>"
 
 #: ../page/download.php:34
 msgid "Archlinux"
-msgstr "Archlinux"
+msgstr ""
 
 #: ../page/download.php:35
 msgid "Version 1.1.0"
@@ -642,7 +553,7 @@ msgstr ""
 
 #: ../page/download.php:37
 msgid "Developement version"
-msgstr "Version de développement"
+msgstr ""
 
 #: ../page/download.php:38
 msgid ""
@@ -650,21 +561,16 @@ msgid ""
 "href=\"http://aur.archlinux.org/packages.php?ID=33389\" >AUR package for "
 "Perroquet using Bazaar</a>"
 msgstr ""
-"Un paquet AUR est disponible ici : <a "
-"href=\"http://aur.archlinux.org/packages.php?ID=33389\" >Paquet AUR pour "
-"Perroquet via Bazaar</a>"
 
 #: ../page/download.php:39
 msgid ""
 "Using this package, Perroquet can be instable but will have the last "
 "features."
 msgstr ""
-"En utilisant ce paquet, Perroquet peut présenter des instabilités mais "
-"comportera les dernières nouveautés."
 
 #: ../page/download.php:40
 msgid "Exercise Elephant dream"
-msgstr "Exercice Elephant dream"
+msgstr ""
 
 #: ../page/download.php:41
 msgid ""
@@ -672,14 +578,10 @@ msgid ""
 "href=\"http://aur.archlinux.org/packages.php?ID=33400\" >AUR package for "
 "Elephant Dream exercise</a>."
 msgstr ""
-"Voici un paquet contenant le nécessaire pour créer un exercice sur le court-"
-"métrages Elephant Dream : <a "
-"href=\"http://aur.archlinux.org/packages.php?ID=33400\" >Paquet AUR pour un "
-"exercice Elephant Dream</a>."
 
 #: ../page/download.php:43
 msgid "Mandriva"
-msgstr "Mandriva"
+msgstr ""
 
 #: ../page/download.php:44
 msgid ""
@@ -688,26 +590,20 @@ msgid ""
 "linux.org/Mandriva%20Cooker%20-%20Contrib/perroquet-1.0.1-"
 "2mdv2010.1.noarch.html\" >Perroquet 1.0.0 rpm </a>"
 msgstr ""
-"Un package pour perroquet 1.0.1 est disponible pour Mandriva 2010. Vous "
-"pouvez aussi le télécharger ici: <a href=\"http://rpmfind.unity-"
-"linux.org/Mandriva%20Cooker%20-%20Contrib/perroquet-1.0.1-"
-"2mdv2010.1.noarch.html\" >Perroquet 1.0.0 rpm </a>"
 
 #: ../page/download.php:46
 msgid "Others linux"
-msgstr "Autres linux"
+msgstr ""
 
 #: ../page/download.php:48
 msgid ""
 "If you make a package for another distribution, send me it, I'll add it on "
 "this page."
 msgstr ""
-"Si vous faites un paquet pour une autre distribution, envoyez le nous, il "
-"sera ajouté à cette page."
 
 #: ../page/download.php:50
 msgid "Source tarball"
-msgstr "Tarball source"
+msgstr ""
 
 #: ../page/download.php:51
 msgid ""
@@ -715,13 +611,10 @@ msgid ""
 "here: <a href=\"http://launchpad.net/perroquet/1.1/1.1.0/+download/perroquet-"
 "1.1.0.tar.gz\" >Tarball Perroquet 1.1.0</a>."
 msgstr ""
-"Le tarball contenant les sources peut être trouvé ici: <a "
-"href=\"http://launchpad.net/perroquet/1.1/1.1.0/+download/perroquet-"
-"1.1.0.tar.gz\" >Tarball de Perroquet 1.1.0</a>."
 
 #: ../page/download.php:52
 msgid "Read INSTALL file to installation instructions."
-msgstr "Lisez le fichier INSTALL pour les instructions d'installation."
+msgstr ""
 
 #: ../page/download.php:53
 msgid ""
@@ -729,14 +622,10 @@ msgid ""
 "downloads: <a href=\"https://launchpad.net/perroquet/+download\" >Download "
 "page on launchpad</a>"
 msgstr ""
-"Il est possible que les liens ne soient pas à jour. Aller sur la page "
-"suivante pour voir tout les téléchargements disponibles: <a "
-"href=\"https://launchpad.net/perroquet/+download\" >Page de téléchargement "
-"launchpad</a>;;"
 
 #: ../page/download.php:54
 msgid "Bazaar repository"
-msgstr "Dépot bazaar"
+msgstr ""
 
 #: ../page/download.php:55
 msgid ""
@@ -745,10 +634,6 @@ msgid ""
 "href=\"https://code.launchpad.net/~perroquet-team/perroquet/trunk2\" "
 ">Development branch of Perroquet</a>."
 msgstr ""
-"Le code de la version de developpement ainsi que le moyen de la récupérer "
-"sont disponibles à l'adresse suivante : <a "
-"href=\"https://code.launchpad.net/~perroquet-team/perroquet/trunk2\" "
-">Branche de développement de Perroquet</a>."
 
 #: ../page/special/language/choose.php:11
 #: ../page/special/language/choose.php:16
@@ -756,110 +641,110 @@ msgstr ""
 #: ../page/special/language/select.php:33
 #: ../page/special/language/select.php:41
 msgid "Select language"
-msgstr "Sélectionner langue"
+msgstr ""
 
 #: ../page/special/language/choose.php:23
 msgid "Choose the new language : "
-msgstr "Choisissez la nouvelle langue : "
+msgstr ""
 
 #: ../page/special/language/choose.php:34
 msgid "Select"
-msgstr "Sélectionner"
+msgstr ""
 
 #: ../page/special/language/select.php:45
 msgid "No language selected."
-msgstr "Aucune langue sélectionnée."
+msgstr ""
 
 #: ../page/special/language/select.php:48
 msgid "Invalid language selected."
-msgstr "La langue selectionnée n'est pas valide."
+msgstr ""
 
 #: ../page/special/language/select.php:57
 #: ../page/special/login/openid_return.php:83
 #: ../page/special/login/logout.php:30
 msgid "Return to index"
-msgstr "Retour à l'accueil"
+msgstr ""
 
 #: ../page/special/not_found.php:11 ../page/special/not_found.php:16
 msgid "Page not found"
-msgstr "Page introuvable"
+msgstr ""
 
 #. Signature Verification Failed
 #: ../page/special/login/openid_return.php:33
 #: ../page/special/login/openid_return.php:39
 msgid "Login failed."
-msgstr "L'authentification a échoué"
+msgstr ""
 
 #: ../page/special/login/openid_return.php:77
 #: ../page/special/login/perform_login.php:66
 msgid "Return to login page"
-msgstr "Retourner à la page de connection"
+msgstr ""
 
 #: ../page/special/login/openid_return.php:80
 msgid "Login success."
-msgstr "L'authentification a réussi."
+msgstr ""
 
 #: ../page/special/login/logout.php:20
 #, php-format
 msgid "Logout from '%s' success."
-msgstr "La déconnection depuis '%s' a réussi."
+msgstr ""
 
 #: ../page/special/login/logout.php:25
 msgid "You are not logged."
-msgstr "Vous n'êtes pas connecté."
+msgstr ""
 
 #: ../page/special/login/login_form.php:20
 msgid "OpenID: "
-msgstr "OpenID : "
+msgstr ""
 
 #: ../page/special/login/login_form.php:22
 msgid "Log In"
-msgstr "Connexion"
+msgstr ""
 
 #: ../page/special/login/perform_login.php:22
 msgid "Provide a valid OpenID."
-msgstr "Fournissez un OpenID valide."
+msgstr ""
 
 #: ../page/special/login/perform_login.php:49
 msgid "Login error."
-msgstr "Erreur d'authentification."
+msgstr ""
 
 #: ../page/exercises/browse.php:13
 msgid "Exercise list"
-msgstr "List d'exercices"
+msgstr ""
 
 #: ../page/exercises/browse.php:18
 msgid "Exercises list"
-msgstr "Liste des exercices"
+msgstr ""
 
 #: ../page/exercises/browse.php:27
 msgid "Description"
-msgstr "Description"
+msgstr ""
 
 #: ../page/exercises/browse.php:28
 msgid "Language"
-msgstr "Langue"
+msgstr ""
 
 #: ../page/exercises/browse.php:29
 msgid "Word count"
-msgstr "Nombre de mots"
+msgstr ""
 
 #: ../page/exercises/browse.php:30
 msgid "Action"
-msgstr "Action"
+msgstr ""
 
 #: ../page/exercises/browse.php:45
 msgid "Details"
-msgstr "Détails"
+msgstr ""
 
 #: ../page/exercises/propose_list.php:18
 msgid "Proposed exercised"
-msgstr "Exercices proposés"
+msgstr ""
 
 #: ../page/exercises/propose_list.php:40
 #: ../page/exercises/my_propose_list.php:40
 msgid "Current propositions"
-msgstr "Propositions courrantes"
+msgstr ""
 
 #: ../page/exercises/propose_list.php:50 ../page/exercises/propose_list.php:80
 #: ../page/exercises/my_propose_list.php:50
@@ -867,77 +752,74 @@ msgstr "Propositions courrantes"
 #: ../page/exercises/propose_form.php:101
 #: ../page/exercises/add_exercise.php:116
 msgid "Name: "
-msgstr "Nom : "
+msgstr ""
 
 #: ../page/exercises/propose_list.php:51 ../page/exercises/propose_list.php:81
 #: ../page/exercises/my_propose_list.php:51
 #: ../page/exercises/my_propose_list.php:80
 #: ../page/exercises/add_exercise.php:119
 msgid "Description: "
-msgstr "Description : "
+msgstr ""
 
 #: ../page/exercises/propose_list.php:52 ../page/exercises/propose_list.php:82
 #: ../page/exercises/my_propose_list.php:52
 #: ../page/exercises/my_propose_list.php:81
 msgid "Links: "
-msgstr "Liens : "
+msgstr ""
 
 #: ../page/exercises/propose_list.php:53 ../page/exercises/propose_list.php:83
 #: ../page/exercises/add_exercise.php:133
 msgid "Proposer: "
-msgstr "Proposeur : "
+msgstr ""
 
 #: ../page/exercises/propose_list.php:57 ../page/exercises/propose_list.php:87
 #: ../page/exercises/my_propose_list.php:56
 #: ../page/exercises/my_propose_list.php:85
 msgid "Unknown state"
-msgstr "État inconnu"
+msgstr ""
 
 #: ../page/exercises/propose_list.php:59 ../page/exercises/propose_list.php:89
 #: ../page/exercises/my_propose_list.php:58
 #: ../page/exercises/my_propose_list.php:87
 msgid "Waiting for processing"
-msgstr "En attente de traitement"
+msgstr ""
 
 #: ../page/exercises/propose_list.php:61 ../page/exercises/propose_list.php:91
 #: ../page/exercises/my_propose_list.php:60
 #: ../page/exercises/my_propose_list.php:89
 msgid "Processing"
-msgstr "Traitement en cours"
+msgstr ""
 
 #: ../page/exercises/propose_list.php:63 ../page/exercises/propose_list.php:93
 #: ../page/exercises/my_propose_list.php:62
 #: ../page/exercises/my_propose_list.php:91
 msgid "Accepted"
-msgstr "Accepté"
+msgstr ""
 
 #: ../page/exercises/propose_list.php:65 ../page/exercises/propose_list.php:95
 #: ../page/exercises/my_propose_list.php:64
 #: ../page/exercises/my_propose_list.php:93
 msgid "State: "
-msgstr "État : "
+msgstr ""
 
 #: ../page/exercises/propose_list.php:72
 #: ../page/exercises/my_propose_list.php:71
 msgid "Old propositions"
-msgstr "Anciennes propositions"
+msgstr ""
 
 #: ../page/exercises/index.php:24
 msgid ""
 "Perroquet works with exercises. An exercises in perroquet is the association "
 "of one or more media files and the corresponding subtitles files."
 msgstr ""
-"Perroquet fonctionne avec des exercices. Un exercice dans Perroquet est "
-"l'association de un ou plusieurs fichiers multimédia et des fichiers de sous-"
-"titre correspondant."
 
 #: ../page/exercises/index.php:25
 msgid "There is various ways to get an exercise."
-msgstr "Il y a plusieurs moyen d'obtenir un exercice."
+msgstr ""
 
 #: ../page/exercises/index.php:27
 msgid "Manual exercises creation"
-msgstr "Création manuelle d'exercice"
+msgstr ""
 
 #: ../page/exercises/index.php:28
 msgid ""
@@ -945,21 +827,18 @@ msgid ""
 "works and a subtitle in the same language, you can manually create an "
 "exercises."
 msgstr ""
-"Si vous avez un fichier multimédia avec une piste audio dans la langue que "
-"vous souhaitez travailler et une sous-titre dans la même langue, vous pouvez "
-"manuellement créer un exercice."
 
 #: ../page/exercises/index.php:29
 msgid "Read the documentation to lear to create an exercise: "
-msgstr "Lisez la documentation pour apprendre à créer un exercice : "
+msgstr ""
 
 #: ../page/exercises/index.php:29
 msgid "documentation"
-msgstr "documentation"
+msgstr ""
 
 #: ../page/exercises/index.php:31
 msgid "Online exercises repositories"
-msgstr "Dépôts d'exercices en ligne"
+msgstr ""
 
 #: ../page/exercises/index.php:32
 msgid ""
@@ -967,9 +846,6 @@ msgid ""
 "same language, a exercise manager in perroquet provide the access to an "
 "exercises's online database."
 msgstr ""
-"Bien que perroquet fonctionne avec n'importer quel fichier multimédia avec "
-"un sous-titre dans la même langue, un gestionnaire d'exercice inclus dans "
-"Perroquet fournis  l'accès à une base de donnée d'exercices en ligne."
 
 #: ../page/exercises/index.php:33
 msgid ""
@@ -977,48 +853,41 @@ msgid ""
 "repository and this repository contains few exercises but no configuration "
 "is needed for these exercises."
 msgstr ""
-"Le gestionnaire d'exercices (Édition > Gestionnaire d'exercices), contient "
-"par défaut seulement un dépôt et ce dépôt ne contient que quelques exercices "
-"mais aucune configuration n'est nécessaire pour ces exercices."
 
 #: ../page/exercises/index.php:35
 msgid "Your help is welcome to fill the repositories with others exercises: "
 msgstr ""
-"Votre aide est bienvenue pour remplir le dépoôt avec d'autres exercices: "
 
 #: ../page/exercises/index.php:35
 msgid "Propose a new exercise or an update of an existing exercise."
 msgstr ""
-"Proposer un nouvel exercice ou une mise à jour d'un exercice existant."
 
 #. $content .= '<p><a href="'.RessourceManager::getInnerUrl('exercises/search').'">'._('Browse, not and comments exercises.').'</a></p>';
 #. $content .= '<p><a href="'.RessourceManager::getInnerUrl('exercises/search').'">'._('Signal a problem on an exercise.').'</a></p>';
 #. $content .= '<p><a href="'.RessourceManager::getInnerUrl('exercises/search').'">'._('Find others exercises.').'</a></p>';
 #: ../page/exercises/index.php:43
 msgid "Add new repository"
-msgstr "Ajouter un nouveau dépôt"
+msgstr ""
 
 #: ../page/exercises/my_propose_list.php:13
 #: ../page/exercises/my_propose_list.php:18
 #: ../page/exercises/exercise_page.php:30
 msgid "My proposed exercises"
-msgstr "Mes propositions d'exercices"
+msgstr ""
 
 #: ../page/exercises/propose_form.php:13 ../page/exercises/propose_form.php:69
 msgid "Propose new exercise"
-msgstr "Proposer un nouvel exercice"
+msgstr ""
 
 #: ../page/exercises/propose_form.php:79 ../page/exercises/add_exercise.php:98
 msgid "Return to exercises index."
-msgstr "Revenir à l'accueil des exercices"
+msgstr ""
 
 #: ../page/exercises/propose_form.php:96
 msgid ""
 "Propose an exercise permit to help to full the official perroquet "
 "exercises's repository."
 msgstr ""
-"Propos+er uexercice permet d'aider à remplir le dépôtd'exercice officiel de "
-"Perroquet."
 
 #: ../page/exercises/propose_form.php:97
 msgid ""
@@ -1026,155 +895,145 @@ msgid ""
 "will be examinated. Also, be sure that you use free licenced file as public "
 "domain, CC-by-sa, GPL, Free Art, ..."
 msgstr ""
-"Avant d'être accessible depuis le gestionnaire d'exercice, l'exercice "
-"proposé sera examiné. D'autre part, assurez-vous que vous utilisez des files "
-"sous licence libre comme le domaine public, CC-By-sa, GPL, Free Art, ..."
 
 #: ../page/exercises/propose_form.php:102
 msgid "Short description: "
-msgstr "Description courte : "
+msgstr ""
 
 #: ../page/exercises/propose_form.php:103
 msgid ""
 "Others informations : links to ressources, comments, authors, licence, ... : "
 msgstr ""
-"Autres informations : liens vers des ressources, commentaires, auteurs, "
-"licence, ... : "
 
 #: ../page/exercises/propose_form.php:105
 #: ../page/exercises/add_exercise.php:136
 msgid "Propose"
-msgstr "Proposer"
+msgstr ""
 
 #: ../page/exercises/exercise_page.php:14
 msgid "Propose an exercise"
-msgstr "Proposer un exercice"
+msgstr ""
 
 #: ../page/exercises/add_exercise.php:13
 msgid "Add new exercise"
-msgstr "Ajouter un nouvel exercice"
+msgstr ""
 
 #: ../page/exercises/add_exercise.php:88
 msgid "Add a new exercise"
-msgstr "Ajouter un nouvel exercice"
+msgstr ""
 
 #: ../page/exercises/add_exercise.php:117
 msgid "Group: "
-msgstr "Groupe : "
+msgstr ""
 
 #: ../page/exercises/add_exercise.php:118
 msgid "Id: "
-msgstr "Id : "
+msgstr ""
 
 #: ../page/exercises/add_exercise.php:120
 msgid "Word count: "
-msgstr "Nombre de mots : "
+msgstr ""
 
 #: ../page/exercises/add_exercise.php:121
 msgid "Licence: "
-msgstr "Licence : "
+msgstr ""
 
 #: ../page/exercises/add_exercise.php:122
 msgid "Languague (en, fr, ...): "
-msgstr "Langue (en, fr, ...) : "
+msgstr ""
 
 #: ../page/exercises/add_exercise.php:123
 msgid "Media type (video, audio, ...): "
-msgstr "Type de fichier multimédia (vidéo, audio, ...): "
+msgstr ""
 
 #: ../page/exercises/add_exercise.php:124
 msgid "Exercise version: "
-msgstr "Version de l'exercice : "
+msgstr ""
 
 #: ../page/exercises/add_exercise.php:125
 msgid "Author: "
-msgstr "Auteur : "
+msgstr ""
 
 #: ../page/exercises/add_exercise.php:126
 msgid "Author website: "
-msgstr "Site web de l'auteur : "
+msgstr ""
 
 #: ../page/exercises/add_exercise.php:127
 msgid "Author contact: "
-msgstr "Contact de l'auteur : "
+msgstr ""
 
 #: ../page/exercises/add_exercise.php:128
 msgid "Packager: "
-msgstr "Packager : "
+msgstr ""
 
 #: ../page/exercises/add_exercise.php:129
 msgid "Packager website: "
-msgstr "Site web du packager : "
+msgstr ""
 
 #: ../page/exercises/add_exercise.php:130
 msgid "Packager contact: "
-msgstr "Contact du packager : "
+msgstr ""
 
 #: ../page/exercises/add_exercise.php:131
 msgid "Translation (en, fr, ...): "
-msgstr "Traduction (en, fr, ...) : "
+msgstr ""
 
 #: ../page/exercises/add_exercise.php:132
 msgid "Package file: "
-msgstr "Fichier du paquet : "
+msgstr ""
 
 #: ../page/documentation/shortcuts.php:14
 #: ../page/documentation/shortcuts.php:22
 msgid "Documentation - Shortcuts"
-msgstr "Documentation - Raccourcis"
+msgstr ""
 
 #: ../page/documentation/shortcuts.php:26
 msgid "Perroquet 1.0"
-msgstr "Perroquet 1.0"
+msgstr ""
 
 #: ../page/documentation/shortcuts.php:28
 msgid ""
 "These shortcuts are available when the focus is on the response area, ie "
 "there is a cursor:"
 msgstr ""
-"Ces raccourcis sont disponibles quand le focus est dans la zone de réponse, "
-"c'est à dire, s'il y a un curseur."
 
 #: ../page/documentation/shortcuts.php:30
 msgid "F1 : Hint"
-msgstr "F1 : Indice"
+msgstr ""
 
 #: ../page/documentation/shortcuts.php:31
 msgid "shift+F1 : Reveal the current word"
-msgstr "shift+F1 : Révéler le mot courrant"
+msgstr ""
 
 #: ../page/documentation/shortcuts.php:32
 msgid "ctrl+shift+F1 : Reveal the current sequence"
-msgstr "ctrl+shift+F1 : Révéler la séquence courrante"
+msgstr ""
 
 #: ../page/documentation/shortcuts.php:33
 msgid "F2 : Show/hide translation"
-msgstr "F2 : Afficher/Masquer la traduction"
+msgstr ""
 
 #: ../page/documentation/shortcuts.php:34
 msgid "Enter : Replay sequence"
-msgstr "Enter : Rejouer la séquence"
+msgstr ""
 
 #: ../page/documentation/shortcuts.php:35
 msgid "Page Up : Next sequence suivante"
-msgstr "Page Up : Next sequence suivante ERREUR"
+msgstr ""
 
 #: ../page/documentation/shortcuts.php:36
 msgid "Page Down : Previous sequence"
-msgstr "Page bas : Séquence précédante"
+msgstr ""
 
 #: ../page/documentation/index.php:24
 msgid ""
 "You will find here the documentation of Perroquet. This documentation is far "
 "to be complete but don't hesitate to contact us for question."
 msgstr ""
-"Vous trouverez ici la documentation de Perroquet. Cette documentation est "
-"loin d'être complète mais n'hésitez pas à nous contacter pour poser des "
-"questions."
 
 #: ../page/documentation/index.php:29
 msgid "This documentation is subdivised in six section: "
-msgstr "Cette documentation est subdivisée en six section : "
+msgstr ""
 
 #: ../page/documentation/index.php:31
 #, php-format
@@ -1182,8 +1041,6 @@ msgid ""
 "<a href=\"%s\">Installation</a> : explains how install, compile or only run "
 "perroquet."
 msgstr ""
-"<a href=\"%s\">Installation</a> : explique comment installer, compiler ou "
-"seulement lancer  perroquet."
 
 #: ../page/documentation/index.php:32
 #, php-format
@@ -1191,8 +1048,6 @@ msgid ""
 "<a href=\"%s\">Use perroquet</a> : describe the user interface and explains "
 "how to create an simple exercise and work on it."
 msgstr ""
-"<a href=\"%s\">Utiliser perroquet</a> : décrit l'interface utilisateur et "
-"explique comment créer un exercice simple et travailler avec."
 
 #: ../page/documentation/index.php:33
 #, php-format
@@ -1201,10 +1056,6 @@ msgid ""
 "can use help tools to give you hint or speed down the playback. This part "
 "also explain how to increase the difficulty of an exercise."
 msgstr ""
-"<a href=\"%s\">Outils d'aide</a> : si un exercice est trop difficile pour "
-"vous, vous pouvez utiliser les outils d'aide pour vous donner un indice ou "
-"ralentir la vidéo.Cette partie explique aussi comment augmenter la "
-"difficulté de l'exercice."
 
 #: ../page/documentation/index.php:34
 #, php-format
@@ -1212,8 +1063,6 @@ msgid ""
 "<a href=\"%s\">Repositories</a> : this part explain how to add a new "
 "exercise source or create it own exercise repository."
 msgstr ""
-"<a href=\"%s\">Dépôts</a> : cette partie explique comment ajouter une "
-"nouvelle source d'exercices ou créer son propre dépôt d'exercice."
 
 #: ../page/documentation/index.php:35
 #, php-format
@@ -1221,9 +1070,6 @@ msgid ""
 "<a href=\"%s\">Exercise creation</a> : explains how to create an exercise "
 "using advanced features as teacher locks or multi files exercises."
 msgstr ""
-"<a href=\"%s\">Création d'exercice</a> : explique comment créer un exercice "
-"utilisant des fonctionnalités avancées comme les verrous d'enseignant ou les "
-"exercices multi fichiers."
 
 #: ../page/documentation/index.php:36
 #, php-format
@@ -1231,99 +1077,81 @@ msgid ""
 "<a href=\"%s\">Development</a> : installation from source, code global "
 "structure."
 msgstr ""
-"<a href=\"%s\">Développement</a> : installation depuis les sources, "
-"structure globale du code."
 
 #: ../page/documentation/index.php:40
 msgid "There is also 2 special documentation page: "
-msgstr "Il y a aussi 2 page de documentation spéciales : "
+msgstr ""
 
 #: ../page/documentation/index.php:42
 #, php-format
 msgid "<a href=\"%s\">FAQ</a> : for common or strange questions."
-msgstr "<a href=\"%s\">FAQ</a> : pour les questions récurrentes ou étranges."
+msgstr ""
 
 #: ../page/documentation/index.php:43
 #, php-format
 msgid "<a href=\"%s\">Shortcuts</a> : to stop to use the mouse."
-msgstr "<a href=\"%s\">Raccourcis</a> : pour arrêter d'utiliser la souris."
+msgstr ""
 
 #: ../page/documentation/installation/index.php:14
 #: ../page/documentation/installation/index.php:23
 msgid "Documentation - Installation"
-msgstr "Documentation - Installation"
+msgstr ""
 
 #: ../page/documentation/installation/index.php:24
 #: ../page/documentation/repositories/add_new_repository.php:24
 #: ../page/documentation/repositories/index.php:24
 msgid "No documentation available."
-msgstr "Pas de documentation disponible"
+msgstr ""
 
 #: ../page/documentation/exercise_creation/index.php:14
 #: ../page/documentation/exercise_creation/index.php:22
 msgid "Documentation - Exercise creation"
-msgstr "Documentation - Creation d'exercice"
+msgstr ""
 
 #: ../page/documentation/exercise_creation/index.php:25
 msgid ""
 "To create an exercise, click on the button \"New exercise\" in the tools bar "
 "or on \"File > New exercise\" in the menu bar."
 msgstr ""
-"Pour créer un exercice, il faut soit cliquer sur le bouton \"Nouvel "
-"exercice\" dans la barre d'outils, soit cliquer sur \"Fichier > Nouvel "
-"exercice\" dans la barre de menu."
 
 #: ../page/documentation/exercise_creation/index.php:28
 msgid "A dialog appears with 4 field:"
-msgstr "Une boite de dialogue contenant 4 champs apparait :"
+msgstr ""
 
 #: ../page/documentation/exercise_creation/index.php:31
 msgid ""
 " Exercise video or audio: this field must be set to the media file in the "
 "language you want to work."
 msgstr ""
-" Fichier vidéo ou audio de l'exercice : Ce champ doit pointer vers un "
-"fichier vidéo ou audio dont la bande son est dans la langue que vous "
-"souhaitez travailler. L'anglais par exemple."
 
 #: ../page/documentation/exercise_creation/index.php:32
 msgid ""
 "Exercise subtitle: this field must be set to the subtitle file corresponding "
 "to the media file, in the same language. The subtitles format must be srt."
 msgstr ""
-"Sous-titre de l'exercice : Ce champ doit pointer vers un fichier de sous-"
-"titres de la même langue que le fichier média, en anglais par exemple."
 
 #: ../page/documentation/exercise_creation/index.php:33
 msgid ""
 "Translation subtitles: this field can be set to another subtitle in another "
 "language. This field is optionnal. The subtitles format must be srt."
 msgstr ""
-"Sous-titres de traduction : Ce champs est facultatif et doit pointer vers un "
-"fichier de sous-titres de la langue de votre champs mais que vous comprenez "
-"bien, le français par exemple."
 
 #: ../page/documentation/exercise_creation/index.php:34
 msgid ""
 "Language: language to work. This field determines the list of character you "
 "have to guess."
 msgstr ""
-"Langue : langue à travailler. Ce champ détermine la liste des caractères que "
-"vous aurez à deviner."
 
 #: ../page/documentation/exercise_creation/index.php:37
 msgid ""
 "Once these fields have been filled, click on \"ok\" button. Interface's "
 "components will be activated and the media file will begin to play."
 msgstr ""
-"Une fois que ces champs sont remplis, cliquez sur le bouton \"Valider\". Les "
-"composants de l'interfac seront alors activés et le fichier multimédia "
-"commencera à être lu."
 
 #: ../page/documentation/use/navigate.php:14
 #: ../page/documentation/use/navigate.php:23
 msgid "Documentation - Use - Navigate"
-msgstr "Documentation - Utiliser - Navigation"
+msgstr ""
 
 #: ../page/documentation/use/navigate.php:25
 msgid ""
@@ -1331,10 +1159,6 @@ msgid ""
 "Exercise Manager), Select \"Alison\" exercise and click on Install button. "
 "Wait the end of the installation of the exercise the click on the Use button."
 msgstr ""
-"Pour ce chapitre, vous pouvez ouvrir un exercice. Ouvrez le gestionnaire "
-"d'exercice (Édition > Gestionnaire d'exercice), sélectionnez l'exercice "
-"\"Alison\" et cliquez sur le bouton Installer. Attendez la fin de "
-"l'installation de l'exercice et cliquez sur le bouton Utiliser."
 
 #: ../page/documentation/use/navigate.php:27
 msgid ""
@@ -1343,10 +1167,6 @@ msgid ""
 "second is the sequence count. For exemple, in the \"Alison\" exercise, there "
 "is 8 sequences and the exercise begin at the first sequence."
 msgstr ""
-"À la droite du curseur d'exercice, vous pouvez voir la position courante et "
-"la longueur de l'exercice. Le premier nombre représente la première séquence "
-"et le second le nombre de séquence. Par exemple, dans l'exercice \"Alison\", "
-"il y a 8 séquences et l'exercice commence à la première séquence."
 
 #: ../page/documentation/use/navigate.php:29
 msgid ""
@@ -1355,11 +1175,6 @@ msgid ""
 "sequence\" and \"Next sequence\" button but the complete sequence will be "
 "skipped."
 msgstr ""
-"Il n'est pas obligatoire de répondre à toutes les séquences dans l'ordre. Il "
-"est possible de se placer à n'importe quelle endroit de l'exercice grâce au "
-"curseur de séquence. Vous pouvez aussi utiliser les boutons \"Séquence "
-"suivante\" et \"Séquence précédente\" mais dans ce cas, les séquence "
-"complète seront sautés."
 
 #: ../page/documentation/use/navigate.php:31
 msgid ""
@@ -1367,9 +1182,6 @@ msgid ""
 "This is useful to focalise your listening on one word or when sequence are "
 "too long."
 msgstr ""
-"Grace au curseur de séquence, il est possible de ne réécouter que la fin "
-"d'une séquence, ce qui est pratique pour se focaliser sur un mot en "
-"particulier ou pour n'écouter que la fin d'une longue séquence."
 
 #: ../page/documentation/use/navigate.php:34
 msgid ""
@@ -1383,33 +1195,21 @@ msgid ""
 "video stop at the and of the uncomplete sequence and use the Play button. "
 "Use the repeat button to return at the beginning of the current sequence."
 msgstr ""
-"Lorsqu'une séquence n'est pas complète, il n'est pas possible de regarder "
-"simplement la partie de la vidéo situé entre 2 séquence parce que Perroquet "
-"arrête la lecture de vidéo à la fin des séquences. Quand vous complétez une "
-"séquence, Perroquet ne va plus stopper la vidéo jusqu'à la fin de la "
-"prochaine séquence incomplète. Si vous voulez vraiment regarder la vidéo "
-"après une séquence incomplète, vous devez activer les boutons Lecture/Pause "
-": Édition > Préférences > Onglet Avancées > Afficher les boutons de lecture "
-"et de pause. Ensuite attendez que la vidéo s'arrête à la fin d'un séquence "
-"incomplète et utilisé le bouton Lecture. Utilisez le bouton répéter pour "
-"retourner au début de la séquence courante."
 
 #: ../page/documentation/use/index.php:14
 #: ../page/documentation/use/index.php:23
 msgid "Documentation - Use"
-msgstr "Documentation - Utiliser"
+msgstr ""
 
 #: ../page/documentation/use/index.php:26
 msgid "In this part, you will lear to works with perroquet."
-msgstr "Dans cette partie, vous allez apprendre à travailler avec Perroquet."
+msgstr ""
 
 #: ../page/documentation/use/index.php:28
 msgid ""
 "The principle of perroquet is to transform a vidéo or audio file in a cloze "
 "test with the help of a subtitles  file."
 msgstr ""
-"Le principe de perroquet est de transformer une vidéo ou un fichier audio en "
-"un texte à trous à l'aide d'un fichier de sous-titres."
 
 #: ../page/documentation/use/index.php:30
 msgid ""
@@ -1418,10 +1218,6 @@ msgid ""
 "and correspond to a part of a dialog. The part of a video without dialogue "
 "can be in none sequence."
 msgstr ""
-"Perroquet fonctionne avec des exercices. Un exercice est un ensemble de "
-"séquences vidéo ou audio que nous appelerons simplement séquences. Une "
-"séquence ne dure que quelques secondes et correspond à des dialogues. Les "
-"zones d'une vidéo sans dialogues peuvent ne faire parti d'aucune séquence."
 
 #: ../page/documentation/use/index.php:32
 msgid ""
@@ -1429,19 +1225,15 @@ msgid ""
 "hear. Perroquet show you the number of word to found and show the "
 "punctuation, you must complete the cloze test."
 msgstr ""
-"Pour chaque séquence d'un exercice, vous l'écoutez puis tapez les mots que "
-"vous entendez. Perroquet vous indique le nombre de mots à trouver ainsi que "
-"la ponctuation, vous devez completez le reste à la manière d'un texte à "
-"trous."
 
 #: ../page/documentation/use/index.php:35
 msgid "This part is subdivised in three chapters: "
-msgstr "Cette partie est divisé en trois chaptitres : "
+msgstr ""
 
 #: ../page/documentation/use/index.php:37
 #, php-format
 msgid "<a href=\"%s\">Interface</a> : this chapter descripte the interface."
-msgstr "<a href=\"%s\">Interface</a> : ce chapitre décrit l'interface."
+msgstr ""
 
 #: ../page/documentation/use/index.php:38
 #, php-format
@@ -1449,20 +1241,16 @@ msgid ""
 "<a href=\"%s\">Navigate</a> : this chapter explain how to navigate in an "
 "exercise."
 msgstr ""
-"<a href=\"%s\">Naviguer</a> : ce chapitre explique comment niviguer dans un "
-"exercice."
 
 #: ../page/documentation/use/index.php:39
 #, php-format
 msgid ""
 "<a href=\"%s\">Works</a> : this chapter explain how to work on an exercise."
 msgstr ""
-"<a href=\"%s\">Travailler</a> : ce chapitre explique comment travailler sur "
-"un exercice."
 
 #: ../page/documentation/use/work.php:14 ../page/documentation/use/work.php:23
 msgid "Documentation - Use - Work"
-msgstr "Documentation - Utiliser - Travailler"
+msgstr ""
 
 #: ../page/documentation/use/work.php:25
 msgid ""
@@ -1470,10 +1258,6 @@ msgid ""
 "rectangle. Before typing a response you must verify that a cursor is present "
 "in the response zone. If no cursor are present, click on the zone."
 msgstr ""
-"Dans la zone de réponse, chaque mots que vous avez à trouver est symbolisé "
-"par un rectangle bleu. Avant de taper une réponse, vous devez vérifier qu'un "
-"curseur est présent dans la zone de réponse. Si aucun curseur n'est présent, "
-"cliquez dans la zone."
 
 #: ../page/documentation/use/work.php:27
 msgid ""
@@ -1482,40 +1266,27 @@ msgid ""
 "in the response zone. If no cursor are present, click on the zone near the "
 "word you want to type."
 msgstr ""
-"Dans la zone de réponse, chaque mots que vous avez à trouver est symbolisé "
-"par un rectangle bleu. Avant de taper une réponse, vous devez vérifier qu'un "
-"curseur est présent dans la zone de réponse. Si aucun curseur n'est présent, "
-"cliquez dans la zone prêt de l'endroit ou vous voulez taper."
 
 #: ../page/documentation/use/work.php:29
 msgid ""
 "If you place the cursor at the wrong place but the word you type is right, "
 "the word will be moved automatically."
 msgstr ""
-"Si vous placez le curseur à la mauvaise position mais que le mot tapé est "
-"correct, le mot sera automatiquement déplacé à la bonne place."
 
 #: ../page/documentation/use/work.php:31
 msgid "You don't have to uppercase letters, Perroquet ignore case."
 msgstr ""
-"Il n'est pas nécessaire de mettre les majuscules aux mots tapés. Perroquet "
-"ignore la case."
 
 #: ../page/documentation/use/work.php:33
 msgid ""
 "When a word is correct, it is display in green and cannot be modified."
 msgstr ""
-"Lorsqu'un mot est entier et correct, il s'affiche en vert et ne peut plus "
-"être modifié."
 
 #: ../page/documentation/use/work.php:35
 msgid ""
 "To change the current word, you can use arrow keys, the mouse or the space "
 "key. These keys will skipped the completed words."
 msgstr ""
-"Pour passer de mot en mot, il suffit d'utiliser les flèches directionnelles "
-"ou espace. Ces touches placent directement le curseur au mot suivant ou au "
-"mot précédant en ignorant toutes les parties non éditables."
 
 #: ../page/documentation/use/work.php:37
 msgid ""
@@ -1524,14 +1295,10 @@ msgid ""
 "exercise, characters to find are : \"a\" to \"z\", \"0\" to \"9\" and "
 "\"apostrophe\"."
 msgstr ""
-"La ponctuation étant déjà indiquée, il n'est pas nécessaire de la saisir. "
-"Cependant, en anglais par exemple, l'apostrophe fait partie des caractères à "
-"deviner. Les caractères à deviner en anglais sont donc : \"a\" à \"z\", "
-"\"0\" à \"9\" et \"apostrophe\"."
 
 #: ../page/documentation/use/ui.php:14 ../page/documentation/use/ui.php:23
 msgid "Documentation - Use - Interface"
-msgstr "Documentation - Utiliser - Interface"
+msgstr ""
 
 #: ../page/documentation/use/ui.php:26
 msgid ""
@@ -1539,240 +1306,211 @@ msgid ""
 "different sequences and inside a sequence. Perroquet doesn't aim to be a "
 "great video player but be good to learn foreign languages."
 msgstr ""
-"L'interface de Perroquet permet de faciliter la navigation de séquence en "
-"séquence et à l'intérieur d'un séquence. La priorité de Perroquet n'est pas "
-"d'être un lecteur vidéo mais d'être efficace pour apprendre les langues "
-"étrangères."
 
 #: ../page/documentation/use/ui.php:28
 msgid ""
 "This is the interface with annotation showing the differents components of "
 "the interface:"
 msgstr ""
-"Voici l'interface avec des annotations montrant les différents composants de "
-"l'interface :"
 
 #: ../page/documentation/use/ui.php:31
 msgid "Annotated Perroquet interface"
-msgstr "Interface de Perroquet annotée"
+msgstr ""
 
 #: ../page/documentation/use/ui.php:36
 msgid "These components are:"
-msgstr "Ces composants sont :"
+msgstr ""
 
 #: ../page/documentation/use/ui.php:37
 msgid ""
 "1 - Title bar. It display the project name and the current save state of the "
 "exercise."
 msgstr ""
-"1 - La barre de titre. Elle contient le nom du projet courant et l'état "
-"d'enregistrement de l'exercice."
 
 #: ../page/documentation/use/ui.php:38
 msgid "2 - Menu bar. It permit an access to most of Perroquet's features."
 msgstr ""
-"2 - La barre de menu. Elle permet un accès à la plupart des fonctionalités "
-"de Perroquet."
 
 #: ../page/documentation/use/ui.php:39
 msgid ""
 "3 - Tools bar. It permet a fast access to important of Perroquet's features."
 msgstr ""
-"3 - La barre d'outils. Elle permet un accès rapide aux fonctions importantes "
-"de Perroquet."
 
 #: ../page/documentation/use/ui.php:40
 msgid "4 - Video zone. The video is displayed in this zone."
-msgstr "4 - La zone de vidéo. La vidéo s'affiche dans cette zone."
+msgstr ""
 
 #: ../page/documentation/use/ui.php:41
 msgid ""
 "5 - Statistic's zone. It displays informations about exercise progress."
 msgstr ""
-"5 - La zone de statistiques. Elle affiche des informations sur l'avancement "
-"de l'exercice."
 
 #: ../page/documentation/use/ui.php:42
 msgid "6 - Filter field. Allow to filter words in words list."
 msgstr ""
-"6 - Le filtre. Il permet de filtrer les mots de la liste de mots (7)."
 
 #: ../page/documentation/use/ui.php:43
 msgid ""
 "7 - Words list. It contains all words you have to find in the whole exercise."
 msgstr ""
-"7 - La liste de mots. Elle contient la liste de tous les mots à trouver dans "
-"l'exercice."
 
 #: ../page/documentation/use/ui.php:44
 msgid "8 - Response zone. It displays the cloze test."
-msgstr "8 - La zone de réponse. Elle affiche le texte à trous à compléter."
+msgstr ""
 
 #: ../page/documentation/use/ui.php:45
 msgid ""
 "9 - Translation zone. It displays the translation of the current sequence. "
 "This zone is hidden by default"
 msgstr ""
-"9 - La zone de traduction. Elle affiche la traduction de la séquence "
-"courante. Cette zone est masquée par défaut."
 
 #: ../page/documentation/use/ui.php:46
 msgid "10 - Sequence slider. It permit to navigate in the current sequence."
 msgstr ""
-"10 - Le curseur de séquence. Il permet de naviguer dans la séquence courante"
 
 #: ../page/documentation/use/ui.php:47
 msgid "11 - Exercise slider. It permit to navigate in the exercise."
-msgstr "11 - Le curseur d'exercice. Il permet de naviguer dans l'exercice."
+msgstr ""
 
 #: ../page/documentation/use/ui.php:50
 msgid "The tools bar button are (from left to right):"
 msgstr ""
-"La barre d'outils contient les boutons suivants (de gauche à droite) :"
 
 #: ../page/documentation/use/ui.php:51
 msgid "New exercise."
-msgstr "Nouvel exercice."
+msgstr ""
 
 #: ../page/documentation/use/ui.php:52
 msgid "Open en exercise."
-msgstr "Ouvrir un exercice."
+msgstr ""
 
 #: ../page/documentation/use/ui.php:53
 msgid "Save the exercise."
-msgstr "Enregistrer l'exercice."
+msgstr ""
 
 #: ../page/documentation/use/ui.php:54
 msgid "Previous sequence."
-msgstr "Séquence précédente."
+msgstr ""
 
 #: ../page/documentation/use/ui.php:55
 msgid "Next sequence."
-msgstr "Séquence suivante."
+msgstr ""
 
 #: ../page/documentation/use/ui.php:56
 msgid "Listen the sequence again."
-msgstr "Réécouter la séquence."
+msgstr ""
 
 #: ../page/documentation/use/ui.php:57
 msgid "Hint."
-msgstr "Indice."
+msgstr ""
 
 #: ../page/documentation/use/ui.php:58
 msgid "Show/hide translation."
-msgstr "Afficher/Masquer la traduction."
+msgstr ""
 
 #: ../page/documentation/use/ui.php:59
 msgid "Show/hide correction."
-msgstr "Afficher/Masquer la correction."
+msgstr ""
 
 #: ../page/documentation/use/ui.php:60
 msgid "Slow down playback."
-msgstr "Ralentir la vitesse de lecture."
+msgstr ""
 
 #: ../page/documentation/use/ui.php:61
 msgid "Exercise properties."
-msgstr "Propriétes de l'exercice."
+msgstr ""
 
 #: ../page/documentation/use/ui.php:62
 msgid "Reset the exercise."
-msgstr "Réinitialiser l'exercice."
+msgstr ""
 
 #: ../page/documentation/documentation_page.php:14
 msgid "Installation"
-msgstr "Installation"
+msgstr ""
 
 #: ../page/documentation/documentation_page.php:15
 msgid "Use perroquet"
-msgstr "Utiliser Perroquet"
+msgstr ""
 
 #: ../page/documentation/documentation_page.php:16
 msgid "Help tools"
-msgstr "Outils d'aide"
+msgstr ""
 
 #: ../page/documentation/documentation_page.php:17
 msgid "Reporitories"
-msgstr "Dépôts"
+msgstr ""
 
 #: ../page/documentation/documentation_page.php:18
 msgid "Exercise creation"
-msgstr "Création d'exercices"
+msgstr ""
 
 #: ../page/documentation/documentation_page.php:19
 msgid "Development"
-msgstr "Développement"
+msgstr ""
 
 #: ../page/documentation/repositories/add_new_repository.php:14
 #: ../page/documentation/repositories/add_new_repository.php:23
 msgid "Documentation - Add new Repository"
-msgstr "Documentation - Ajouter un nouveau dépot"
+msgstr ""
 
 #: ../page/documentation/repositories/index.php:14
 #: ../page/documentation/repositories/index.php:23
 msgid "Documentation - Repositories"
-msgstr "Documentation - Dépôts"
+msgstr ""
 
 #: ../page/documentation/faq.php:14 ../page/documentation/faq.php:23
 msgid "Documentation - Faq"
-msgstr "Documentation - Faq"
+msgstr ""
 
 #: ../page/documentation/faq.php:26
 msgid "General"
-msgstr "Général"
+msgstr ""
 
 #: ../page/documentation/faq.php:27
 msgid "Where to download Windows version ?"
-msgstr "Où télécharger la version pour Windows ?"
+msgstr ""
 
 #: ../page/documentation/faq.php:28
 msgid "There is no Windows version but only a Linux version."
-msgstr "Il n'y a pas de version pour Windows mais uniquement une pour Linux."
+msgstr ""
 
 #: ../page/documentation/faq.php:29
 msgid ""
 "However, perroquet use cross platform library will may have a Windows "
 "version if someone develop it."
 msgstr ""
-"However, perroquet use cross platform library will ERREUR EN ANGLAIS may "
-"have a Windows version if someone develop it."
 
 #: ../page/documentation/development/index.php:14
 #: ../page/documentation/development/index.php:23
 msgid "Documentation - Developement"
-msgstr "Documentation - Développement"
+msgstr ""
 
 #: ../page/documentation/development/index.php:24
 msgid ""
 "Perroquet is developed with python, it use GTK (with pyGTK) for the GUI and "
 "Gstreamer as media player"
 msgstr ""
-"Perroquet est développé en Python, il utilise GTK (avec pyGTK) pour "
-"l'interface et Gstreamer comme lecteur multimédia"
 
 #: ../page/documentation/development/index.php:27
 msgid "Build from sources"
-msgstr "Compiler depuis les sources"
+msgstr ""
 
 #: ../page/documentation/development/index.php:29
 msgid "Download and run"
-msgstr "Télécharger et exécuter"
+msgstr ""
 
 #: ../page/documentation/development/index.php:31
 msgid ""
 "First, download the last development version on launchpad with bazaar:"
 msgstr ""
-"Tout d'abord, télécharger la dernière version de développement sur launchpad "
-"avec bazaar :"
 
 #: ../page/documentation/development/index.php:38
 msgid "You can directly run perroquet without any build or install:"
 msgstr ""
-"Vous pouvez directement lancer perroquet sans aucune compilation ou "
-"installation :"
 
 #: ../page/documentation/development/index.php:45
 msgid "Build locales"
-msgstr "Compilation des langues"
+msgstr ""
 
 #: ../page/documentation/development/index.php:47
 msgid ""
@@ -1780,14 +1518,10 @@ msgid ""
 "integration with your system will not be available: no icon, no entry in "
 "menu, no handle on *.perroquet."
 msgstr ""
-"Sans compilation, Perroquet sera en anglais. Sans installation, "
-"l'intégration complète avec votre système ne sera pas disponible : pas "
-"d'icône, pas d'entré de menu, pas de programme d'ouverture par défaut sur "
-"les fichiers *.perroquet."
 
 #: ../page/documentation/development/index.php:49
 msgid "You can build others languages easily:"
-msgstr "Vous pouvez compiler les autres langues facilement :"
+msgstr ""
 
 #: ../page/documentation/development/index.php:56
 msgid ""
@@ -1795,48 +1529,41 @@ msgid ""
 "your system language is one of translation language, the text in Perroquet "
 "will be translated."
 msgstr ""
-"Les fichiers de traduction devrait maintenant être construit. Si vous lancez "
-"à nouveau Perroquet et si la langue de votre système est une de celle "
-"traduite, le texte dans Perroquet sera traduit."
 
 #: ../page/documentation/development/index.php:58
 msgid "Install"
-msgstr "Installer"
+msgstr ""
 
 #: ../page/documentation/development/index.php:60
 msgid "To install perroquet, type with root rigths:"
-msgstr "Pour installe perroquet, tapez avec les droits administrateur :"
+msgstr ""
 
 #: ../page/documentation/development/index.php:67
 #: ../page/documentation/development/index.php:90
 msgid "or with sudo"
-msgstr "ou avec sudo"
+msgstr ""
 
 #: ../page/documentation/development/index.php:73
 msgid ""
 "The install-files.txt file is optionnal. It is needed to uninstall Perroquet."
 msgstr ""
-"Le fichier install-files.txt est optionnel. Il est nécessaire pour "
-"désinstaller Perroquet."
 
 #: ../page/documentation/development/index.php:74
 msgid "Once installed, you should be able to launch Perroquet from anywhere:"
 msgstr ""
-"Une fois installé, vous devriez être capable de lancer Perroquet depuis "
-"n'importe où :"
 
 #: ../page/documentation/development/index.php:81
 msgid "Uninstall"
-msgstr "Désinstaller"
+msgstr ""
 
 #: ../page/documentation/development/index.php:83
 msgid "To uninstall perroquet, type with root rigths:"
-msgstr "Pour désinstaller Perroquet, tapez avec les droits administrateur :"
+msgstr ""
 
 #: ../page/documentation/help/index.php:14
 #: ../page/documentation/help/index.php:22
 msgid "Documentation - Help tools"
-msgstr "Documentation - Outils d'aide"
+msgstr ""
 
 #: ../page/documentation/help/index.php:25
 msgid ""
@@ -1844,44 +1571,40 @@ msgid ""
 "said (if there are subtitles for the deaf). Sometimes, the subtitles are "
 "broken. In these case, there is multiple ways to get help."
 msgstr ""
-"Dans certains cas, il arrive de ne pas réussir à comprendre ce qui est dit, "
-"parfois rien n'est dit (s'il y a des sous-titres pour sourd) ou encore il "
-"arrive que les sous-titres soient éronnés. Dans ce cas, il existe trois "
-"moyens de se faire aider."
 
 #: ../page/documentation/help/index.php:27
 msgid "Most of these help tools can be accessed by the help menu."
-msgstr "La plupart de ces outils d'aide sont accessible depuis el menu Aide."
+msgstr ""
 
 #: ../page/documentation/help/index.php:30
 #: ../page/documentation/help/index.php:38
 msgid "Autocoloration"
-msgstr "Autocoloration"
+msgstr ""
 
 #: ../page/documentation/help/index.php:31
 #: ../page/documentation/help/index.php:42
 msgid "Hint"
-msgstr "Indice"
+msgstr ""
 
 #: ../page/documentation/help/index.php:32
 #: ../page/documentation/help/index.php:46
 msgid "Translation"
-msgstr "Traduction"
+msgstr ""
 
 #: ../page/documentation/help/index.php:33
 #: ../page/documentation/help/index.php:50
 msgid "Words list"
-msgstr "List des mots"
+msgstr ""
 
 #: ../page/documentation/help/index.php:34
 #: ../page/documentation/help/index.php:56
 msgid "Complete words"
-msgstr "Compléter les mots"
+msgstr ""
 
 #: ../page/documentation/help/index.php:35
 #: ../page/documentation/help/index.php:60
 msgid "Show correction"
-msgstr "Afficher la correction"
+msgstr ""
 
 #: ../page/documentation/help/index.php:40
 msgid ""
@@ -1889,9 +1612,6 @@ msgid ""
 "If the color turn to green, you are near of the good word. If the color turn "
 "to red, you are wrong or misplaced."
 msgstr ""
-"Perroquet change la couleur du fond des mots quand vous les éditez. Si la "
-"couleur passe au vert, vous êtes près d'avoir un mot correct. Si la couleur "
-"passe au rouge, le mot est faux ou mal placé."
 
 #: ../page/documentation/help/index.php:44
 msgid ""
@@ -1902,12 +1622,6 @@ msgid ""
 "displayed. Before ask a hint, don't delete your word: the correct character "
 "will be preserved."
 msgstr ""
-"Appuyer sur le bouton indice va fournir une aide sur le mot en cours "
-"d'édition. Au premier indice, le nombre de caractère du mot va être indiqué "
-"par des \"~\" (qu'il est inutile de supprimer, ils seront remplacés "
-"automatiquement). À chaque autre indice, une lettre du mot sera complété. "
-"Avant de demander le premier indice, ne supprimez pas le mot faux : les "
-"bonnes lettres seront conservés."
 
 #: ../page/documentation/help/index.php:48
 msgid ""
@@ -1916,19 +1630,12 @@ msgid ""
 "sequence is displayed in the translation zone. Perroquet translate sometimes "
 "more text then necessary to be sure the the interresting part is present."
 msgstr ""
-"Le bouton traduction permet d'afficher ou de masquer la zone de traduction. "
-"Si un fichier de traduction a été choisi à la création d'un exercice, la "
-"traduction de la séquence s'affichera dans la zone de traduction. Perroquet "
-"traduit parfois plus de texte que nécessaire pour être sûr que la partie "
-"intéressante est présente."
 
 #: ../page/documentation/help/index.php:52
 msgid ""
 "The words list contains the list of words to find in whole exercise. It can "
 "serve to find the exact spell of a word."
 msgstr ""
-"La liste des mots contient l'intégralité des mots à trouver dans l'exercice. "
-"Cela peut servir à confirmer une orthographes par exemple."
 
 #: ../page/documentation/help/index.php:54
 msgid ""
@@ -1937,19 +1644,12 @@ msgid ""
 "\"^s.{3}r$\" select only words of 5 letters beginning with s and ending with "
 "\"r\"."
 msgstr ""
-"Le filtre permet de selectionner seulement une partie de la liste de mots. "
-"Pour l'utiliser, il suffit de taper une partie du motif à rechercher. Le "
-"filtre utilise les expressions régulières, ainsi taper \"^s.{3}r$\" "
-"permettra de selectionner uniquement les mots de 5 lettres commençant par s "
-"et terminant par r."
 
 #: ../page/documentation/help/index.php:58
 msgid ""
 "You can complete the current word or the current sequence using \"Reveal the "
 "word\" or \"Reveal the sequence\" in the help menu."
 msgstr ""
-"Vous pouvez compléter le mot ou la phrase courante en utilisant \"Révéler le "
-"mot\" ou \"Révéler la séquence\" dans le menu Aide."
 
 #: ../page/documentation/help/index.php:63
 msgid ""
@@ -1957,196 +1657,3 @@ msgid ""
 "this mode you show the correction without have to reveal all sequences. "
 "Also, you can easily hide the correction."
 msgstr ""
-"En cliquant sur le bouton Afficher la correction, vous activez le mode "
-"corrigé. Dans ce mod, vous voyez la correction sans avoir à révéler toutes "
-"les séquences. Vous pouvez aussi faciliment  masquer la correction."
-
-#~ msgid ""
-#~ "\n"
-#~ "        <h1>Presentation</h1>\n"
-#~ "                    <img class=\"img_left\" "
-#~ "src=\"/ressources/perroquet_screenshot1_400.png\" alt=\"Perroquet en cours "
-#~ "d'utilisation\" />\n"
-#~ "                    <p>Perroquet is a educational program to improve "
-#~ "playfully your listening in a foreign language</p>\n"
-#~ "                <h2>How it works</h2>\n"
-#~ "                    <p>The principe of Perroquet is to use a video or audio "
-#~ "file and the associated subtitles to make you listen and understand the "
-#~ "dialogue or lyrics. After having idendified the files to use, Perroquet will "
-#~ "read a piece of video then pause. It will show you the number of words to "
-#~ "find and you will have to type them to continue. You can listen a sequence "
-#~ "as many times as necessary. If you do not understand, Perroquet offers "
-#~ "several means to help you.</p>\n"
-#~ "\n"
-#~ "                <h2>Try now</h2>\n"
-#~ "                    <p>If you want to test parrot but you have no video "
-#~ "available, here is an  archive containing the film Elephant Dream with "
-#~ "English subtitles match: <a href=\"/ressources/elephant_dream_en.tar.gz\" "
-#~ ">Files demo pages Elephant Dream</a></p>\n"
-#~ "                    <p>For now, this demo only allows you to practice "
-#~ "understanding English.</p>\n"
-#~ "\n"
-#~ "\n"
-#~ "                    <p>You must then <a href=\"/en/download.html\" >download "
-#~ "and install</a> Perroquet, run it, create a new exercise and put the video "
-#~ "file in the first field, the file of English subtitles in the second file "
-#~ "and the subtitle in the French final. To learn to use all the features of "
-#~ "parrot, see the <a href=\"/en/documentation.html\" >documentation</a>.</p>\n"
-#~ "\n"
-#~ "                <h2>News</h2>\n"
-#~ "\n"
-#~ "                    <h3>Version 1.0.1</h3>\n"
-#~ "                    <ul>\n"
-#~ "                        <li>Improve window resize</li>\n"
-#~ "                        <li>Add new shortcuts</li>\n"
-#~ "                        <li>Remove html tags in srt files</li>\n"
-#~ "                        <li>Replace | by new line in srt</li>\n"
-#~ "                        <li>Handle perroquet file, add mime type and icons "
-#~ "on perroquet exercise</li>\n"
-#~ "                        <li>Improve exercice creation dialog</li>\n"
-#~ "                        <li>Add tooltips</li>\n"
-#~ "                        <li>Reimplement input system to support specials "
-#~ "characters</li>\n"
-#~ "                        <li>Fix various bugs</li>\n"
-#~ "                        <li>Translation updates</li>\n"
-#~ "                    </ul>\n"
-#~ "                <h2>Licence</h2>\n"
-#~ "                    <p>Perroquet  is a free software distributed under the "
-#~ "GNU Public License version 3 or higher. The source code of this software is "
-#~ "available here: <a href=\"https://launchpad.net/perroquet/+download\" "
-#~ ">Download page at launchpad</a></p>\n"
-#~ "\n"
-#~ "                    <p>The full text of the license is available here <a "
-#~ "href=\"http://www.gnu.org/licenses/gpl.html\" >GPL</a>.</p>\n"
-#~ "        "
-#~ msgstr ""
-#~ "\n"
-#~ "        <h1>Présentation</h1><img class=\"img_left\" "
-#~ "src=\"/ressources/perroquet_screenshot1_400.png\" alt=\"Perroquet en cours "
-#~ "d'utilisation\" />\n"
-#~ "        "
-
-#~ msgid "Perroquet — Listening comprehension tutor"
-#~ msgstr "Perroquet — Un assistant à la compréhension orale"
-
-#~ msgid ""
-#~ "Perroquet work with every media file your computer can read. Choose one "
-#~ "video ou a audio book in the language you want to work and download the "
-#~ "corresponding subtitle in the same language (srt format). <a href=\""
-#~ msgstr ""
-#~ "Perroquet fonctionne avec tous les fichiers audiovisuels que votre "
-#~ "ordinateur peu lire. (hoisissez une vidéo ou un livre audio de la langue que "
-#~ "vous voulez travailler et téléchargez le sous-titre correspondant (format "
-#~ "srt)."
-
-#~ msgid ""
-#~ "Signal a bug, or a translation error in this website: <a "
-#~ "href=\"https://bugs.launchpad.net/perroquet/website\" >Perroquet website "
-#~ "bugtracker</a>"
-#~ msgstr ""
-#~ "Signaler un bug ou une erreur de traduction dans ce site web : <a "
-#~ "href=\"https://bugs.launchpad.net/perroquet/website\" >Bugtracker du site "
-#~ "web de Perroquet</a>"
-
-#~ msgid "Version 1.0.0"
-#~ msgstr "Version 1.0.0"
-
-#~ msgid ""
-#~ "An AUR package is available here: <a "
-#~ "href=\"http://aur.archlinux.org/packages.php?ID=33388\" >AUR package for "
-#~ "Perroquet 1.0.0</a>."
-#~ msgstr ""
-#~ "Un paquet AUR est disponible à cette adresse: <a "
-#~ "href=\"http://aur.archlinux.org/packages.php?ID=33388\" >Paquet AUR pour "
-#~ "Perroquet 1.0.0</a>."
-
-#~ msgid "Version 1.1.0 - 2010-07-01"
-#~ msgstr "Version 1.1.0 - 2010-07-01"
-
-#~ msgid "There is various way to get an exercices."
-#~ msgstr "Il y a plusieurs moyen d'obtenir ERREUR EN ANGLAIS des exercices."
-
-#~ msgid ""
-#~ "Perroquet works the exercises. And exercises in perroquet is the association "
-#~ "of one or more media files and the corresponding subtitles files."
-#~ msgstr ""
-#~ "Perroquet ERREUR EN ANGLAIS fonctionne avec des exercices. Un exercice dans "
-#~ "perroquet est l'association d'un ou plusieurs fichier multimédia avec les "
-#~ "sous-titres associés."
-
-#~ msgid "Faq"
-#~ msgstr "Faq"
-
-#~ msgid ""
-#~ "The install-files.txt file isi optionnal be need to uninstall Perroquet."
-#~ msgstr "Le fichier install-files.txt ERREUR"
-
-#~ msgid ""
-#~ "The installer for Ubuntu karmic is available here: <a "
-#~ "href=\"http://launchpad.net/perroquet/trunk/1.0.1/+download/perroquet_1.0.1-"
-#~ "0ubuntu2_all.deb\" >Ubuntu Karmic Perroquet 1.0.1 installer</a>"
-#~ msgstr ""
-#~ "L'installeur pour Ubuntu Karmic est disponible ici : <a "
-#~ "href=\"http://launchpad.net/perroquet/trunk/1.0.1/+download/perroquet_1.0.1-"
-#~ "0ubuntu2_all.deb\" >Installeur de Perroquet 1.0.1 pour Ubuntu Karmic</a>"
-
-#~ msgid "Last release : 1.1.0<br />2010-07-01"
-#~ msgstr "Dernière sortie : 1.1.0<br/>2010-07-01."
-
-#, php-format
-#~ msgid ""
-#~ "You must then  Perroquet, run it, create a new exercise and put the video "
-#~ "file in the first field, the file of English subtitles in the second file "
-#~ "and the subtitle in the French final. To learn to use all the features of "
-#~ "parrot, see the <a href=\"%s\" >documentation</a>."
-#~ msgstr ""
-#~ "You must then  Perroquet, run it, create a new exercise and put the video "
-#~ "file in the first field, the file of English subtitles in the second file "
-#~ "and the subtitle in the French final. To learn to use all the features of "
-#~ "parrot ERROR, see the <a href=\"%s\" >documentation</a>."
-
-#~ msgid ""
-#~ "A perroquet package for Mandriva is available for Mandriva 2010. You can "
-#~ "also download it here: <a href=\"http://rpmfind.unity-"
-#~ "linux.org/Mandriva%20Cooker%20-%20Contrib/perroquet-1.0.1-"
-#~ "2mdv2010.1.noarch.html\" >Perroquet 1.0.0 rpm </a>"
-#~ msgstr ""
-#~ "Un paquet pour Mandriva est disponible pour Mandriva 2010. Vous pouvez ausii "
-#~ "le télécharger ici : <a href=\"http://rpmfind.unity-"
-#~ "linux.org/Mandriva%20Cooker%20-%20Contrib/perroquet-1.0.1-"
-#~ "2mdv2010.1.noarch.html\" >Perroquet 1.0.0 rpm </a>"
-
-#~ msgid ""
-#~ "If you want plan to test perroquet without internet connection, you also can "
-#~ "an exercises now from the online exercise repository and import it in "
-#~ "perroquet later (File > Import): <a href=\"/exercises/\" >Exercises "
-#~ "repository</a>"
-#~ msgstr ""
-#~ "If you want plan to test perroquet without internet connection, you also can "
-#~ "ERREUR EN ANGLAIS an exercises now from the online exercise repository and "
-#~ "import it in perroquet later (File > Import): <a href=\"/exercises/\" "
-#~ ">Exercises repository</a>"
-
-#~ msgid ""
-#~ "The tarball containing the sources of installable software can be found "
-#~ "here: <a href=\"http://launchpad.net/perroquet/1.0/1.0.1/+download/perroquet-"
-#~ "1.0.1.tar.gz\" >Tarball Perroquet 1.0.1</a>."
-#~ msgstr ""
-#~ "Le tarball contenant les sources installables du logiciel se trouve ici : <a "
-#~ "href=\"http://launchpad.net/perroquet/1.0/1.0.1/+download/perroquet-"
-#~ "1.0.1.tar.gz\" >Tarball Perroquet 1.0.1</a>."
-
-#~ msgid "My proposed exercised"
-#~ msgstr "My proposed exercised ERREUR EN ANGLAIS"
-
-#, php-format
-#~ msgid ""
-#~ "You must then  Perroquet, run it, create a new exercise and put the video "
-#~ "file in the first field, the file of English subtitles in the second file "
-#~ "and the subtitle in the French final. To learn to use all the features of "
-#~ "Perroquet, see the <a href=\"%s\" >documentation</a>."
-#~ msgstr ""
-#~ "You must ERROR then  Perroquet, run it, create a new exercise and put the "
-#~ "video file in the first field, the file of English subtitles in the second "
-#~ "file and the subtitle in the French final. To learn to use all the features "
-#~ "of Perroquet, see the <a href=\"%s\" >documentation</a>."
