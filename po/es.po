@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: perroquet\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2010-06-22 08:29+0200\n"
-"PO-Revision-Date: 2010-09-13 08:11+0000\n"
-"Last-Translator: Perroquet Team <perroquet-team@lists.launchpad.net>\n"
+"PO-Revision-Date: 2010-11-07 20:16+0000\n"
+"Last-Translator: saimon <Unknown>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2010-09-14 05:09+0000\n"
+"X-Launchpad-Export-Date: 2010-11-08 05:24+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #: ../core/HtmlPage.php:35
@@ -46,7 +46,7 @@ msgstr "Iniciar sesión"
 
 #: ../core/HtmlPage.php:84
 msgid "Perroquet"
-msgstr ""
+msgstr "Perroquer"
 
 #: ../core/HtmlPage.php:85
 msgid "Listening comprehension tutor"
@@ -71,7 +71,7 @@ msgstr "Capturas de pantalla"
 #: ../core/HtmlPage.php:112 ../page/documentation/index.php:14
 #: ../page/documentation/index.php:23
 msgid "Documentation"
-msgstr ""
+msgstr "Documentacion"
 
 #: ../core/HtmlPage.php:113 ../page/exercises/index.php:14
 #: ../page/exercises/index.php:23
