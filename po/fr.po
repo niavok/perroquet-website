@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: perroquet\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-06-22 08:29+0200\n"
-"PO-Revision-Date: 2010-10-27 07:49+0000\n"
+"POT-Creation-Date: 2011-05-08 01:05+0200\n"
+"PO-Revision-Date: 2011-05-07 23:32+0000\n"
 "Last-Translator: Fred Bertolus <fred.bertolus@gmail.com>\n"
 "Language-Team: French\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2010-10-28 05:22+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
+"X-Launchpad-Export-Date: 2011-05-07 23:40+0000\n"
+"X-Generator: Launchpad (build 12981)\n"
 "X-Poedit-Country: FRANCE\n"
 "X-Poedit-Language: French\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -210,111 +210,154 @@ msgid "News"
 msgstr "Nouveautés"
 
 #: ../page/index.php:33
+msgid "Version 1.1.1 - 2011-05-08"
+msgstr "Version 1.1.1 - 2011-05-08"
+
+#: ../page/index.php:35
+msgid "No more display subtitles embeded is a mkv file"
+msgstr "Les sous-titres inclus dans les fichiers mkv ne sont plus affichés"
+
+#: ../page/index.php:36
+msgid "Fix a project loading bug in in progress sequences"
+msgstr ""
+"Correction d'un bug de chargement de projet avec des séquences partiellement "
+"complétées"
+
+#: ../page/index.php:37
+msgid "Place the cursor at the end of a moved word"
+msgstr "Place le curseur à la fin d'un mot déplacé"
+
+#: ../page/index.php:38
+msgid "Fix deletion bug"
+msgstr "Correction d'un bug de suppression"
+
+#: ../page/index.php:39
+msgid "Fix the cursor position when an alias is used"
+msgstr "Correction de la position du curseur quand un alias est utilisé"
+
+#: ../page/index.php:40
+msgid "Fix the cursor position whe the last word is completed"
+msgstr ""
+"Correction de la position du curseur quand le dernier mot est complété"
+
+#: ../page/index.php:41
+msgid "Fix the cursor position after using hint"
+msgstr "Correction de la position du curseur après l'utilisation d'une aide"
+
+#: ../page/index.php:42
+msgid "Fix crash if a config key is missing in the config"
+msgstr "Correction d'un crash si une clé de configuration est manquante"
+
+#: ../page/index.php:43
+msgid "Update the translation"
+msgstr "Mise à jour de la traduction"
+
+#: ../page/index.php:46
 msgid "Version 1.1.0 - 2010-06-21"
 msgstr "Version 1.1.0 - 2010-06-21"
 
-#: ../page/index.php:35
+#: ../page/index.php:48
 msgid "Add repository manager"
 msgstr "Ajout du gestionnaire d'exercices"
 
-#: ../page/index.php:36
+#: ../page/index.php:49
 msgid "Packages import and export"
 msgstr "Importation et exportation de paquets"
 
-#: ../page/index.php:37
+#: ../page/index.php:50
 msgid "Refactoring most of the code"
 msgstr "Refactoring de la plupart du code"
 
-#: ../page/index.php:38
+#: ../page/index.php:51
 msgid "Add others exercise languages"
 msgstr ""
 "Ajout de la possibilité d'exercices dans d'autres langues que l'anglais"
 
-#: ../page/index.php:39
+#: ../page/index.php:52
 msgid "Added aliases and synonyms"
 msgstr "Ajout d'alias et de synonymes"
 
-#: ../page/index.php:40
+#: ../page/index.php:53
 msgid "Show last open files"
 msgstr "Affichage des derniers fichiers ouverts"
 
-#: ../page/index.php:41
+#: ../page/index.php:54
 msgid "Add many teaching tools"
 msgstr "Ajout de plusieurs outils scolaires"
 
-#: ../page/index.php:42
+#: ../page/index.php:55
 msgid "Change exercise properties"
 msgstr "Edition des réglages des exercices"
 
-#: ../page/index.php:43
+#: ../page/index.php:56
 msgid "Add many navigation toots"
 msgstr "Ajout de plusieurs outils de navigation"
 
-#: ../page/index.php:44
+#: ../page/index.php:57
 msgid "Add many new help tools"
 msgstr "Ajout de plusieurs outils d'aide"
 
-#: ../page/index.php:45
+#: ../page/index.php:58
 msgid "Support multi files exercises"
 msgstr "Support des exercices multi fichiers"
 
-#: ../page/index.php:46
+#: ../page/index.php:59
 msgid "Automatic move of wrong placed words"
 msgstr "Déplacement automatique des mots placés au mauvais endroit"
 
-#: ../page/index.php:47 ../page/index.php:61
+#: ../page/index.php:60 ../page/index.php:74
 msgid "Fix various bugs"
 msgstr "Plusieurs corrections de bugs"
 
-#: ../page/index.php:48 ../page/index.php:62
+#: ../page/index.php:61 ../page/index.php:75
 msgid "Translation updates"
 msgstr "Mise à jour des traductions"
 
-#: ../page/index.php:51
+#: ../page/index.php:64
 msgid "Version 1.0.1 - 2010-01-13"
 msgstr "Version 1.0.1 - 2010-01-13"
 
-#: ../page/index.php:53
+#: ../page/index.php:66
 msgid "Improve window resize"
 msgstr "Amélioration du redimensionnement de la fenêtre"
 
-#: ../page/index.php:54
+#: ../page/index.php:67
 msgid "Add new shortcuts"
 msgstr "Ajout de nouveaux raccourcis"
 
-#: ../page/index.php:55
+#: ../page/index.php:68
 msgid "Remove html tags in srt files"
 msgstr "Suppression des balises HTML dans les fichiers srt"
 
-#: ../page/index.php:56
+#: ../page/index.php:69
 msgid "Replace | by new line in srt"
 msgstr "Remplacement de | par un saut de ligne dans les fichiers srt"
 
-#: ../page/index.php:57
+#: ../page/index.php:70
 msgid "Handle perroquet file, add mime type and icons on perroquet exercise"
 msgstr ""
 "Ouverture automatique de Perroquet à l'utilisation d'un fichier d'exercice. "
 "Ajout d'icone et de type MIME."
 
-#: ../page/index.php:58
+#: ../page/index.php:71
 msgid "Improve exercice creation dialog"
 msgstr "Amélioration de la boite de dialogue de création d'exercices"
 
-#: ../page/index.php:59
+#: ../page/index.php:72
 msgid "Add tooltips"
 msgstr "Ajout d'infobulles"
 
-#: ../page/index.php:60
+#: ../page/index.php:73
 msgid "Reimplement input system to support specials characters"
 msgstr ""
 "Réimplémentation du système d'entrée clavier pour supporter les caractères "
 "spéciaux"
 
-#: ../page/index.php:64
+#: ../page/index.php:77
 msgid "Licence"
 msgstr "Licence"
 
-#: ../page/index.php:65
+#: ../page/index.php:78
 msgid ""
 "Perroquet  is a free software distributed under the GNU Public License "
 "version 3 or higher. The source code of this software is available here: <a "
@@ -326,7 +369,7 @@ msgstr ""
 "l'adresse suivante : <a href=\"https://launchpad.net/perroquet/+download\" "
 ">Page de téléchargement sur launchpad</a>"
 
-#: ../page/index.php:67
+#: ../page/index.php:80
 msgid ""
 "The full text of the license is available here <a "
 "href=\"http://www.gnu.org/licenses/gpl.html\">GPL</a>."
@@ -586,12 +629,12 @@ msgstr ""
 #: ../page/download.php:27
 msgid ""
 "The installer for Ubuntu is available here: <a "
-"href=\"http://launchpad.net/perroquet/1.1/1.1.0/+download/perroquet_1.1.0-"
-"0ubuntu4_all.deb\" >Ubuntu Perroquet 1.1.0 installer</a>"
+"href=\"http://launchpad.net/perroquet/1.1/1.1.1/+download/perroquet_1.1.1-"
+"0ubuntu1_all.deb\" >Ubuntu Perroquet 1.1.1 installer</a>"
 msgstr ""
-"L'installeur pour Ubuntu est disponible ici: <a "
-"href=\"http://launchpad.net/perroquet/1.1/1.1.0/+download/perroquet_1.1.0-"
-"0ubuntu4_all.deb\" >Ubuntu Perroquet 1.1.0 installer</a>"
+"L'installeur pour Ubuntu est disponible ici : <a "
+"href=\"http://launchpad.net/perroquet/1.1/1.1.1/+download/perroquet_1.1.1-"
+"0ubuntu1_all.deb\" >Installeur Ubuntu pour Perroquet 1.1.1 </a>"
 
 #: ../page/download.php:28
 msgid ""
@@ -718,12 +761,12 @@ msgstr "Tarball source"
 #: ../page/download.php:51
 msgid ""
 "The tarball containing the sources of installable software can be found "
-"here: <a href=\"http://launchpad.net/perroquet/1.1/1.1.0/+download/perroquet-"
-"1.1.0.tar.gz\" >Tarball Perroquet 1.1.0</a>."
+"here: <a href=\"http://launchpad.net/perroquet/1.1/1.1.1/+download/perroquet-"
+"1.1.1.tar.gz\" >Tarball Perroquet 1.1.1</a>."
 msgstr ""
-"Le tarball contenant les sources peut être trouvé ici: <a "
-"href=\"http://launchpad.net/perroquet/1.1/1.1.0/+download/perroquet-"
-"1.1.0.tar.gz\" >Tarball de Perroquet 1.1.0</a>."
+"Le tarball contenant les sources installables du logiciel peuvent se trouver "
+"ici : <a href=\"http://launchpad.net/perroquet/1.1/1.1.1/+download/perroquet-"
+"1.1.1.tar.gz\" >Tarball pour Perroquet 1.1.1</a>."
 
 #: ../page/download.php:52
 msgid "Read INSTALL file to installation instructions."
@@ -2071,6 +2114,16 @@ msgstr ""
 #~ msgid "Version 1.1.0 - 2010-07-01"
 #~ msgstr "Version 1.1.0 - 2010-07-01"
 
+#~ msgid "If no special link is provide, please contact us: <a href=\""
+#~ msgstr "Si aucun lien particulier n'est fournis, contactez nous:"
+
+#~ msgid ""
+#~ "Signal a bug, or a translation error in Perroquet: <a "
+#~ "href=\"https://bugs.launchpad.net/perroquet\" >Perroquet bugtracker</a>"
+#~ msgstr ""
+#~ "Signaler un bug ou une erreur de traduction dans Perroquet : <a "
+#~ "href=\"https://bugs.launchpad.net/perroquet\" >Bugtracker de Perroquet</a>"
+
 #~ msgid "There is various way to get an exercices."
 #~ msgstr "Il y a plusieurs moyen d'obtenir ERREUR EN ANGLAIS des exercices."
 
@@ -2158,3 +2211,90 @@ msgstr ""
 #~ "video file in the first field, the file of English subtitles in the second "
 #~ "file and the subtitle in the French final. To learn to use all the features "
 #~ "of Perroquet, see the <a href=\"%s\" >documentation</a>."
+
+#~ msgid ""
+#~ "Perroquet works with exercises. And exercises in perroquet is the "
+#~ "association of one or more media files and the corresponding subtitles files."
+#~ msgstr ""
+#~ "Perroquet works with exercises. ERROR And exercises in perroquet is the "
+#~ "association of one or more media files and the corresponding subtitles files."
+
+#~ msgid "Documentation - Navigate"
+#~ msgstr "Documentation - Navigation"
+
+#~ msgid "Documentation - use - Interface"
+#~ msgstr "Documentation - use - Interface"
+
+#~ msgid ""
+#~ "This is the interface with annotation shwowing the differents components of "
+#~ "the interface:"
+#~ msgstr ""
+#~ "This is the interface with annotation shwowing ERROR the differents "
+#~ "components of the interface:"
+
+#~ msgid ""
+#~ "The language files should now be build. If you run Perroquet again and if "
+#~ "your system language is one of translation language, the text in Perroquet "
+#~ "wil be translated."
+#~ msgstr ""
+#~ "Les fichiers de langue devrait maintenant être compilés. Si vous lancez à "
+#~ "nouveau Perroquet et si la langue de votre système fait partie des langues "
+#~ "traduites, les textes de Perroquet seront traduit."
+
+#~ msgid ""
+#~ "You can use complete the current word or the current sequence using \"Reveal "
+#~ "the word\" or \"Reveal the sequence\" in the help menu."
+#~ msgstr ""
+#~ "You can use complete the current word or the current sequence using \"Reveal "
+#~ "the word\" or \"Reveal the sequence\" in the help menu. ERROR"
+
+#~ msgid ""
+#~ "Click on Hint button will give you help on the word where the cursor is. At "
+#~ "fisrt hiny, le character count of the word will be displayed with some \"~\" "
+#~ "(you don't have to delete these \"~\", they will be automaticaly replaced on "
+#~ "typing). For each other hint, a new letter of the word will be displayed. "
+#~ "Before ask a hint, don't delete your word: the corrects character will be "
+#~ "preserved."
+#~ msgstr ""
+#~ "Click on Hint button will give you help on the word where the cursor is. At "
+#~ "fisrt hiny, le character count of the word will be displayed with some \"~\" "
+#~ "(you don't have to delete these \"~\", they will be automaticaly replaced on "
+#~ "typing). For each other hint, a new letter of the word will be displayed. "
+#~ "Before ask a hint, don't delete your word: the corrects character will be "
+#~ "preserved. ERREUR"
+
+#~ msgid ""
+#~ "Clicking on the Show correction button, you activate the correction mode. In "
+#~ "this mode you show the correction without have to reveal au sequences. Also, "
+#~ "you can easily hide the correction."
+#~ msgstr ""
+#~ "Clicking on the Show correction button, you activate the correction mode. In "
+#~ "this mode you show the correction without have to reveal au sequences. Also, "
+#~ "you can easily hide the correction. ERROR"
+
+#~ msgid ""
+#~ "The installer for Ubuntu is available here: <a "
+#~ "href=\"http://launchpad.net/perroquet/trunk/1.1.0/+download/perroquet_1.1.0-"
+#~ "0ubuntu4_all.deb\" >Ubuntu Perroquet 1.1.0 installer</a>"
+#~ msgstr ""
+#~ "L'installer pour Ubuntu est disponible ici : <a "
+#~ "href=\"http://launchpad.net/perroquet/trunk/1.1.0/+download/perroquet_1.1.0-"
+#~ "0ubuntu4_all.deb\" >Installeur pour Ubuntu pour Perroquet 1.1.0</a>"
+
+#~ msgid ""
+#~ "The tarball containing the sources of installable software can be found "
+#~ "here: <a href=\"http://launchpad.net/perroquet/1.1/1.1.0/+download/perroquet-"
+#~ "1.1.0.tar.gz\" >Tarball Perroquet 1.1.0</a>."
+#~ msgstr ""
+#~ "Le tarball contenant les sources peut être trouvé ici: <a "
+#~ "href=\"http://launchpad.net/perroquet/1.1/1.1.0/+download/perroquet-"
+#~ "1.1.0.tar.gz\" >Tarball de Perroquet 1.1.0</a>."
+
+#~ msgid ""
+#~ "The installer for Ubuntu is available here: <a "
+#~ "href=\"http://launchpad.net/perroquet/1.1/1.1.0/+download/perroquet_1.1.0-"
+#~ "0ubuntu4_all.deb\" >Ubuntu Perroquet 1.1.0 installer</a>"
+#~ msgstr ""
+#~ "L'installeur pour Ubuntu est disponible ici: <a "
+#~ "href=\"http://launchpad.net/perroquet/1.1/1.1.0/+download/perroquet_1.1.0-"
+#~ "0ubuntu4_all.deb\" >Ubuntu Perroquet 1.1.0 installer</a>"
