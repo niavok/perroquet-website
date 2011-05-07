@@ -15,7 +15,7 @@ class CurrentPage extends HtmlPage{
         $content = '<h1>'._('Download').'</h1>';
 
 
-        $content .= '<p>'._('Last release : ').'1.1.0<br />2010-06-21</p>';
+        $content .= '<p>'._('Last release : ').'1.1.1<br />2011-05-08</p>';
 
         $content .= '<p>'._('Currently, Perroquet is only available for Linux, but it uses multi-platform technology. It should be easily portable to other systems.').'</p>';
 
@@ -24,7 +24,7 @@ class CurrentPage extends HtmlPage{
         $content .= '<h2>'._('Ubuntu').'</h2>';
         $content .= '<h3>'._('Installer').'</h3>';
         $content .= '<p>'._('Using the installer, you\'ll miss the updates of Perroquet. If you want to make the updates, install Perroquet with the PPA').'</p>';
-        $content .= '<p>'._('The installer for Ubuntu is available here: <a href="http://launchpad.net/perroquet/1.1/1.1.0/+download/perroquet_1.1.0-0ubuntu4_all.deb" >Ubuntu Perroquet 1.1.0 installer</a>').'</p>';
+        $content .= '<p>'._('The installer for Ubuntu is available here: <a href="http://launchpad.net/perroquet/1.1/1.1.1/+download/perroquet_1.1.1-0ubuntu1_all.deb" >Ubuntu Perroquet 1.1.1 installer</a>').'</p>';
         $content .= '<p>'._('It is possible that this link is not updated. Go to this page to see all downloads:<a href="https://launchpad.net/perroquet/+download" >Download page on launchpad</a>').'</p>';
 
         $content .= '<h3>'._('PPA').'</h3>';
@@ -48,7 +48,7 @@ class CurrentPage extends HtmlPage{
         $content .= '<p>'._('If you make a package for another distribution, send me it, I\'ll add it on this page.').'</p>';
         
         $content .= '<h3>'._('Source tarball').'</h3>';
-        $content .= '<p>'._('The tarball containing the sources of installable software can be found here: <a href="http://launchpad.net/perroquet/1.1/1.1.0/+download/perroquet-1.1.0.tar.gz" >Tarball Perroquet 1.1.0</a>.').'</p>';
+        $content .= '<p>'._('The tarball containing the sources of installable software can be found here: <a href="http://launchpad.net/perroquet/1.1/1.1.1/+download/perroquet-1.1.1.tar.gz" >Tarball Perroquet 1.1.1</a>.').'</p>';
         $content .= '<p>'._('Read INSTALL file to installation instructions.').'</p>';
         $content .= '<p>'._('It is possible that this link is not updated. Go to this page to see all downloads: <a href="https://launchpad.net/perroquet/+download" >Download page on launchpad</a>').'</p>';
         $content .= '<h3>'._('Bazaar repository').'</h3>';

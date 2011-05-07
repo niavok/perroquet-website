@@ -59,6 +59,7 @@ class Config {
         'fr-ca' => array('key' => 'fr_FR.utf8', 'choosable' => False, 'ref' => 'fr'),
         'fr-lu' => array('key' => 'fr_FR.utf8', 'choosable' => False, 'ref' => 'fr'),
         'fr-ch' => array('key' => 'fr_FR.utf8', 'choosable' => False, 'ref' => 'fr'),
+        'es' => array('key' => 'es_ES.utf8', 'choosable' => True, 'label' => 'Español', 'code' => 'es'),
         );
 
     public function getPageList() {

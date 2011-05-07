@@ -30,6 +30,19 @@ class CurrentPage extends HtmlPage{
 
                 <h2>'._('News').'</h2>
 
+                    <h3>'._('Version 1.1.1 - 2011-05-08').'</h3>
+                    <ul>
+                        <li>'._('No more display subtitles embeded is a mkv file').'</li>
+                        <li>'._('Fix a project loading bug in in progress sequences').'</li>
+                        <li>'._('Place the cursor at the end of a moved word').'</li>
+                        <li>'._('Fix deletion bug').'</li>
+                        <li>'._('Fix the cursor position when an alias is used').'</li>
+                        <li>'._('Fix the cursor position whe the last word is completed').'</li>
+                        <li>'._('Fix the cursor position after using hint').'</li>
+                        <li>'._('Fix crash if a config key is missing in the config').'</li>
+                        <li>'._('Update the translation').'</li>
+                    </ul>
+
                     <h3>'._('Version 1.1.0 - 2010-06-21').'</h3>
                     <ul>
                         <li>'._('Add repository manager').'</li>
