@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: perroquet\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2010-06-22 08:29+0200\n"
+"POT-Creation-Date: 2011-05-08 01:05+0200\n"
 "PO-Revision-Date: 2010-11-08 08:16+0000\n"
 "Last-Translator: Fred Bertolus <fred.bertolus@gmail.com>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2010-11-09 05:02+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
+"X-Launchpad-Export-Date: 2011-05-08 04:49+0000\n"
+"X-Generator: Launchpad (build 12959)\n"
 
 #: ../core/HtmlPage.php:35
 msgid "Perroquet — Listening comprehension tutor — "
@@ -178,106 +178,146 @@ msgid "News"
 msgstr ""
 
 #: ../page/index.php:33
-msgid "Version 1.1.0 - 2010-06-21"
-msgstr "Versión 1.1.0 - 21-06-2010"
+msgid "Version 1.1.1 - 2011-05-08"
+msgstr ""
 
 #: ../page/index.php:35
-msgid "Add repository manager"
+msgid "No more display subtitles embeded is a mkv file"
 msgstr ""
 
 #: ../page/index.php:36
-msgid "Packages import and export"
-msgstr "Importación y exportaciçon de paquetes"
+msgid "Fix a project loading bug in in progress sequences"
+msgstr ""
 
 #: ../page/index.php:37
-msgid "Refactoring most of the code"
+msgid "Place the cursor at the end of a moved word"
 msgstr ""
 
 #: ../page/index.php:38
-msgid "Add others exercise languages"
+msgid "Fix deletion bug"
 msgstr ""
 
 #: ../page/index.php:39
-msgid "Added aliases and synonyms"
+msgid "Fix the cursor position when an alias is used"
 msgstr ""
 
 #: ../page/index.php:40
-msgid "Show last open files"
+msgid "Fix the cursor position whe the last word is completed"
 msgstr ""
 
 #: ../page/index.php:41
-msgid "Add many teaching tools"
+msgid "Fix the cursor position after using hint"
 msgstr ""
 
 #: ../page/index.php:42
-msgid "Change exercise properties"
+msgid "Fix crash if a config key is missing in the config"
 msgstr ""
 
 #: ../page/index.php:43
-msgid "Add many navigation toots"
-msgstr ""
-
-#: ../page/index.php:44
-msgid "Add many new help tools"
-msgstr ""
-
-#: ../page/index.php:45
-msgid "Support multi files exercises"
+msgid "Update the translation"
 msgstr ""
 
 #: ../page/index.php:46
-msgid "Automatic move of wrong placed words"
+msgid "Version 1.1.0 - 2010-06-21"
+msgstr "Versión 1.1.0 - 21-06-2010"
+
+#: ../page/index.php:48
+msgid "Add repository manager"
 msgstr ""
 
-#: ../page/index.php:47 ../page/index.php:61
-msgid "Fix various bugs"
-msgstr ""
+#: ../page/index.php:49
+msgid "Packages import and export"
+msgstr "Importación y exportaciçon de paquetes"
 
-#: ../page/index.php:48 ../page/index.php:62
-msgid "Translation updates"
+#: ../page/index.php:50
+msgid "Refactoring most of the code"
 msgstr ""
 
 #: ../page/index.php:51
-msgid "Version 1.0.1 - 2010-01-13"
+msgid "Add others exercise languages"
+msgstr ""
+
+#: ../page/index.php:52
+msgid "Added aliases and synonyms"
 msgstr ""
 
 #: ../page/index.php:53
-msgid "Improve window resize"
+msgid "Show last open files"
 msgstr ""
 
 #: ../page/index.php:54
-msgid "Add new shortcuts"
+msgid "Add many teaching tools"
 msgstr ""
 
 #: ../page/index.php:55
-msgid "Remove html tags in srt files"
+msgid "Change exercise properties"
 msgstr ""
 
 #: ../page/index.php:56
-msgid "Replace | by new line in srt"
+msgid "Add many navigation toots"
 msgstr ""
 
 #: ../page/index.php:57
-msgid "Handle perroquet file, add mime type and icons on perroquet exercise"
+msgid "Add many new help tools"
 msgstr ""
 
 #: ../page/index.php:58
-msgid "Improve exercice creation dialog"
+msgid "Support multi files exercises"
 msgstr ""
 
 #: ../page/index.php:59
-msgid "Add tooltips"
+msgid "Automatic move of wrong placed words"
 msgstr ""
 
-#: ../page/index.php:60
-msgid "Reimplement input system to support specials characters"
+#: ../page/index.php:60 ../page/index.php:74
+msgid "Fix various bugs"
+msgstr ""
+
+#: ../page/index.php:61 ../page/index.php:75
+msgid "Translation updates"
 msgstr ""
 
 #: ../page/index.php:64
+msgid "Version 1.0.1 - 2010-01-13"
+msgstr ""
+
+#: ../page/index.php:66
+msgid "Improve window resize"
+msgstr ""
+
+#: ../page/index.php:67
+msgid "Add new shortcuts"
+msgstr ""
+
+#: ../page/index.php:68
+msgid "Remove html tags in srt files"
+msgstr ""
+
+#: ../page/index.php:69
+msgid "Replace | by new line in srt"
+msgstr ""
+
+#: ../page/index.php:70
+msgid "Handle perroquet file, add mime type and icons on perroquet exercise"
+msgstr ""
+
+#: ../page/index.php:71
+msgid "Improve exercice creation dialog"
+msgstr ""
+
+#: ../page/index.php:72
+msgid "Add tooltips"
+msgstr ""
+
+#: ../page/index.php:73
+msgid "Reimplement input system to support specials characters"
+msgstr ""
+
+#: ../page/index.php:77
 msgid "Licence"
 msgstr ""
 
-#: ../page/index.php:65
+#: ../page/index.php:78
 msgid ""
 "Perroquet  is a free software distributed under the GNU Public License "
 "version 3 or higher. The source code of this software is available here: <a "
@@ -285,7 +325,7 @@ msgid ""
 "launchpad</a>"
 msgstr ""
 
-#: ../page/index.php:67
+#: ../page/index.php:80
 msgid ""
 "The full text of the license is available here <a "
 "href=\"http://www.gnu.org/licenses/gpl.html\">GPL</a>."
@@ -508,8 +548,8 @@ msgstr ""
 #: ../page/download.php:27
 msgid ""
 "The installer for Ubuntu is available here: <a "
-"href=\"http://launchpad.net/perroquet/1.1/1.1.0/+download/perroquet_1.1.0-"
-"0ubuntu4_all.deb\" >Ubuntu Perroquet 1.1.0 installer</a>"
+"href=\"http://launchpad.net/perroquet/1.1/1.1.1/+download/perroquet_1.1.1-"
+"0ubuntu1_all.deb\" >Ubuntu Perroquet 1.1.1 installer</a>"
 msgstr ""
 
 #: ../page/download.php:28
@@ -608,8 +648,8 @@ msgstr ""
 #: ../page/download.php:51
 msgid ""
 "The tarball containing the sources of installable software can be found "
-"here: <a href=\"http://launchpad.net/perroquet/1.1/1.1.0/+download/perroquet-"
-"1.1.0.tar.gz\" >Tarball Perroquet 1.1.0</a>."
+"here: <a href=\"http://launchpad.net/perroquet/1.1/1.1.1/+download/perroquet-"
+"1.1.1.tar.gz\" >Tarball Perroquet 1.1.1</a>."
 msgstr ""
 
 #: ../page/download.php:52
