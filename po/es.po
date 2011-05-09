@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: perroquet\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2011-05-08 01:05+0200\n"
-"PO-Revision-Date: 2010-11-08 08:16+0000\n"
-"Last-Translator: Fred Bertolus <fred.bertolus@gmail.com>\n"
+"PO-Revision-Date: 2011-05-08 05:06+0000\n"
+"Last-Translator: Fitoschido <fitoschido@gmail.com>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-05-08 04:49+0000\n"
+"X-Launchpad-Export-Date: 2011-05-09 04:51+0000\n"
 "X-Generator: Launchpad (build 12959)\n"
 
 #: ../core/HtmlPage.php:35
@@ -175,11 +175,11 @@ msgstr ""
 
 #: ../page/index.php:31 ../page/exercises/external_repo.php:31
 msgid "News"
-msgstr ""
+msgstr "Novedades"
 
 #: ../page/index.php:33
 msgid "Version 1.1.1 - 2011-05-08"
-msgstr ""
+msgstr "Version 1.1.1 - 8 de mayo de 2011"
 
 #: ../page/index.php:35
 msgid "No more display subtitles embeded is a mkv file"
@@ -215,7 +215,7 @@ msgstr ""
 
 #: ../page/index.php:43
 msgid "Update the translation"
-msgstr ""
+msgstr "Traducciones actualizadas"
 
 #: ../page/index.php:46
 msgid "Version 1.1.0 - 2010-06-21"
@@ -223,7 +223,7 @@ msgstr "Versión 1.1.0 - 21-06-2010"
 
 #: ../page/index.php:48
 msgid "Add repository manager"
-msgstr ""
+msgstr "Añadido gestor de repositorios"
 
 #: ../page/index.php:49
 msgid "Packages import and export"
