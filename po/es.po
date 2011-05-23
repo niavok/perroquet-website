@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: perroquet\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2011-05-08 01:05+0200\n"
-"PO-Revision-Date: 2011-05-08 05:06+0000\n"
+"PO-Revision-Date: 2011-05-22 07:42+0000\n"
 "Last-Translator: Fitoschido <fitoschido@gmail.com>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-05-09 04:51+0000\n"
+"X-Launchpad-Export-Date: 2011-05-23 04:54+0000\n"
 "X-Generator: Launchpad (build 12959)\n"
 
 #: ../core/HtmlPage.php:35
@@ -191,7 +191,7 @@ msgstr ""
 
 #: ../page/index.php:37
 msgid "Place the cursor at the end of a moved word"
-msgstr ""
+msgstr "Sitúe el cursor al final de una palabra movida"
 
 #: ../page/index.php:38
 msgid "Fix deletion bug"
@@ -271,15 +271,15 @@ msgstr ""
 
 #: ../page/index.php:60 ../page/index.php:74
 msgid "Fix various bugs"
-msgstr ""
+msgstr "Corrección de varios errores"
 
 #: ../page/index.php:61 ../page/index.php:75
 msgid "Translation updates"
-msgstr ""
+msgstr "Actualización de traducciones"
 
 #: ../page/index.php:64
 msgid "Version 1.0.1 - 2010-01-13"
-msgstr ""
+msgstr "Versión 1.0.1 - 2010-01-13"
 
 #: ../page/index.php:66
 msgid "Improve window resize"
@@ -315,7 +315,7 @@ msgstr ""
 
 #: ../page/index.php:77
 msgid "Licence"
-msgstr ""
+msgstr "Licencia"
 
 #: ../page/index.php:78
 msgid ""
@@ -324,12 +324,18 @@ msgid ""
 "href=\"https://launchpad.net/perroquet/+download\" >Download page at "
 "launchpad</a>"
 msgstr ""
+"Perroquet es doftware libre distribuido bajo la Licencia Pública General de "
+"GNU versión 3 o superior. El código fuente de este software está disponible "
+"<a href=\"https://launchpad.net/perroquet/+download\" >en la página de "
+"descarga en Launchpad</a>"
 
 #: ../page/index.php:80
 msgid ""
 "The full text of the license is available here <a "
 "href=\"http://www.gnu.org/licenses/gpl.html\">GPL</a>."
 msgstr ""
+"El texto completo de la licencia está disponible <a "
+"href=\"http://www.gnu.org/licenses/gpl.html\">aquí</a>."
 
 #: ../page/screenshots.php:19 ../page/screenshots.php:20
 msgid "Perroquet exercises manager"
@@ -337,52 +343,52 @@ msgstr ""
 
 #: ../page/admin/user_list.php:13 ../page/admin/user_list.php:34
 msgid "User list"
-msgstr ""
+msgstr "Lista de usuarios"
 
 #: ../page/admin/user_list.php:45 ../page/exercises/propose_list.php:29
 #: ../page/exercises/my_propose_list.php:29
 #: ../page/exercises/propose_form.php:85
 #: ../page/exercises/add_exercise.php:104
 msgid "Go to login page"
-msgstr ""
+msgstr "Ir a la pagina de inicio de sesión"
 
 #: ../page/admin/user_list.php:56
 msgid "Administrators"
-msgstr ""
+msgstr "Administradores"
 
 #: ../page/admin/user_list.php:63 ../page/admin/user_list.php:96
 msgid "OpenID"
-msgstr ""
+msgstr "OpenID"
 
 #: ../page/admin/user_list.php:64 ../page/admin/user_list.php:97
 #: ../page/exercises/browse.php:26
 msgid "Name"
-msgstr ""
+msgstr "Nombre"
 
 #: ../page/admin/user_list.php:65 ../page/admin/user_list.php:98
 msgid "Email"
-msgstr ""
+msgstr "Correo electrónico"
 
 #: ../page/admin/user_list.php:66 ../page/admin/user_list.php:99
 msgid "Admin rights"
-msgstr ""
+msgstr "Derechos de administrador"
 
 #: ../page/admin/user_list.php:67 ../page/admin/user_list.php:80
 #: ../page/admin/user_list.php:100 ../page/admin/user_list.php:113
 msgid "Delete"
-msgstr ""
+msgstr "Eliminar"
 
 #: ../page/admin/user_list.php:79
 msgid "Remove"
-msgstr ""
+msgstr "Quitar"
 
 #: ../page/admin/user_list.php:89
 msgid "Users"
-msgstr ""
+msgstr "Usuarios"
 
 #: ../page/admin/user_list.php:112
 msgid "Add"
-msgstr ""
+msgstr "Añadir"
 
 #: ../page/contribute.php:16
 msgid ""
@@ -397,11 +403,11 @@ msgstr ""
 
 #: ../page/contribute.php:17
 msgid "Contact perroquet team</a>."
-msgstr ""
+msgstr "Contactar al equipo de Perroquet</a>."
 
 #: ../page/contribute.php:20
 msgid "Help on Perroquet software"
-msgstr ""
+msgstr "Ayuda del software Perroquet"
 
 #: ../page/contribute.php:23
 msgid ""
@@ -411,13 +417,15 @@ msgstr ""
 
 #: ../page/contribute.php:24
 msgid "Packaging or adding in distributions"
-msgstr ""
+msgstr "Empaquetando o añadiendo a distribuciones"
 
 #: ../page/contribute.php:25
 msgid ""
 "Send a patch: <a href=\"https://code.launchpad.net/~perroquet-"
 "team/perroquet/trunk2\" >Perroquet code</a>"
 msgstr ""
+"Envíe un parche: <a href=\"https://code.launchpad.net/~perroquet-"
+"team/perroquet/trunk2\" >código de Perroquet</a>"
 
 #: ../page/contribute.php:26
 msgid ""
@@ -425,10 +433,13 @@ msgid ""
 "href=\"https://translations.launchpad.net/perroquet\" >Perroquet online "
 "translation</a>"
 msgstr ""
+"Ayude a traducir Perroquet: <a "
+"href=\"https://translations.launchpad.net/perroquet\" >traducción en línea "
+"de Perroquet</a>"
 
 #: ../page/contribute.php:27
 msgid "Suggest a new feature or make a suggestion"
-msgstr ""
+msgstr "Sugiera una característica nueva o haga un comentario"
 
 #: ../page/contribute.php:32
 msgid "Help on exercise repositoy"
@@ -460,7 +471,7 @@ msgstr ""
 
 #: ../page/contribute.php:42
 msgid "Write documentation"
-msgstr ""
+msgstr "Escriba documentación"
 
 #: ../page/contribute.php:43
 msgid ""
@@ -500,7 +511,7 @@ msgstr ""
 
 #: ../page/contacts.php:18
 msgid "Contribute to Perroquet"
-msgstr ""
+msgstr "Contribuya a Perroquet"
 
 #: ../page/contacts.php:20
 msgid ""
@@ -516,13 +527,15 @@ msgstr ""
 
 #: ../page/download.php:18
 msgid "Last release : "
-msgstr ""
+msgstr "Última versión: "
 
 #: ../page/download.php:20
 msgid ""
 "Currently, Perroquet is only available for Linux, but it uses multi-platform "
 "technology. It should be easily portable to other systems."
 msgstr ""
+"Actualmente, Perroquet solo está disponible para Linux, pero utiliza "
+"tecnologías multiplataforma. Debería ser fácil migrarlo a otros sistemas."
 
 #: ../page/download.php:22
 msgid ""
@@ -533,17 +546,19 @@ msgstr ""
 
 #: ../page/download.php:24
 msgid "Ubuntu"
-msgstr ""
+msgstr "Ubuntu"
 
 #: ../page/download.php:25
 msgid "Installer"
-msgstr ""
+msgstr "Instalador"
 
 #: ../page/download.php:26
 msgid ""
 "Using the installer, you'll miss the updates of Perroquet. If you want to "
 "make the updates, install Perroquet with the PPA"
 msgstr ""
+"Al usar el instalador, se perderá actualizaciones de Perroquet. Si quiere "
+"ser notificado en cada actualización, instale Perroquet con el PPA"
 
 #: ../page/download.php:27
 msgid ""
@@ -561,13 +576,15 @@ msgstr ""
 
 #: ../page/download.php:30
 msgid "PPA"
-msgstr ""
+msgstr "PPA"
 
 #: ../page/download.php:31
 msgid ""
 "PPA mean Personal Package Archives. Adding the PPA in your ubuntu software "
 "sources, Perroquet will be upgraded by the system."
 msgstr ""
+"PPA significa Archivo de paquetes personal. Al añadir el PPA en los orígenes "
+"de software de Ubuntu, Perroquet será actualizado por el sistema."
 
 #: ../page/download.php:32
 msgid ""
@@ -578,11 +595,11 @@ msgstr ""
 
 #: ../page/download.php:34
 msgid "Archlinux"
-msgstr ""
+msgstr "Archlinux"
 
 #: ../page/download.php:35
 msgid "Version 1.1.0"
-msgstr ""
+msgstr "Versión 1.1.0"
 
 #: ../page/download.php:36
 msgid ""
@@ -593,7 +610,7 @@ msgstr ""
 
 #: ../page/download.php:37
 msgid "Developement version"
-msgstr ""
+msgstr "Versión en desarrollo"
 
 #: ../page/download.php:38
 msgid ""
@@ -621,7 +638,7 @@ msgstr ""
 
 #: ../page/download.php:43
 msgid "Mandriva"
-msgstr ""
+msgstr "Mandriva"
 
 #: ../page/download.php:44
 msgid ""
@@ -633,17 +650,19 @@ msgstr ""
 
 #: ../page/download.php:46
 msgid "Others linux"
-msgstr ""
+msgstr "Otros Linux"
 
 #: ../page/download.php:48
 msgid ""
 "If you make a package for another distribution, send me it, I'll add it on "
 "this page."
 msgstr ""
+"Si empaqueta el software para otra distribución, envíemelo, lo añadiré a "
+"esta página."
 
 #: ../page/download.php:50
 msgid "Source tarball"
-msgstr ""
+msgstr "Paquete de código fuente"
 
 #: ../page/download.php:51
 msgid ""
@@ -665,7 +684,7 @@ msgstr ""
 
 #: ../page/download.php:54
 msgid "Bazaar repository"
-msgstr ""
+msgstr "Repositorio Bazaar"
 
 #: ../page/download.php:55
 msgid ""
@@ -681,44 +700,44 @@ msgstr ""
 #: ../page/special/language/select.php:33
 #: ../page/special/language/select.php:41
 msgid "Select language"
-msgstr ""
+msgstr "Selección de idioma"
 
 #: ../page/special/language/choose.php:23
 msgid "Choose the new language : "
-msgstr ""
+msgstr "Elija el idioma nuevo: "
 
 #: ../page/special/language/choose.php:34
 msgid "Select"
-msgstr ""
+msgstr "Seleccionar"
 
 #: ../page/special/language/select.php:45
 msgid "No language selected."
-msgstr ""
+msgstr "No se seleccionó ningún idioma."
 
 #: ../page/special/language/select.php:48
 msgid "Invalid language selected."
-msgstr ""
+msgstr "Se seleccionó un idioma no válido."
 
 #: ../page/special/language/select.php:57
 #: ../page/special/login/openid_return.php:83
 #: ../page/special/login/logout.php:30
 msgid "Return to index"
-msgstr ""
+msgstr "Regresar al índice"
 
 #: ../page/special/not_found.php:11 ../page/special/not_found.php:16
 msgid "Page not found"
-msgstr ""
+msgstr "Página no encontrada"
 
 #. Signature Verification Failed
 #: ../page/special/login/openid_return.php:33
 #: ../page/special/login/openid_return.php:39
 msgid "Login failed."
-msgstr ""
+msgstr "Fallo de autenticación."
 
 #: ../page/special/login/openid_return.php:77
 #: ../page/special/login/perform_login.php:66
 msgid "Return to login page"
-msgstr ""
+msgstr "Volver a la página de inicio de sesión"
 
 #: ../page/special/login/openid_return.php:80
 msgid "Login success."
@@ -735,11 +754,11 @@ msgstr ""
 
 #: ../page/special/login/login_form.php:20
 msgid "OpenID: "
-msgstr ""
+msgstr "OpenID: "
 
 #: ../page/special/login/login_form.php:22
 msgid "Log In"
-msgstr ""
+msgstr "Iniciar sesión"
 
 #: ../page/special/login/perform_login.php:22
 msgid "Provide a valid OpenID."
@@ -747,7 +766,7 @@ msgstr ""
 
 #: ../page/special/login/perform_login.php:49
 msgid "Login error."
-msgstr ""
+msgstr "Error de inicio de sesión."
 
 #: ../page/exercises/browse.php:13
 msgid "Exercise list"
@@ -759,23 +778,23 @@ msgstr ""
 
 #: ../page/exercises/browse.php:27
 msgid "Description"
-msgstr ""
+msgstr "Descripción"
 
 #: ../page/exercises/browse.php:28
 msgid "Language"
-msgstr ""
+msgstr "Idioma"
 
 #: ../page/exercises/browse.php:29
 msgid "Word count"
-msgstr ""
+msgstr "Contador de palabras"
 
 #: ../page/exercises/browse.php:30
 msgid "Action"
-msgstr ""
+msgstr "Acción"
 
 #: ../page/exercises/browse.php:45
 msgid "Details"
-msgstr ""
+msgstr "Detalles"
 
 #: ../page/exercises/propose_list.php:18
 msgid "Proposed exercised"
@@ -784,7 +803,7 @@ msgstr ""
 #: ../page/exercises/propose_list.php:40
 #: ../page/exercises/my_propose_list.php:40
 msgid "Current propositions"
-msgstr ""
+msgstr "Propuestas actuales"
 
 #: ../page/exercises/propose_list.php:50 ../page/exercises/propose_list.php:80
 #: ../page/exercises/my_propose_list.php:50
@@ -792,20 +811,20 @@ msgstr ""
 #: ../page/exercises/propose_form.php:101
 #: ../page/exercises/add_exercise.php:116
 msgid "Name: "
-msgstr ""
+msgstr "Nombre: "
 
 #: ../page/exercises/propose_list.php:51 ../page/exercises/propose_list.php:81
 #: ../page/exercises/my_propose_list.php:51
 #: ../page/exercises/my_propose_list.php:80
 #: ../page/exercises/add_exercise.php:119
 msgid "Description: "
-msgstr ""
+msgstr "Descripción: "
 
 #: ../page/exercises/propose_list.php:52 ../page/exercises/propose_list.php:82
 #: ../page/exercises/my_propose_list.php:52
 #: ../page/exercises/my_propose_list.php:81
 msgid "Links: "
-msgstr ""
+msgstr "Enlaces: "
 
 #: ../page/exercises/propose_list.php:53 ../page/exercises/propose_list.php:83
 #: ../page/exercises/add_exercise.php:133
@@ -816,7 +835,7 @@ msgstr ""
 #: ../page/exercises/my_propose_list.php:56
 #: ../page/exercises/my_propose_list.php:85
 msgid "Unknown state"
-msgstr ""
+msgstr "Estado desconocido"
 
 #: ../page/exercises/propose_list.php:59 ../page/exercises/propose_list.php:89
 #: ../page/exercises/my_propose_list.php:58
@@ -828,24 +847,24 @@ msgstr ""
 #: ../page/exercises/my_propose_list.php:60
 #: ../page/exercises/my_propose_list.php:89
 msgid "Processing"
-msgstr ""
+msgstr "Procesando"
 
 #: ../page/exercises/propose_list.php:63 ../page/exercises/propose_list.php:93
 #: ../page/exercises/my_propose_list.php:62
 #: ../page/exercises/my_propose_list.php:91
 msgid "Accepted"
-msgstr ""
+msgstr "Aceptado"
 
 #: ../page/exercises/propose_list.php:65 ../page/exercises/propose_list.php:95
 #: ../page/exercises/my_propose_list.php:64
 #: ../page/exercises/my_propose_list.php:93
 msgid "State: "
-msgstr ""
+msgstr "Estado: "
 
 #: ../page/exercises/propose_list.php:72
 #: ../page/exercises/my_propose_list.php:71
 msgid "Old propositions"
-msgstr ""
+msgstr "Propuestas anteriores"
 
 #: ../page/exercises/index.php:24
 msgid ""
@@ -874,7 +893,7 @@ msgstr ""
 
 #: ../page/exercises/index.php:29
 msgid "documentation"
-msgstr ""
+msgstr "documentación"
 
 #: ../page/exercises/index.php:31
 msgid "Online exercises repositories"
@@ -907,7 +926,7 @@ msgstr ""
 #. $content .= '<p><a href="'.RessourceManager::getInnerUrl('exercises/search').'">'._('Find others exercises.').'</a></p>';
 #: ../page/exercises/index.php:43
 msgid "Add new repository"
-msgstr ""
+msgstr "Añadir repositorio nuevo"
 
 #: ../page/exercises/my_propose_list.php:13
 #: ../page/exercises/my_propose_list.php:18
@@ -938,7 +957,7 @@ msgstr ""
 
 #: ../page/exercises/propose_form.php:102
 msgid "Short description: "
-msgstr ""
+msgstr "Descripción corta: "
 
 #: ../page/exercises/propose_form.php:103
 msgid ""
@@ -964,11 +983,11 @@ msgstr ""
 
 #: ../page/exercises/add_exercise.php:117
 msgid "Group: "
-msgstr ""
+msgstr "Grupo: "
 
 #: ../page/exercises/add_exercise.php:118
 msgid "Id: "
-msgstr ""
+msgstr "Id: "
 
 #: ../page/exercises/add_exercise.php:120
 msgid "Word count: "
@@ -976,11 +995,11 @@ msgstr ""
 
 #: ../page/exercises/add_exercise.php:121
 msgid "Licence: "
-msgstr ""
+msgstr "Licencia: "
 
 #: ../page/exercises/add_exercise.php:122
 msgid "Languague (en, fr, ...): "
-msgstr ""
+msgstr "Idioma (es, fr, ...): "
 
 #: ../page/exercises/add_exercise.php:123
 msgid "Media type (video, audio, ...): "
@@ -992,11 +1011,11 @@ msgstr ""
 
 #: ../page/exercises/add_exercise.php:125
 msgid "Author: "
-msgstr ""
+msgstr "Autor: "
 
 #: ../page/exercises/add_exercise.php:126
 msgid "Author website: "
-msgstr ""
+msgstr "Sitio web del autor: "
 
 #: ../page/exercises/add_exercise.php:127
 msgid "Author contact: "
@@ -1004,11 +1023,11 @@ msgstr ""
 
 #: ../page/exercises/add_exercise.php:128
 msgid "Packager: "
-msgstr ""
+msgstr "Empaquetador: "
 
 #: ../page/exercises/add_exercise.php:129
 msgid "Packager website: "
-msgstr ""
+msgstr "Sitio web del empaquetador: "
 
 #: ../page/exercises/add_exercise.php:130
 msgid "Packager contact: "
@@ -1016,7 +1035,7 @@ msgstr ""
 
 #: ../page/exercises/add_exercise.php:131
 msgid "Translation (en, fr, ...): "
-msgstr ""
+msgstr "Traducción (es, fr, ...): "
 
 #: ../page/exercises/add_exercise.php:132
 msgid "Package file: "
@@ -1029,7 +1048,7 @@ msgstr ""
 
 #: ../page/documentation/shortcuts.php:26
 msgid "Perroquet 1.0"
-msgstr ""
+msgstr "Perroquet 1.0"
 
 #: ../page/documentation/shortcuts.php:28
 msgid ""
