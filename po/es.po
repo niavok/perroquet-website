@@ -8,18 +8,18 @@ msgstr ""
 "Project-Id-Version: perroquet\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2011-05-08 01:05+0200\n"
-"PO-Revision-Date: 2011-05-22 07:42+0000\n"
-"Last-Translator: Fitoschido <fitoschido@gmail.com>\n"
+"PO-Revision-Date: 2011-09-15 21:57+0000\n"
+"Last-Translator: Alejandro Pérez <alexperezalonso@gmail.com>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-05-23 04:54+0000\n"
-"X-Generator: Launchpad (build 12959)\n"
+"X-Launchpad-Export-Date: 2011-09-16 04:57+0000\n"
+"X-Generator: Launchpad (build 13955)\n"
 
 #: ../core/HtmlPage.php:35
 msgid "Perroquet — Listening comprehension tutor — "
-msgstr ""
+msgstr "Perroquet — Tutor de comprensión oral — "
 
 #: ../core/HtmlPage.php:64
 #, php-format
@@ -50,7 +50,7 @@ msgstr "Perroquer"
 
 #: ../core/HtmlPage.php:85
 msgid "Listening comprehension tutor"
-msgstr ""
+msgstr "Tutor de comprensión oral"
 
 #: ../core/HtmlPage.php:109 ../page/index.php:11 ../page/index.php:16
 #: ../page/exercises/external_repo.php:13
@@ -243,7 +243,7 @@ msgstr ""
 
 #: ../page/index.php:53
 msgid "Show last open files"
-msgstr ""
+msgstr "Mostrar los últimos archivos abiertos"
 
 #: ../page/index.php:54
 msgid "Add many teaching tools"
@@ -455,15 +455,15 @@ msgstr ""
 
 #: ../page/contribute.php:36
 msgid "Propose an exercise:"
-msgstr ""
+msgstr "Proponer un ejercicio:"
 
 #: ../page/contribute.php:36
 msgid "propose a new exercise"
-msgstr ""
+msgstr "proponer un nuevo ejercicio"
 
 #: ../page/contribute.php:37
 msgid "Write subtitles"
-msgstr ""
+msgstr "Escribir subtítulos"
 
 #: ../page/contribute.php:40
 msgid "Help on Perroquet website"
@@ -495,7 +495,7 @@ msgstr ""
 
 #: ../page/contribute.php:49
 msgid "Others helps"
-msgstr ""
+msgstr "Otras ayudas"
 
 #: ../page/contribute.php:51
 msgid ""
@@ -518,12 +518,16 @@ msgid ""
 "For general or public questions:  <a href=\"mailto:perroquet-"
 "team@lists.launchpad.net\">perroquet-team@lists.launchpad.net</a>."
 msgstr ""
+"Para preguntas generales o públicas: <a href=\"mailto:perroquet-"
+"team@lists.launchpad.net\">perroquet-team@lists.launchpad.net</a>."
 
 #: ../page/contacts.php:22
 msgid ""
 "For private questions:  <a "
 "href=\"mailto:pfred.bertolus@gmail.com\">fred.bertolus@gmail.com</a>."
 msgstr ""
+"Para preguntas privadas: <a "
+"href=\"mailto:pfred.bertolus@gmail.com\">fred.bertolus@gmail.com</a>."
 
 #: ../page/download.php:18
 msgid "Last release : "
@@ -543,6 +547,9 @@ msgid ""
 "href=\"https://launchpad.net/perroquet/+download\" >Download page on "
 "launchpad</a>."
 msgstr ""
+"En general, las descargas están disponibles aquí: <a "
+"href=\"https://launchpad.net/perroquet/+download\" >Página de descarga en "
+"launchpad</a>"
 
 #: ../page/download.php:24
 msgid "Ubuntu"
@@ -566,6 +573,9 @@ msgid ""
 "href=\"http://launchpad.net/perroquet/1.1/1.1.1/+download/perroquet_1.1.1-"
 "0ubuntu1_all.deb\" >Ubuntu Perroquet 1.1.1 installer</a>"
 msgstr ""
+"El instalador de Ubuntu está disponible aquí: <a "
+"href=\"http://launchpad.net/perroquet/1.1/1.1.1/+download/perroquet_1.1.1-"
+"0ubuntu1_all.deb\" >Instalador Ubuntu Perroquet 1.1.1</a>"
 
 #: ../page/download.php:28
 msgid ""
@@ -573,6 +583,9 @@ msgid ""
 "downloads:<a href=\"https://launchpad.net/perroquet/+download\" >Download "
 "page on launchpad</a>"
 msgstr ""
+"Es posible que este enlace no esté actualizado. Ir a la página para ver "
+"todas las descargas:<a href=\"https://launchpad.net/perroquet/+download\" "
+">Página de descarga en launchpad</a>"
 
 #: ../page/download.php:30
 msgid "PPA"
@@ -770,11 +783,11 @@ msgstr "Error de inicio de sesión."
 
 #: ../page/exercises/browse.php:13
 msgid "Exercise list"
-msgstr ""
+msgstr "Lista de ejercicio"
 
 #: ../page/exercises/browse.php:18
 msgid "Exercises list"
-msgstr ""
+msgstr "Lista de ejercicios"
 
 #: ../page/exercises/browse.php:27
 msgid "Description"
@@ -897,7 +910,7 @@ msgstr "documentación"
 
 #: ../page/exercises/index.php:31
 msgid "Online exercises repositories"
-msgstr ""
+msgstr "Repositorios de ejercicios en línea"
 
 #: ../page/exercises/index.php:32
 msgid ""
@@ -967,19 +980,19 @@ msgstr ""
 #: ../page/exercises/propose_form.php:105
 #: ../page/exercises/add_exercise.php:136
 msgid "Propose"
-msgstr ""
+msgstr "Proponer"
 
 #: ../page/exercises/exercise_page.php:14
 msgid "Propose an exercise"
-msgstr ""
+msgstr "Proponer un ejercicio"
 
 #: ../page/exercises/add_exercise.php:13
 msgid "Add new exercise"
-msgstr ""
+msgstr "Añadir nuevo ejercicio"
 
 #: ../page/exercises/add_exercise.php:88
 msgid "Add a new exercise"
-msgstr ""
+msgstr "Añadir un nuevo ejercicio"
 
 #: ../page/exercises/add_exercise.php:117
 msgid "Group: "
@@ -991,7 +1004,7 @@ msgstr "Id: "
 
 #: ../page/exercises/add_exercise.php:120
 msgid "Word count: "
-msgstr ""
+msgstr "Número de palabras: "
 
 #: ../page/exercises/add_exercise.php:121
 msgid "Licence: "
@@ -1007,7 +1020,7 @@ msgstr ""
 
 #: ../page/exercises/add_exercise.php:124
 msgid "Exercise version: "
-msgstr ""
+msgstr "Versión del ejercicio: "
 
 #: ../page/exercises/add_exercise.php:125
 msgid "Author: "
@@ -1070,7 +1083,7 @@ msgstr ""
 
 #: ../page/documentation/shortcuts.php:33
 msgid "F2 : Show/hide translation"
-msgstr ""
+msgstr "F2 : Mostrar/ocultar traducción"
 
 #: ../page/documentation/shortcuts.php:34
 msgid "Enter : Replay sequence"
